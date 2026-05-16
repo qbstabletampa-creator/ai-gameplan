@@ -1,55 +1,53 @@
-# CJ Coach Notes: Reagan Week 1
+# Week 1 Coach Notes
 
-**Summary:** Week 1 is now a real online course package, not an itinerary.
+**Course:** AI Gameplan Week 1, Setup 101
+**Student:** Reagan
 **Last Updated:** 2026-05-16
-**Sources:** CJ direction in Telegram, selected YouTube metadata checked with yt-dlp on 2026-05-16.
+**Sources:** CJ direction in Telegram, Hermes Agent setup reference, selected YouTube metadata checked with yt-dlp.
 
-## What Reagan should finish
+## CJ intent
 
-By the end of Week 1, Reagan should be able to:
+This week is setup 101. The syllabus was fine, but the actual Week 1 course needs to match the real first win: Reagan sets up her AI workspace and understands the language CJ uses.
 
-1. Explain what an AI agent does.
-2. Use basic terminal commands without guessing.
-3. Give Claude Code a clean task.
-4. Use Codex as a second opinion.
-5. Understand Hermes at a user level.
-6. Know that CJ's real source of truth is Drive, wiki, vaults, and Mission Control.
-7. Ship one small final project.
+## End of week outcome
 
-## Review standard
+By the end, Reagan should have:
 
-Green light if she can show:
+1. Claude account created or logged in.
+2. Codex account created or logged in.
+3. Telegram installed and ready.
+4. Hermes agent working in Telegram.
+5. A basic explanation of LLMs vs agents.
+6. A basic explanation of MD, skills, commands, tools, APIs, MCPs, memory, and agents.
+7. A finished My AI Workspace setup guide with proof.
 
-- Completed interactive progress in `index.html`.
-- Workbook filled out.
-- Quiz score above 80 percent.
-- Final project folder.
-- Prompt history.
-- Useful final output.
-- 2 minute explanation.
+## Coach emphasis
+
+- Do not let this become theory only.
+- The first project is the setup itself.
+- She needs confidence using the tools, not a lecture about AI.
+- Hermes is private, so use a CJ guided walkthrough instead of pretending there is a perfect public setup video.
+- Keep passwords, tokens, and private client data out of screenshots and prompts.
 
 ## Red flags
 
-- She only watched videos and did not build.
-- She copied agent output without understanding it.
-- She cannot explain where work should live.
-- She pasted private info into a public tool.
-- Her final project is pretty but not useful.
+- She watched videos but did not create accounts.
+- She can repeat words but cannot explain them simply.
+- Hermes is not reachable in Telegram by the end.
+- No screenshots or proof.
+- She thinks the agent makes final decisions for her.
 
-## Fast review questions
+## Review questions for CJ
 
-1. What is the difference between a chatbot and an agent?
-2. What would you ask Hermes to do that ChatGPT cannot do alone?
-3. Why do we use Drive and wiki first instead of GitHub first?
-4. What did Claude Code catch that Codex did not?
-5. What did Codex catch that Claude Code did not?
-6. What did you build that CJ could actually use?
+1. What is the difference between an LLM and an agent?
+2. Show me Claude working.
+3. Show me Codex working.
+4. Show me Hermes answering in Telegram.
+5. What does `/new` do?
+6. What is a skill?
+7. What is an MCP?
+8. Where is your My AI Workspace guide?
 
-## Scoring
+## Passing standard
 
-- 40 points: Lessons and workbook complete.
-- 20 points: Quiz score and corrections.
-- 25 points: Final project usefulness.
-- 15 points: Walkthrough and judgment.
-
-Passing is 80 or better.
+She passes Week 1 if she can open the tools, explain the basics, show proof, and walk CJ through her setup guide in 2 minutes.

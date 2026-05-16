@@ -1,5 +1,5 @@
 {
-  "title": "AI Gameplan Week 1: Build Your AI Workbench",
+  "title": "AI Gameplan Week 1: Setup 101",
   "student": "Reagan",
   "lastUpdated": "2026-05-16",
   "videos": [
@@ -11,27 +11,17 @@
       "views": "1,701,695",
       "likes": "31,578",
       "duration": "12:28",
-      "purpose": "Understand what an AI agent is before she starts using them."
+      "purpose": "Understand the difference between a model that answers and an agent that can use tools."
     },
     {
-      "id": "5XgBd6rjuDQ",
-      "title": "How to use the Command Line | Terminal Basics for Beginners",
-      "channel": "Jesse Showalter",
-      "url": "https://www.youtube.com/watch?v=5XgBd6rjuDQ",
-      "views": "297,828",
-      "likes": "6,920",
-      "duration": "13:51",
-      "purpose": "Get comfortable opening a terminal, moving folders, and running commands."
-    },
-    {
-      "id": "6eBSHbLKuN0",
-      "title": "Mastering Claude Code in 30 minutes",
+      "id": "0vZ_UVLhSQQ",
+      "title": "Getting started with Claude.ai",
       "channel": "Anthropic",
-      "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
-      "views": "1,271,931",
-      "likes": "23,593",
-      "duration": "28:07",
-      "purpose": "See how Claude Code works from the official Anthropic channel."
+      "url": "https://www.youtube.com/watch?v=0vZ_UVLhSQQ",
+      "views": "Official Anthropic video",
+      "likes": "Official Anthropic video",
+      "duration": "5:19",
+      "purpose": "Set up Claude, log in, and understand the first clicks without sitting through a long video."
     },
     {
       "id": "iqNzfK4_meQ",
@@ -41,23 +31,13 @@
       "views": "202,487",
       "likes": "4,040",
       "duration": "5:42",
-      "purpose": "See Codex from the official OpenAI channel and compare it with Claude Code."
-    },
-    {
-      "id": "RGOj5yH7evk",
-      "title": "Git and GitHub for Beginners - Crash Course",
-      "channel": "freeCodeCamp.org",
-      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
-      "views": "5,025,907",
-      "likes": "106,729",
-      "duration": "1:08:30",
-      "purpose": "Learn the basic GitHub language even though our working home is Drive and the wiki."
+      "purpose": "See Codex from the official OpenAI channel and understand how it differs from Claude."
     }
   ],
   "lessons": [
     {
-      "slug": "01-ai-agents",
-      "title": "Lesson 1: What an AI Agent Actually Does",
+      "slug": "01-llms-vs-agents",
+      "title": "Lesson 1: LLMs vs Agents",
       "time": "45 minutes",
       "video": {
         "id": "F8NKVhkZZWI",
@@ -67,208 +47,139 @@
         "views": "1,701,695",
         "likes": "31,578",
         "duration": "12:28",
-        "purpose": "Understand what an AI agent is before she starts using them."
+        "purpose": "Understand the difference between a model that answers and an agent that can use tools."
       },
-      "goal": "Reagan can explain the difference between a chatbot, an assistant, and an agent in her own words.",
+      "goal": "Reagan can explain the difference between Claude as an LLM and Hermes as an agent in normal words.",
       "sections": [
         [
           "Warm up",
-          "Write one sentence answering this: if CJ asked an AI agent to prep tomorrow morning, what should the agent do without being asked twice?"
+          "Write this in your own words: what is the difference between an AI that answers and an AI that acts?"
         ],
         [
           "Teach",
-          "An AI agent is not magic. It is software that can take a goal, use tools, make decisions, check its own work, and report back. The big difference is action. A chatbot talks. An agent works."
+          "An LLM is the brain. It predicts, reasons, writes, summarizes, and explains. Claude, ChatGPT, and Gemini are LLMs. An agent uses an LLM plus tools, memory, rules, and a goal. The simple line: an LLM thinks and answers. An agent thinks and acts."
         ],
         [
           "Watch with purpose",
-          "Watch the IBM video. Pause twice. First pause when they explain tool use. Second pause when they explain planning. Write one example from QB Stable or RISE for each."
+          "Watch the IBM agent video. Write down the first moment where the video moves from talking to doing."
         ],
         [
           "Build",
-          "Make a simple agent map with four boxes: goal, tools, rules, proof. Use the Sports Ops Assistant idea or the Job Researcher idea."
+          "Make a two column chart. Left side: LLM. Right side: agent. Add 5 examples to each side from CJ's world."
         ],
         [
           "Submit",
-          "Submit your 4 box map and a 4 sentence explanation."
+          "Submit your chart and a 4 sentence explanation of why CJ uses agents instead of only chatbots."
         ]
       ],
       "quiz": [
         {
-          "q": "What is the biggest difference between a chatbot and an agent?",
+          "q": "What is the cleanest difference between an LLM and an agent?",
           "choices": [
-            "An agent can use tools and complete work",
-            "A chatbot is always smarter",
-            "An agent never needs instructions",
-            "A chatbot can only write poems"
+            "An LLM answers, an agent can act with tools",
+            "An agent is always free",
+            "An LLM cannot write",
+            "They are the exact same thing"
           ],
           "answer": 0
         },
         {
-          "q": "What should an agent do before reporting back?",
+          "q": "Which one is an LLM?",
           "choices": [
-            "Guess if it worked",
-            "Check the work",
-            "Delete the evidence",
-            "Ask for praise"
+            "Claude",
+            "A calendar webhook",
+            "Mission Control",
+            "A Google Drive folder"
           ],
-          "answer": 1
+          "answer": 0
         },
         {
           "q": "Which example fits an agent best?",
           "choices": [
-            "Tell me a joke",
-            "Find leads, sort them, save them, and tell me the top 5",
-            "Write one sentence",
-            "Rename itself"
+            "Explain what a press release is",
+            "Search Drive, find a file, update a project, and report proof",
+            "Write one poem",
+            "Define football"
           ],
           "answer": 1
         }
       ],
-      "checkpoint": "I can explain AI agents without sounding like a hype video."
+      "checkpoint": "I can explain LLM vs agent without hype."
     },
     {
-      "slug": "02-terminal",
-      "title": "Lesson 2: Terminal Basics Without Fear",
+      "slug": "02-claude-setup",
+      "title": "Lesson 2: Claude Setup and First Prompt",
       "time": "60 minutes",
       "video": {
-        "id": "5XgBd6rjuDQ",
-        "title": "How to use the Command Line | Terminal Basics for Beginners",
-        "channel": "Jesse Showalter",
-        "url": "https://www.youtube.com/watch?v=5XgBd6rjuDQ",
-        "views": "297,828",
-        "likes": "6,920",
-        "duration": "13:51",
-        "purpose": "Get comfortable opening a terminal, moving folders, and running commands."
-      },
-      "goal": "Reagan can open a terminal, move around folders, list files, and run safe commands.",
-      "sections": [
-        [
-          "Warm up",
-          "The terminal is just a text based remote control for the computer. You type exactly what you want. It does exactly what you typed."
-        ],
-        [
-          "Teach",
-          "The core commands are pwd, ls, cd, mkdir, touch, code, and clear. Do not run random commands from the internet. If a command can delete files, stop and ask."
-        ],
-        [
-          "Watch with purpose",
-          "Watch the terminal video. Copy 5 commands into your notes and write what each one does in normal words."
-        ],
-        [
-          "Build",
-          "Create a folder called ai-workbench. Inside it, create folders called notes, projects, and proof. Add a README file that explains what the folder is for."
-        ],
-        [
-          "Submit",
-          "Submit a screenshot of the folder and paste your README text."
-        ]
-      ],
-      "quiz": [
-        {
-          "q": "What does pwd show you?",
-          "choices": [
-            "Your current folder",
-            "Your password",
-            "Your WiFi speed",
-            "Your browser history"
-          ],
-          "answer": 0
-        },
-        {
-          "q": "What does cd do?",
-          "choices": [
-            "Changes directories",
-            "Deletes folders",
-            "Copies files",
-            "Closes the computer"
-          ],
-          "answer": 0
-        },
-        {
-          "q": "What should you do before running a command you do not understand?",
-          "choices": [
-            "Run it fast",
-            "Ask or look it up",
-            "Add sudo",
-            "Paste it twice"
-          ],
-          "answer": 1
-        }
-      ],
-      "checkpoint": "I can use the terminal without panicking or pretending."
-    },
-    {
-      "slug": "03-claude-code",
-      "title": "Lesson 3: Claude Code as a Work Partner",
-      "time": "75 minutes",
-      "video": {
-        "id": "6eBSHbLKuN0",
-        "title": "Mastering Claude Code in 30 minutes",
+        "id": "0vZ_UVLhSQQ",
+        "title": "Getting started with Claude.ai",
         "channel": "Anthropic",
-        "url": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
-        "views": "1,271,931",
-        "likes": "23,593",
-        "duration": "28:07",
-        "purpose": "See how Claude Code works from the official Anthropic channel."
+        "url": "https://www.youtube.com/watch?v=0vZ_UVLhSQQ",
+        "views": "Official Anthropic video",
+        "likes": "Official Anthropic video",
+        "duration": "5:19",
+        "purpose": "Set up Claude, log in, and understand the first clicks without sitting through a long video."
       },
-      "goal": "Reagan can ask Claude Code to inspect a folder, suggest a change, and explain what changed.",
+      "goal": "Reagan creates or logs into Claude and runs a useful first prompt.",
       "sections": [
         [
           "Warm up",
-          "Claude Code is strongest when you give it a folder, a goal, rules, and proof requirements."
+          "Claude is where you go when you need a smart thinking partner. It is strong for writing, planning, summarizing, and explaining."
         ],
         [
-          "Teach",
-          "Good prompt formula: context, goal, constraints, output, verification. Bad prompt: make this better. Good prompt: inspect this folder, find missing student instructions, add a checklist, then summarize the diff."
+          "Setup",
+          "Go to claude.ai. Create or log into your account. Confirm you can start a new chat. Do not add private passwords, tokens, or client info."
         ],
         [
           "Watch with purpose",
-          "Watch the Anthropic video. Write down 3 moments where Claude Code acts more like a teammate than a search box."
+          "Watch the 5:19 Anthropic video. Pause after the first prompt example and write what made the prompt clear."
         ],
         [
           "Build",
-          "Create a small project README for either Sports Ops Assistant or Job Researcher. Ask Claude Code to improve it, then review the changes before accepting."
+          "Ask Claude to create a 5 step plan for setting up your AI workspace for this course. Then ask it to make the plan shorter and more direct."
         ],
         [
           "Submit",
-          "Submit original README, improved README, and 5 bullets explaining what changed."
+          "Submit a screenshot showing Claude open and paste the final 5 step plan into your workbook."
         ]
       ],
       "quiz": [
         {
-          "q": "What should you give Claude Code before asking for work?",
+          "q": "What is Claude best used for in this course?",
           "choices": [
-            "Context and a clear goal",
-            "Only a vibe",
-            "Nothing",
-            "A password"
+            "Thinking, writing, planning, and explaining",
+            "Storing passwords",
+            "Posting publicly without review",
+            "Replacing your judgment"
           ],
           "answer": 0
         },
         {
-          "q": "What is a diff?",
+          "q": "What should you avoid pasting into Claude?",
           "choices": [
-            "A view of what changed",
-            "A deleted account",
-            "A video file",
-            "A browser setting"
+            "Secrets or private client data",
+            "A fake sample task",
+            "A public job description",
+            "A draft checklist"
           ],
           "answer": 0
         },
         {
-          "q": "Should you accept code changes without reading them?",
+          "q": "What makes a first prompt useful?",
           "choices": [
-            "Yes",
-            "No"
+            "Context, goal, constraints, and desired output",
+            "One vague sentence",
+            "Only emojis",
+            "No instructions"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
-      "checkpoint": "I can direct Claude Code and review its work."
+      "checkpoint": "I have Claude open and know how to start clean."
     },
     {
-      "slug": "04-codex",
-      "title": "Lesson 4: Codex for a Second Opinion",
+      "slug": "03-codex-setup",
+      "title": "Lesson 3: Codex Setup and When to Use It",
       "time": "60 minutes",
       "video": {
         "id": "iqNzfK4_meQ",
@@ -278,259 +189,312 @@
         "views": "202,487",
         "likes": "4,040",
         "duration": "5:42",
-        "purpose": "See Codex from the official OpenAI channel and compare it with Claude Code."
+        "purpose": "See Codex from the official OpenAI channel and understand how it differs from Claude."
       },
-      "goal": "Reagan can use Codex to inspect the same small project and compare answers against Claude Code.",
+      "goal": "Reagan creates or logs into Codex and understands when Codex is the right tool.",
       "sections": [
         [
           "Warm up",
-          "Different agents see different things. That is useful. Your job is not to worship one tool. Your job is to get clean work."
+          "Codex is for building, editing, reviewing, and checking work. Think of it as another smart teammate, not a magic button."
         ],
         [
-          "Teach",
-          "Use Codex when you want another angle, a bug check, a cleaner plan, or a quick build. Do not paste secrets. Do not share private contact data."
+          "Setup",
+          "Create or log into the account CJ provides. Confirm you can open Codex and start a task. Keep private data out of test prompts."
         ],
         [
           "Watch with purpose",
-          "Watch the OpenAI video. Write one strength you see and one question you still have."
+          "Watch the OpenAI video. Write one thing Codex does that feels different from a normal chat."
         ],
         [
           "Build",
-          "Give Codex the same README project. Ask it to review for clarity and missing steps. Compare its advice to Claude Code."
+          "Give Codex a simple sample task: review this checklist for clarity. Use fake content, not private CJ business data."
         ],
         [
           "Submit",
-          "Submit a two column comparison: Claude Code saw, Codex saw, my decision."
+          "Submit a screenshot showing Codex access and 3 bullets on when you would choose Codex instead of Claude."
         ]
       ],
       "quiz": [
         {
-          "q": "Why use more than one coding agent?",
+          "q": "When should Reagan use Codex?",
           "choices": [
-            "To compare judgment",
-            "To make the computer louder",
+            "For building, editing, reviewing, or checking work",
+            "For saving passwords",
+            "For texting clients as CJ",
+            "For ignoring instructions"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why compare Claude and Codex?",
+          "choices": [
+            "Different tools catch different things",
+            "One always wins forever",
             "To avoid thinking",
-            "To hide mistakes"
+            "To make homework longer"
           ],
           "answer": 0
         },
         {
-          "q": "What should never be pasted into Codex?",
+          "q": "Who makes the final call?",
           "choices": [
-            "Secrets or private data",
-            "A README",
-            "A fake sample task",
-            "A lesson title"
-          ],
-          "answer": 0
-        },
-        {
-          "q": "Who makes the final decision?",
-          "choices": [
-            "The agent",
             "Reagan",
-            "A random comment",
-            "The browser"
+            "The tool",
+            "A random answer",
+            "The video"
           ],
-          "answer": 1
+          "answer": 0
         }
       ],
-      "checkpoint": "I can compare agents instead of just obeying them."
+      "checkpoint": "I can open Codex and know what job it should do."
     },
     {
-      "slug": "05-hermes",
-      "title": "Lesson 5: Hermes, CJ\u2019s Real Agent System",
+      "slug": "04-hermes-telegram",
+      "title": "Lesson 4: Set Up Your Hermes Agent in Telegram",
+      "time": "75 minutes",
+      "video": null,
+      "goal": "Reagan gets her Hermes agent working in Telegram and knows the first commands to use.",
+      "sections": [
+        [
+          "Warm up",
+          "Hermes is the agent system. Telegram is the front door. You message the agent like a person, but it can use tools behind the scenes."
+        ],
+        [
+          "Setup",
+          "Install Telegram, create or log into your account, and connect with the Hermes bot CJ provides. If CJ gives a pairing or approval step, complete it with him watching."
+        ],
+        [
+          "First commands",
+          "Test /help, /new, /model, /tools, and /skills. Write one sentence explaining what each command does."
+        ],
+        [
+          "Build",
+          "Send Hermes a safe practice task: explain what tools you have access to and what you cannot do yet. Do not ask it to edit anything real."
+        ],
+        [
+          "Submit",
+          "Submit a screenshot of your Telegram agent responding and your 5 command notes."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is Telegram in this setup?",
+          "choices": [
+            "The front door to the agent",
+            "The model itself",
+            "A spreadsheet",
+            "A password vault"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which command starts fresh?",
+          "choices": [
+            "/new",
+            "/deleteall",
+            "/secret",
+            "/panic"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should Reagan do before asking Hermes to change real files?",
+          "choices": [
+            "Understand the task and proof needed",
+            "Rush it",
+            "Hide it from CJ",
+            "Paste secrets"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I have my Hermes agent reachable in Telegram."
+    },
+    {
+      "slug": "05-markdown-and-md",
+      "title": "Lesson 5: Markdown and MD Files",
+      "time": "45 minutes",
+      "video": null,
+      "goal": "Reagan understands why agents use Markdown and can write a simple MD instruction file.",
+      "sections": [
+        [
+          "Warm up",
+          "Markdown is plain text with structure. Agents read it well because it is clear, portable, and easy to edit."
+        ],
+        [
+          "Teach",
+          "Headings create sections. Bullets create lists. Checkboxes create action steps. Code blocks preserve exact commands or examples."
+        ],
+        [
+          "Build",
+          "Create a file called my-ai-workspace.md. Add headings for Accounts, Agent Commands, Rules, and Proof."
+        ],
+        [
+          "Practice",
+          "Write a short instruction block for your agent: what you want help with, what it should never do, and what proof you expect."
+        ],
+        [
+          "Submit",
+          "Submit your my-ai-workspace.md text."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is Markdown?",
+          "choices": [
+            "Plain text with structure",
+            "A private password",
+            "A video file",
+            "A paid ad platform"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why do agents like MD files?",
+          "choices": [
+            "They are clear and easy to parse",
+            "They are impossible to edit",
+            "They hide mistakes",
+            "They only work on Macs"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What belongs in an agent instruction file?",
+          "choices": [
+            "Goals, rules, context, and proof requirements",
+            "Bank passwords",
+            "Random guesses",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can write a simple MD file an agent can follow."
+    },
+    {
+      "slug": "06-skills-commands-mcps",
+      "title": "Lesson 6: Skills, Commands, Tools, and MCPs",
       "time": "60 minutes",
       "video": null,
-      "goal": "Reagan understands how Hermes fits CJ\u2019s operation: tools, skills, memory, Drive, wiki, and Mission Control.",
+      "goal": "Reagan knows the difference between the agent building blocks CJ talks about.",
       "sections": [
         [
           "Warm up",
-          "Hermes is not a public toy. It is CJ\u2019s working agent system. It can search Drive, update Mission Control, use skills, write to the wiki, and help move real projects."
+          "These words sound technical at first. They are not that complicated. They are how an agent knows what to do and what it can touch."
         ],
         [
           "Teach",
-          "The key idea is routing. If the job is a Drive job, load Drive. If it is a wiki job, load Wiki. If it changes project state, update Mission Control. Memory is for durable facts. Skills are for reusable procedures."
+          "Skills are saved playbooks. Commands are shortcuts. Tools are actions the agent can take. MCPs are connections to outside systems. Memory is durable context that should still matter later."
         ],
         [
-          "Internal demo video",
-          "Because Hermes is CJ\u2019s private system, use the internal demo script in the workbook. CJ or an agent can record a 6 to 8 minute Loom later. For now, Reagan follows the walkthrough and answers the checks."
+          "Examples",
+          "Skill: how to update Mission Control. Command: /new. Tool: read a file. MCP: connect to an app or data source."
         ],
         [
           "Build",
-          "Write a Hermes request that would help CJ. It must include goal, source, rule, and proof. Example: Search Drive for the QB Stable College QBs JSON, confirm the file name, and tell me the folder before editing anything."
+          "Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, and agent."
         ],
         [
           "Submit",
-          "Submit 3 Hermes prompts: one Drive prompt, one wiki prompt, one Mission Control prompt."
+          "Submit the glossary and one question you still have."
         ]
       ],
       "quiz": [
         {
-          "q": "What are Hermes skills for?",
+          "q": "What is a skill?",
           "choices": [
-            "Reusable procedures",
-            "Random jokes",
-            "Passwords",
-            "Deleting files"
-          ],
-          "answer": 0
-        },
-        {
-          "q": "Where should project status changes be logged?",
-          "choices": [
-            "Mission Control",
-            "A random note",
-            "Only a text message",
-            "Nowhere"
-          ],
-          "answer": 0
-        },
-        {
-          "q": "What is memory for?",
-          "choices": [
-            "Durable facts that matter later",
-            "Temporary task progress",
-            "Raw secrets",
-            "Every sentence CJ says"
-          ],
-          "answer": 0
-        }
-      ],
-      "checkpoint": "I understand Hermes at a user level."
-    },
-    {
-      "slug": "06-github-drive-wiki",
-      "title": "Lesson 6: Where Work Lives, Drive, Wiki, Vaults, and GitHub",
-      "time": "45 minutes",
-      "video": {
-        "id": "RGOj5yH7evk",
-        "title": "Git and GitHub for Beginners - Crash Course",
-        "channel": "freeCodeCamp.org",
-        "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
-        "views": "5,025,907",
-        "likes": "106,729",
-        "duration": "1:08:30",
-        "purpose": "Learn the basic GitHub language even though our working home is Drive and the wiki."
-      },
-      "goal": "Reagan knows GitHub basics, but understands CJ\u2019s real system uses Drive, wikis, and vaults first.",
-      "sections": [
-        [
-          "Warm up",
-          "GitHub matters because many coding tools speak GitHub. But CJ does not live in GitHub. CJ lives in Drive, wikis, vaults, Mission Control, and Telegram."
-        ],
-        [
-          "Teach",
-          "Source of truth means where the real version lives. For this internship, the source of truth is the Drive and wiki course package. GitHub is optional support, not the main home."
-        ],
-        [
-          "Watch with purpose",
-          "Watch the first 20 minutes of the freeCodeCamp GitHub video. You do not need the whole hour yet. Write the meaning of repo, commit, branch, and README."
-        ],
-        [
-          "Build",
-          "Create a simple Source of Truth map for your final project. Show where notes, files, proof, and final answer live."
-        ],
-        [
-          "Submit",
-          "Submit the map and explain how CJ would find your work later."
-        ]
-      ],
-      "quiz": [
-        {
-          "q": "For CJ\u2019s daily work, what matters most?",
-          "choices": [
-            "Drive, wiki, vaults, MC",
-            "Only GitHub",
-            "Only screenshots",
-            "Only memory"
-          ],
-          "answer": 0
-        },
-        {
-          "q": "What is a README?",
-          "choices": [
-            "A file that explains the project",
-            "A video editor",
-            "A password manager",
+            "A saved playbook",
+            "A password",
+            "A random chat",
             "A browser tab"
           ],
           "answer": 0
         },
         {
-          "q": "Why still learn GitHub basics?",
+          "q": "What is an MCP?",
           "choices": [
-            "Coding tools often use it",
-            "It replaces all notes",
-            "It is required for texting",
-            "It stores private secrets"
+            "A connection that lets an agent use outside tools or data",
+            "A sports position",
+            "A font",
+            "A deleted file"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is a command?",
+          "choices": [
+            "A shortcut that triggers behavior",
+            "A secret token",
+            "A YouTube link",
+            "A final grade"
           ],
           "answer": 0
         }
       ],
-      "checkpoint": "I can put work where CJ can actually find it."
+      "checkpoint": "I can explain the agent building blocks without mixing them up."
     },
     {
-      "slug": "07-final-project",
-      "title": "Lesson 7: Final Project Sprint",
+      "slug": "07-first-project",
+      "title": "Lesson 7: First Project, My AI Workspace",
       "time": "90 minutes",
       "video": null,
-      "goal": "Reagan ships a small but real AI workflow: Sports Ops Assistant or Job Researcher.",
+      "goal": "Reagan finishes Week 1 with Claude, Codex, and Hermes working and a clean setup guide she can use again.",
       "sections": [
         [
-          "Choose",
-          "Pick one: Sports Ops Assistant or Job Researcher. Do not overthink it. Pick the one you can finish cleanly."
+          "Project brief",
+          "Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram, and Hermes ready to use."
         ],
         [
-          "Sports Ops Assistant",
-          "Build a workflow that takes a messy sports ops task and turns it into a clean action list. Example: game day checklist, player follow up tracker, camp prep list, or practice equipment list."
+          "Required proof",
+          "Include screenshots or notes proving Claude login, Codex login, Telegram setup, Hermes response, and your glossary."
         ],
         [
-          "Job Researcher",
-          "Build a workflow that finds 5 real job or internship leads, scores them, and explains which 2 are worth attention."
+          "Build",
+          "Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, glossary, rules, and what to ask CJ for if something is blocked."
         ],
         [
-          "Proof",
-          "Your project must include source notes, agent prompts, final output, quiz score screenshots, and a short reflection."
+          "Review",
+          "Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask Hermes what proof CJ would want before marking it complete."
         ],
         [
           "Submit",
-          "Submit your project folder in Drive or the vault, plus a 2 minute walkthrough for CJ."
+          "Submit the guide, proof screenshots, quiz score, and a 2 minute walkthrough for CJ."
         ]
       ],
       "quiz": [
         {
-          "q": "What matters most in the final project?",
+          "q": "What is the Week 1 project?",
           "choices": [
-            "A finished useful workflow",
-            "A perfect logo",
-            "A long essay",
-            "A secret prompt"
+            "Set up my AI workspace",
+            "Build a full app",
+            "Post on social",
+            "Run paid ads"
           ],
           "answer": 0
         },
         {
-          "q": "What proof should be included?",
+          "q": "What accounts should be working by the end?",
           "choices": [
-            "Sources, prompts, output, reflection",
-            "Only the final answer",
-            "Only a screenshot",
-            "Nothing"
+            "Claude, Codex, Telegram, and Hermes",
+            "Only YouTube",
+            "Only GitHub",
+            "None"
           ],
           "answer": 0
         },
         {
-          "q": "How long should the walkthrough be?",
+          "q": "What makes the project complete?",
           "choices": [
-            "About 2 minutes",
-            "30 minutes",
-            "10 seconds",
-            "No walkthrough"
+            "Working access, setup guide, glossary, and proof",
+            "A nice title only",
+            "A long video watched",
+            "No screenshots"
           ],
           "answer": 0
         }
       ],
-      "checkpoint": "I shipped something useful and can explain it."
+      "checkpoint": "I have my AI workspace set up and can prove it."
     }
   ]
 }

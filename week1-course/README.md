@@ -1,16 +1,28 @@
-# AI Gameplan Week 1: Real Online Course Package
+# AI Gameplan Week 1, Setup 101
 
-Open `index.html` to run the course.
+Interactive Week 1 course for Reagan.
 
-Included:
+## What changed
 
-- Interactive progress tracker
-- Embedded video lessons
-- Mini quizzes
-- Proof submission checks
-- Student workbook
-- Coach notes
-- Quiz answer key
-- Course data JSON
+This week now matches CJ's direction:
 
-Source of truth is Drive and CJ's wiki, not GitHub.
+- Claude setup and first prompt
+- Codex setup and first task
+- Telegram setup
+- Hermes agent setup in Telegram
+- LLMs vs agents
+- Markdown and MD files
+- Skills, commands, tools, APIs, MCPs, memory
+- Final project: My AI Workspace setup guide
+
+## Files
+
+- `index.html`, interactive course
+- `course-data.json`, course source data
+- `student-workbook.md`, student work area
+- `coach-notes.md`, CJ review notes
+- `quiz-answer-key.md`, answer key
+
+## Public URL
+
+https://qbstabletampa-creator.github.io/ai-gameplan/week1-course/

@@ -1,33 +1,33 @@
 # Reagan Week 1 Student Workbook
 
-**Course:** AI Gameplan Week 1, Build Your AI Workbench
+**Course:** AI Gameplan Week 1, Setup 101
 **Student:** Reagan
 **Last Updated:** 2026-05-16
 
 ## How to use this week
-Open `index.html` first. Use this workbook to write answers, paste proof, and keep your final project organized.
+Open `index.html` first. Use this workbook to write answers, paste proof, and keep your setup organized.
 
-## Lesson 1: What an AI Agent Actually Does
+## Lesson 1: LLMs vs Agents
 **Time:** 45 minutes
-**Goal:** Reagan can explain the difference between a chatbot, an assistant, and an agent in her own words.
+**Goal:** Reagan can explain the difference between Claude as an LLM and Hermes as an agent in normal words.
 
 **Video:** [What are AI Agents?](https://www.youtube.com/watch?v=F8NKVhkZZWI)
-**Why this video:** Understand what an AI agent is before she starts using them.
+**Why this video:** Understand the difference between a model that answers and an agent that can use tools.
 
 ### Warm up
-Write one sentence answering this: if CJ asked an AI agent to prep tomorrow morning, what should the agent do without being asked twice?
+Write this in your own words: what is the difference between an AI that answers and an AI that acts?
 
 ### Teach
-An AI agent is not magic. It is software that can take a goal, use tools, make decisions, check its own work, and report back. The big difference is action. A chatbot talks. An agent works.
+An LLM is the brain. It predicts, reasons, writes, summarizes, and explains. Claude, ChatGPT, and Gemini are LLMs. An agent uses an LLM plus tools, memory, rules, and a goal. The simple line: an LLM thinks and answers. An agent thinks and acts.
 
 ### Watch with purpose
-Watch the IBM video. Pause twice. First pause when they explain tool use. Second pause when they explain planning. Write one example from QB Stable or RISE for each.
+Watch the IBM agent video. Write down the first moment where the video moves from talking to doing.
 
 ### Build
-Make a simple agent map with four boxes: goal, tools, rules, proof. Use the Sports Ops Assistant idea or the Job Researcher idea.
+Make a two column chart. Left side: LLM. Right side: agent. Add 5 examples to each side from CJ's world.
 
 ### Submit
-Submit your 4 box map and a 4 sentence explanation.
+Submit your chart and a 4 sentence explanation of why CJ uses agents instead of only chatbots.
 
 ### Mini quiz answers
 1.
@@ -38,29 +38,29 @@ Submit your 4 box map and a 4 sentence explanation.
 - 
 
 ### Checkpoint reflection
-- I can explain AI agents without sounding like a hype video.
+- I can explain LLM vs agent without hype.
 
-## Lesson 2: Terminal Basics Without Fear
+## Lesson 2: Claude Setup and First Prompt
 **Time:** 60 minutes
-**Goal:** Reagan can open a terminal, move around folders, list files, and run safe commands.
+**Goal:** Reagan creates or logs into Claude and runs a useful first prompt.
 
-**Video:** [How to use the Command Line | Terminal Basics for Beginners](https://www.youtube.com/watch?v=5XgBd6rjuDQ)
-**Why this video:** Get comfortable opening a terminal, moving folders, and running commands.
+**Video:** [Getting started with Claude.ai](https://www.youtube.com/watch?v=0vZ_UVLhSQQ)
+**Why this video:** Set up Claude, log in, and understand the first clicks without sitting through a long video.
 
 ### Warm up
-The terminal is just a text based remote control for the computer. You type exactly what you want. It does exactly what you typed.
+Claude is where you go when you need a smart thinking partner. It is strong for writing, planning, summarizing, and explaining.
 
-### Teach
-The core commands are pwd, ls, cd, mkdir, touch, code, and clear. Do not run random commands from the internet. If a command can delete files, stop and ask.
+### Setup
+Go to claude.ai. Create or log into your account. Confirm you can start a new chat. Do not add private passwords, tokens, or client info.
 
 ### Watch with purpose
-Watch the terminal video. Copy 5 commands into your notes and write what each one does in normal words.
+Watch the 5:19 Anthropic video. Pause after the first prompt example and write what made the prompt clear.
 
 ### Build
-Create a folder called ai-workbench. Inside it, create folders called notes, projects, and proof. Add a README file that explains what the folder is for.
+Ask Claude to create a 5 step plan for setting up your AI workspace for this course. Then ask it to make the plan shorter and more direct.
 
 ### Submit
-Submit a screenshot of the folder and paste your README text.
+Submit a screenshot showing Claude open and paste the final 5 step plan into your workbook.
 
 ### Mini quiz answers
 1.
@@ -71,62 +71,29 @@ Submit a screenshot of the folder and paste your README text.
 - 
 
 ### Checkpoint reflection
-- I can use the terminal without panicking or pretending.
+- I have Claude open and know how to start clean.
 
-## Lesson 3: Claude Code as a Work Partner
-**Time:** 75 minutes
-**Goal:** Reagan can ask Claude Code to inspect a folder, suggest a change, and explain what changed.
-
-**Video:** [Mastering Claude Code in 30 minutes](https://www.youtube.com/watch?v=6eBSHbLKuN0)
-**Why this video:** See how Claude Code works from the official Anthropic channel.
-
-### Warm up
-Claude Code is strongest when you give it a folder, a goal, rules, and proof requirements.
-
-### Teach
-Good prompt formula: context, goal, constraints, output, verification. Bad prompt: make this better. Good prompt: inspect this folder, find missing student instructions, add a checklist, then summarize the diff.
-
-### Watch with purpose
-Watch the Anthropic video. Write down 3 moments where Claude Code acts more like a teammate than a search box.
-
-### Build
-Create a small project README for either Sports Ops Assistant or Job Researcher. Ask Claude Code to improve it, then review the changes before accepting.
-
-### Submit
-Submit original README, improved README, and 5 bullets explaining what changed.
-
-### Mini quiz answers
-1.
-2.
-3.
-
-### Proof link or screenshot notes
-- 
-
-### Checkpoint reflection
-- I can direct Claude Code and review its work.
-
-## Lesson 4: Codex for a Second Opinion
+## Lesson 3: Codex Setup and When to Use It
 **Time:** 60 minutes
-**Goal:** Reagan can use Codex to inspect the same small project and compare answers against Claude Code.
+**Goal:** Reagan creates or logs into Codex and understands when Codex is the right tool.
 
 **Video:** [Using OpenAI Codex CLI with GPT-5-Codex](https://www.youtube.com/watch?v=iqNzfK4_meQ)
-**Why this video:** See Codex from the official OpenAI channel and compare it with Claude Code.
+**Why this video:** See Codex from the official OpenAI channel and understand how it differs from Claude.
 
 ### Warm up
-Different agents see different things. That is useful. Your job is not to worship one tool. Your job is to get clean work.
+Codex is for building, editing, reviewing, and checking work. Think of it as another smart teammate, not a magic button.
 
-### Teach
-Use Codex when you want another angle, a bug check, a cleaner plan, or a quick build. Do not paste secrets. Do not share private contact data.
+### Setup
+Create or log into the account CJ provides. Confirm you can open Codex and start a task. Keep private data out of test prompts.
 
 ### Watch with purpose
-Watch the OpenAI video. Write one strength you see and one question you still have.
+Watch the OpenAI video. Write one thing Codex does that feels different from a normal chat.
 
 ### Build
-Give Codex the same README project. Ask it to review for clarity and missing steps. Compare its advice to Claude Code.
+Give Codex a simple sample task: review this checklist for clarity. Use fake content, not private CJ business data.
 
 ### Submit
-Submit a two column comparison: Claude Code saw, Codex saw, my decision.
+Submit a screenshot showing Codex access and 3 bullets on when you would choose Codex instead of Claude.
 
 ### Mini quiz answers
 1.
@@ -137,28 +104,28 @@ Submit a two column comparison: Claude Code saw, Codex saw, my decision.
 - 
 
 ### Checkpoint reflection
-- I can compare agents instead of just obeying them.
+- I can open Codex and know what job it should do.
 
-## Lesson 5: Hermes, CJ’s Real Agent System
-**Time:** 60 minutes
-**Goal:** Reagan understands how Hermes fits CJ’s operation: tools, skills, memory, Drive, wiki, and Mission Control.
+## Lesson 4: Set Up Your Hermes Agent in Telegram
+**Time:** 75 minutes
+**Goal:** Reagan gets her Hermes agent working in Telegram and knows the first commands to use.
 
-**Video:** Internal Hermes walkthrough script below.
+**Video:** Internal walkthrough or CJ guided setup.
 
 ### Warm up
-Hermes is not a public toy. It is CJ’s working agent system. It can search Drive, update Mission Control, use skills, write to the wiki, and help move real projects.
+Hermes is the agent system. Telegram is the front door. You message the agent like a person, but it can use tools behind the scenes.
 
-### Teach
-The key idea is routing. If the job is a Drive job, load Drive. If it is a wiki job, load Wiki. If it changes project state, update Mission Control. Memory is for durable facts. Skills are for reusable procedures.
+### Setup
+Install Telegram, create or log into your account, and connect with the Hermes bot CJ provides. If CJ gives a pairing or approval step, complete it with him watching.
 
-### Internal demo video
-Because Hermes is CJ’s private system, use the internal demo script in the workbook. CJ or an agent can record a 6 to 8 minute Loom later. For now, Reagan follows the walkthrough and answers the checks.
+### First commands
+Test /help, /new, /model, /tools, and /skills. Write one sentence explaining what each command does.
 
 ### Build
-Write a Hermes request that would help CJ. It must include goal, source, rule, and proof. Example: Search Drive for the QB Stable College QBs JSON, confirm the file name, and tell me the folder before editing anything.
+Send Hermes a safe practice task: explain what tools you have access to and what you cannot do yet. Do not ask it to edit anything real.
 
 ### Submit
-Submit 3 Hermes prompts: one Drive prompt, one wiki prompt, one Mission Control prompt.
+Submit a screenshot of your Telegram agent responding and your 5 command notes.
 
 ### Mini quiz answers
 1.
@@ -169,29 +136,28 @@ Submit 3 Hermes prompts: one Drive prompt, one wiki prompt, one Mission Control 
 - 
 
 ### Checkpoint reflection
-- I understand Hermes at a user level.
+- I have my Hermes agent reachable in Telegram.
 
-## Lesson 6: Where Work Lives, Drive, Wiki, Vaults, and GitHub
+## Lesson 5: Markdown and MD Files
 **Time:** 45 minutes
-**Goal:** Reagan knows GitHub basics, but understands CJ’s real system uses Drive, wikis, and vaults first.
+**Goal:** Reagan understands why agents use Markdown and can write a simple MD instruction file.
 
-**Video:** [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)
-**Why this video:** Learn the basic GitHub language even though our working home is Drive and the wiki.
+**Video:** Internal walkthrough or CJ guided setup.
 
 ### Warm up
-GitHub matters because many coding tools speak GitHub. But CJ does not live in GitHub. CJ lives in Drive, wikis, vaults, Mission Control, and Telegram.
+Markdown is plain text with structure. Agents read it well because it is clear, portable, and easy to edit.
 
 ### Teach
-Source of truth means where the real version lives. For this internship, the source of truth is the Drive and wiki course package. GitHub is optional support, not the main home.
-
-### Watch with purpose
-Watch the first 20 minutes of the freeCodeCamp GitHub video. You do not need the whole hour yet. Write the meaning of repo, commit, branch, and README.
+Headings create sections. Bullets create lists. Checkboxes create action steps. Code blocks preserve exact commands or examples.
 
 ### Build
-Create a simple Source of Truth map for your final project. Show where notes, files, proof, and final answer live.
+Create a file called my-ai-workspace.md. Add headings for Accounts, Agent Commands, Rules, and Proof.
+
+### Practice
+Write a short instruction block for your agent: what you want help with, what it should never do, and what proof you expect.
 
 ### Submit
-Submit the map and explain how CJ would find your work later.
+Submit your my-ai-workspace.md text.
 
 ### Mini quiz answers
 1.
@@ -202,28 +168,60 @@ Submit the map and explain how CJ would find your work later.
 - 
 
 ### Checkpoint reflection
-- I can put work where CJ can actually find it.
+- I can write a simple MD file an agent can follow.
 
-## Lesson 7: Final Project Sprint
+## Lesson 6: Skills, Commands, Tools, and MCPs
+**Time:** 60 minutes
+**Goal:** Reagan knows the difference between the agent building blocks CJ talks about.
+
+**Video:** Internal walkthrough or CJ guided setup.
+
+### Warm up
+These words sound technical at first. They are not that complicated. They are how an agent knows what to do and what it can touch.
+
+### Teach
+Skills are saved playbooks. Commands are shortcuts. Tools are actions the agent can take. MCPs are connections to outside systems. Memory is durable context that should still matter later.
+
+### Examples
+Skill: how to update Mission Control. Command: /new. Tool: read a file. MCP: connect to an app or data source.
+
+### Build
+Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, and agent.
+
+### Submit
+Submit the glossary and one question you still have.
+
+### Mini quiz answers
+1.
+2.
+3.
+
+### Proof link or screenshot notes
+- 
+
+### Checkpoint reflection
+- I can explain the agent building blocks without mixing them up.
+
+## Lesson 7: First Project, My AI Workspace
 **Time:** 90 minutes
-**Goal:** Reagan ships a small but real AI workflow: Sports Ops Assistant or Job Researcher.
+**Goal:** Reagan finishes Week 1 with Claude, Codex, and Hermes working and a clean setup guide she can use again.
 
-**Video:** Internal Hermes walkthrough script below.
+**Video:** Internal walkthrough or CJ guided setup.
 
-### Choose
-Pick one: Sports Ops Assistant or Job Researcher. Do not overthink it. Pick the one you can finish cleanly.
+### Project brief
+Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram, and Hermes ready to use.
 
-### Sports Ops Assistant
-Build a workflow that takes a messy sports ops task and turns it into a clean action list. Example: game day checklist, player follow up tracker, camp prep list, or practice equipment list.
+### Required proof
+Include screenshots or notes proving Claude login, Codex login, Telegram setup, Hermes response, and your glossary.
 
-### Job Researcher
-Build a workflow that finds 5 real job or internship leads, scores them, and explains which 2 are worth attention.
+### Build
+Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, glossary, rules, and what to ask CJ for if something is blocked.
 
-### Proof
-Your project must include source notes, agent prompts, final output, quiz score screenshots, and a short reflection.
+### Review
+Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask Hermes what proof CJ would want before marking it complete.
 
 ### Submit
-Submit your project folder in Drive or the vault, plus a 2 minute walkthrough for CJ.
+Submit the guide, proof screenshots, quiz score, and a 2 minute walkthrough for CJ.
 
 ### Mini quiz answers
 1.
@@ -234,17 +232,15 @@ Submit your project folder in Drive or the vault, plus a 2 minute walkthrough fo
 - 
 
 ### Checkpoint reflection
-- I shipped something useful and can explain it.
+- I have my AI workspace set up and can prove it.
 
 ## Final project submission
-Choose one:
-- Sports Ops Assistant
-- Job Researcher
-
 Submit:
-- Project folder link
-- Source notes
-- Agent prompts
-- Final output
+- Claude login proof
+- Codex login proof
+- Telegram setup proof
+- Hermes response proof
+- My AI Workspace setup guide
+- Glossary
 - Quiz score proof
 - 2 minute walkthrough link
