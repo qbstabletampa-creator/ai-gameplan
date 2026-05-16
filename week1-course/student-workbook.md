@@ -5,7 +5,7 @@
 **Last Updated:** 2026-05-16
 
 ## How to use this week
-Open `index.html` first. Use this workbook to write answers, paste proof, and keep your setup organized.
+Open `index.html` first. Use this workbook to write answers, paste proof, and keep your setup organized. Never paste tokens, passwords, or private client info here.
 
 ## Lesson 1: LLMs vs Agents
 **Time:** 45 minutes
@@ -106,90 +106,125 @@ Submit a screenshot showing Codex access and 3 bullets on when you would choose 
 ### Checkpoint reflection
 - I can open Codex and know what job it should do.
 
-## Lesson 4: Set Up Your Hermes Agent in Telegram
+## Lesson 4: Set Up Your Telegram Agent
+**Time:** 120 minutes
+**Goal:** Reagan installs Hermes, connects it to Telegram, uses Codex subscription auth, and proves she can leave and come back later.
+
+**Video:** Internal walkthrough or CJ guided setup.
+
+### What this lesson does
+This is the one place we talk about Hermes in detail. Hermes is the agent software. Telegram is the phone app she will use to talk to it. Codex subscription auth is one way Hermes can access a model without pasting API keys into the course.
+
+### Before you start
+You need a laptop, terminal access, Telegram on your phone or desktop, a Codex subscription login, and CJ nearby for any approval or pairing step. Do not paste tokens, bot keys, passwords, or private client info into the workbook.
+
+### Step 1, set up Telegram
+Download Telegram from telegram.org or the app store. Create an account with your phone number. Add a profile name Reagan will recognize. Turn on two step verification in Telegram settings. Open Telegram Desktop too, because setup is easier when the terminal and Telegram are on the same computer.
+
+### Step 2, create the bot front door
+In Telegram, search for BotFather. Start a chat. Send /newbot. Give it a clear name like Reagan AI Agent. Give it a username ending in bot. Copy the bot token into a private local note only. Do not put it in screenshots, GitHub, Google Docs, or the workbook.
+
+### Step 3, install Hermes in terminal
+Open terminal. Run this command: curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash. Close and reopen terminal if hermes is not found. Then run hermes doctor and save any warnings in your private setup notes.
+
+### Step 4, sign in with Codex subscription auth
+Run hermes login --provider openai-codex. Follow the browser login. Use the Codex subscription account CJ approved. Then run hermes model and choose the Codex or OpenAI Codex provider option if shown. Do not paste a password or token into chat.
+
+### Step 5, basic Hermes setup
+Run hermes setup. Confirm the model works with hermes chat -q "Reply with one sentence that says setup is working." Then run hermes config path and hermes config env-path so you know where settings and secrets live.
+
+### Step 6, connect Telegram
+Run hermes gateway setup and choose Telegram. Paste the bot token only when the setup wizard asks for it. Then run hermes gateway run for a first test. Message your bot in Telegram with /help. If it answers, the front door works.
+
+### Step 7, approve and test safely
+If the agent asks CJ to approve the chat, complete that with CJ watching. Test /help, /new, /model, /tools, /skills, and /status. Then ask one safe question: what can you help me do, and what should I avoid asking you to change yet?
+
+### Step 8, save your work and log back in
+Name the session with /title Week 1 Setup. In terminal, run hermes sessions list so you can see saved sessions. Practice returning with hermes --continue or hermes --resume SESSION_ID. In Telegram, keep using the same bot chat unless CJ tells you to start fresh with /new.
+
+### Troubleshooting
+If anything fails, do not guess. Copy the exact command, the exact error, and what step you were on into your private setup notes. Then ask CJ or the agent for help. Never solve auth problems by posting tokens into chat.
+
+### Submit
+Submit proof that Telegram is installed, the bot responds, Hermes runs in terminal, Codex auth completed, and you know how to find saved sessions. Hide every token or private value.
+
+### Mini quiz answers
+1.
+2.
+3.
+4.
+
+### Proof link or screenshot notes
+- 
+
+### Checkpoint reflection
+- I can install the agent, connect Telegram, authenticate with Codex, and return to saved work.
+
+## Lesson 5: Markdown, Saved Work, and Agent Orgs
 **Time:** 75 minutes
-**Goal:** Reagan gets her Hermes agent working in Telegram and knows the first commands to use.
+**Goal:** Reagan can use MD files to save work, log back in later, and design a simple agent org chart.
 
 **Video:** Internal walkthrough or CJ guided setup.
 
 ### Warm up
-Hermes is the agent system. Telegram is the front door. You message the agent like a person, but it can use tools behind the scenes.
+Markdown is plain text with structure. It is how you leave clear instructions for yourself, Claude, Codex, or any agent system. MD files are the notebook, playbook, and handoff file.
 
-### Setup
-Install Telegram, create or log into your account, and connect with the Hermes bot CJ provides. If CJ gives a pairing or approval step, complete it with him watching.
+### Markdown basics
+Use headings for sections, bullets for lists, checkboxes for action steps, and code blocks for exact commands. A good MD file should still make sense when you open it next week.
 
-### First commands
-Test /help, /new, /model, /tools, and /skills. Write one sentence explaining what each command does.
+### Save your work
+Create a folder called ai-workspace. Inside it, create my-ai-workspace.md, agent-org.md, prompts.md, and proof-log.md. Every session should leave behind notes, links, screenshots, commands tested, and next steps.
+
+### Log back in later
+Write down where work lives. Example: Telegram bot chat for messages, terminal sessions for local agent history, MD files for notes, Drive or vault folder for proof. Practice closing the laptop, reopening the course, and finding the last step without asking CJ.
+
+### Agent orgs
+An agent org is a team map. One agent is the orchestrator that routes work. Other agents have jobs. CJ's team has roles like orchestrator, chief, CFO, ad analyst, content helper, inbox triage, wiki keeper, and ops helper. The point is not titles. The point is clear lanes.
+
+### Outside examples
+LangGraph uses a supervisor pattern where a central supervisor routes tasks to specialized agents. Crew style systems often define roles, goals, tasks, and process. AutoGen style systems use multiple agents in conversation. Same idea: one team, clear roles, clean handoffs.
 
 ### Build
-Send Hermes a safe practice task: explain what tools you have access to and what you cannot do yet. Do not ask it to edit anything real.
+Create agent-org.md. Add an orchestrator, chief, CFO, content agent, research agent, and proof checker. For each one, write purpose, allowed tools, what it should never do, and what proof it must return.
 
 ### Submit
-Submit a screenshot of your Telegram agent responding and your 5 command notes.
+Submit my-ai-workspace.md, proof-log.md, and agent-org.md. CJ should be able to open the folder and know exactly where you left off.
 
 ### Mini quiz answers
 1.
 2.
 3.
+4.
 
 ### Proof link or screenshot notes
 - 
 
 ### Checkpoint reflection
-- I have my Hermes agent reachable in Telegram.
-
-## Lesson 5: Markdown and MD Files
-**Time:** 45 minutes
-**Goal:** Reagan understands why agents use Markdown and can write a simple MD instruction file.
-
-**Video:** Internal walkthrough or CJ guided setup.
-
-### Warm up
-Markdown is plain text with structure. Agents read it well because it is clear, portable, and easy to edit.
-
-### Teach
-Headings create sections. Bullets create lists. Checkboxes create action steps. Code blocks preserve exact commands or examples.
-
-### Build
-Create a file called my-ai-workspace.md. Add headings for Accounts, Agent Commands, Rules, and Proof.
-
-### Practice
-Write a short instruction block for your agent: what you want help with, what it should never do, and what proof you expect.
-
-### Submit
-Submit your my-ai-workspace.md text.
-
-### Mini quiz answers
-1.
-2.
-3.
-
-### Proof link or screenshot notes
-- 
-
-### Checkpoint reflection
-- I can write a simple MD file an agent can follow.
+- I can save my work, return later, and explain my agent org.
 
 ## Lesson 6: Skills, Commands, Tools, and MCPs
 **Time:** 60 minutes
-**Goal:** Reagan knows the difference between the agent building blocks CJ talks about.
+**Goal:** Reagan knows these building blocks can exist across Claude, Codex, and other agent systems.
 
 **Video:** Internal walkthrough or CJ guided setup.
 
 ### Warm up
-These words sound technical at first. They are not that complicated. They are how an agent knows what to do and what it can touch.
+Do not attach these words to one product. Claude can have commands and skills. Hermes can have commands and skills. Other systems can have tools, APIs, and MCPs too. Learn the concept, then learn the app.
 
 ### Teach
-Skills are saved playbooks. Commands are shortcuts. Tools are actions the agent can take. MCPs are connections to outside systems. Memory is durable context that should still matter later.
+Skills are saved playbooks. Commands are shortcuts. Tools are actions an agent can take. APIs are ways software talks to software. MCPs are standardized connections to outside tools or data. Memory is durable context that should still matter later.
 
 ### Examples
-Skill: how to update Mission Control. Command: /new. Tool: read a file. MCP: connect to an app or data source.
+Skill: a saved process for updating Mission Control. Command: /new or /help. Tool: read a file or search the web. API: send data to a calendar. MCP: connect an agent to Drive, GitHub, Notion, or another system.
+
+### How not to get confused
+Ask two questions. What app am I using right now? What does this word mean inside that app? The same word can show up in more than one place.
 
 ### Build
-Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, and agent.
+Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, model, agent, orchestrator, and proof.
 
 ### Submit
-Submit the glossary and one question you still have.
+Submit the glossary and label which examples belong to Claude, Codex, the Telegram agent, or general agent systems.
 
 ### Mini quiz answers
 1.
@@ -200,28 +235,31 @@ Submit the glossary and one question you still have.
 - 
 
 ### Checkpoint reflection
-- I can explain the agent building blocks without mixing them up.
+- I can explain the building blocks without thinking they belong to only one tool.
 
 ## Lesson 7: First Project, My AI Workspace
 **Time:** 90 minutes
-**Goal:** Reagan finishes Week 1 with Claude, Codex, and Hermes working and a clean setup guide she can use again.
+**Goal:** Reagan finishes Week 1 with Claude, Codex, Telegram agent access, saved sessions, and a clean setup guide she can use again.
 
 **Video:** Internal walkthrough or CJ guided setup.
 
 ### Project brief
-Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram, and Hermes ready to use.
+Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram agent access, saved work files, and a way to log back in later.
 
 ### Required proof
-Include screenshots or notes proving Claude login, Codex login, Telegram setup, Hermes response, and your glossary.
+Include screenshots or notes proving Claude login, Codex login, Telegram setup, agent response, Codex auth, saved session list, and your glossary. Hide every private token.
 
 ### Build
-Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, glossary, rules, and what to ask CJ for if something is blocked.
+Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, where sessions are saved, how to resume, glossary, rules, and what to ask CJ for if something is blocked.
+
+### Agent org section
+Add your agent org chart to the guide. Include orchestrator, chief, CFO, content agent, research agent, and proof checker. Explain what each role does in one sentence.
 
 ### Review
-Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask Hermes what proof CJ would want before marking it complete.
+Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask your Telegram agent what proof CJ would want before marking it complete.
 
 ### Submit
-Submit the guide, proof screenshots, quiz score, and a 2 minute walkthrough for CJ.
+Submit the guide, proof screenshots, quiz score, agent org chart, and a 2 minute walkthrough for CJ.
 
 ### Mini quiz answers
 1.
@@ -232,15 +270,18 @@ Submit the guide, proof screenshots, quiz score, and a 2 minute walkthrough for 
 - 
 
 ### Checkpoint reflection
-- I have my AI workspace set up and can prove it.
+- I have my AI workspace set up, saved, organized, and ready to use again.
 
 ## Final project submission
 Submit:
 - Claude login proof
 - Codex login proof
 - Telegram setup proof
-- Hermes response proof
+- Agent response proof
+- Codex auth proof without private values
+- Saved session proof
 - My AI Workspace setup guide
+- Agent org chart
 - Glossary
 - Quiz score proof
 - 2 minute walkthrough link

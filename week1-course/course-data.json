@@ -250,37 +250,65 @@
     },
     {
       "slug": "04-hermes-telegram",
-      "title": "Lesson 4: Set Up Your Hermes Agent in Telegram",
-      "time": "75 minutes",
+      "title": "Lesson 4: Set Up Your Telegram Agent",
+      "time": "120 minutes",
       "video": null,
-      "goal": "Reagan gets her Hermes agent working in Telegram and knows the first commands to use.",
+      "goal": "Reagan installs Hermes, connects it to Telegram, uses Codex subscription auth, and proves she can leave and come back later.",
       "sections": [
         [
-          "Warm up",
-          "Hermes is the agent system. Telegram is the front door. You message the agent like a person, but it can use tools behind the scenes."
+          "What this lesson does",
+          "This is the one place we talk about Hermes in detail. Hermes is the agent software. Telegram is the phone app she will use to talk to it. Codex subscription auth is one way Hermes can access a model without pasting API keys into the course."
         ],
         [
-          "Setup",
-          "Install Telegram, create or log into your account, and connect with the Hermes bot CJ provides. If CJ gives a pairing or approval step, complete it with him watching."
+          "Before you start",
+          "You need a laptop, terminal access, Telegram on your phone or desktop, a Codex subscription login, and CJ nearby for any approval or pairing step. Do not paste tokens, bot keys, passwords, or private client info into the workbook."
         ],
         [
-          "First commands",
-          "Test /help, /new, /model, /tools, and /skills. Write one sentence explaining what each command does."
+          "Step 1, set up Telegram",
+          "Download Telegram from telegram.org or the app store. Create an account with your phone number. Add a profile name Reagan will recognize. Turn on two step verification in Telegram settings. Open Telegram Desktop too, because setup is easier when the terminal and Telegram are on the same computer."
         ],
         [
-          "Build",
-          "Send Hermes a safe practice task: explain what tools you have access to and what you cannot do yet. Do not ask it to edit anything real."
+          "Step 2, create the bot front door",
+          "In Telegram, search for BotFather. Start a chat. Send /newbot. Give it a clear name like Reagan AI Agent. Give it a username ending in bot. Copy the bot token into a private local note only. Do not put it in screenshots, GitHub, Google Docs, or the workbook."
+        ],
+        [
+          "Step 3, install Hermes in terminal",
+          "Open terminal. Run this command: curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash. Close and reopen terminal if hermes is not found. Then run hermes doctor and save any warnings in your private setup notes."
+        ],
+        [
+          "Step 4, sign in with Codex subscription auth",
+          "Run hermes login --provider openai-codex. Follow the browser login. Use the Codex subscription account CJ approved. Then run hermes model and choose the Codex or OpenAI Codex provider option if shown. Do not paste a password or token into chat."
+        ],
+        [
+          "Step 5, basic Hermes setup",
+          "Run hermes setup. Confirm the model works with hermes chat -q \"Reply with one sentence that says setup is working.\" Then run hermes config path and hermes config env-path so you know where settings and secrets live."
+        ],
+        [
+          "Step 6, connect Telegram",
+          "Run hermes gateway setup and choose Telegram. Paste the bot token only when the setup wizard asks for it. Then run hermes gateway run for a first test. Message your bot in Telegram with /help. If it answers, the front door works."
+        ],
+        [
+          "Step 7, approve and test safely",
+          "If the agent asks CJ to approve the chat, complete that with CJ watching. Test /help, /new, /model, /tools, /skills, and /status. Then ask one safe question: what can you help me do, and what should I avoid asking you to change yet?"
+        ],
+        [
+          "Step 8, save your work and log back in",
+          "Name the session with /title Week 1 Setup. In terminal, run hermes sessions list so you can see saved sessions. Practice returning with hermes --continue or hermes --resume SESSION_ID. In Telegram, keep using the same bot chat unless CJ tells you to start fresh with /new."
+        ],
+        [
+          "Troubleshooting",
+          "If anything fails, do not guess. Copy the exact command, the exact error, and what step you were on into your private setup notes. Then ask CJ or the agent for help. Never solve auth problems by posting tokens into chat."
         ],
         [
           "Submit",
-          "Submit a screenshot of your Telegram agent responding and your 5 command notes."
+          "Submit proof that Telegram is installed, the bot responds, Hermes runs in terminal, Codex auth completed, and you know how to find saved sessions. Hide every token or private value."
         ]
       ],
       "quiz": [
         {
           "q": "What is Telegram in this setup?",
           "choices": [
-            "The front door to the agent",
+            "The front door where Reagan talks to the agent",
             "The model itself",
             "A spreadsheet",
             "A password vault"
@@ -288,133 +316,169 @@
           "answer": 0
         },
         {
-          "q": "Which command starts fresh?",
+          "q": "Which command starts the Codex subscription login flow?",
           "choices": [
-            "/new",
+            "hermes login --provider openai-codex",
             "/deleteall",
-            "/secret",
-            "/panic"
+            "sudo paste password",
+            "git push token"
           ],
           "answer": 0
         },
         {
-          "q": "What should Reagan do before asking Hermes to change real files?",
+          "q": "Where should bot tokens be saved?",
           "choices": [
-            "Understand the task and proof needed",
-            "Rush it",
-            "Hide it from CJ",
-            "Paste secrets"
+            "A private local secret location, never the workbook or screenshots",
+            "In the public README",
+            "In a text to everyone",
+            "Inside a quiz answer"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which command helps Reagan find saved sessions later?",
+          "choices": [
+            "hermes sessions list",
+            "hermes forget everything",
+            "/panic",
+            "delete terminal"
           ],
           "answer": 0
         }
       ],
-      "checkpoint": "I have my Hermes agent reachable in Telegram."
+      "checkpoint": "I can install the agent, connect Telegram, authenticate with Codex, and return to saved work."
     },
     {
       "slug": "05-markdown-and-md",
-      "title": "Lesson 5: Markdown and MD Files",
-      "time": "45 minutes",
+      "title": "Lesson 5: Markdown, Saved Work, and Agent Orgs",
+      "time": "75 minutes",
       "video": null,
-      "goal": "Reagan understands why agents use Markdown and can write a simple MD instruction file.",
+      "goal": "Reagan can use MD files to save work, log back in later, and design a simple agent org chart.",
       "sections": [
         [
           "Warm up",
-          "Markdown is plain text with structure. Agents read it well because it is clear, portable, and easy to edit."
+          "Markdown is plain text with structure. It is how you leave clear instructions for yourself, Claude, Codex, or any agent system. MD files are the notebook, playbook, and handoff file."
         ],
         [
-          "Teach",
-          "Headings create sections. Bullets create lists. Checkboxes create action steps. Code blocks preserve exact commands or examples."
+          "Markdown basics",
+          "Use headings for sections, bullets for lists, checkboxes for action steps, and code blocks for exact commands. A good MD file should still make sense when you open it next week."
+        ],
+        [
+          "Save your work",
+          "Create a folder called ai-workspace. Inside it, create my-ai-workspace.md, agent-org.md, prompts.md, and proof-log.md. Every session should leave behind notes, links, screenshots, commands tested, and next steps."
+        ],
+        [
+          "Log back in later",
+          "Write down where work lives. Example: Telegram bot chat for messages, terminal sessions for local agent history, MD files for notes, Drive or vault folder for proof. Practice closing the laptop, reopening the course, and finding the last step without asking CJ."
+        ],
+        [
+          "Agent orgs",
+          "An agent org is a team map. One agent is the orchestrator that routes work. Other agents have jobs. CJ's team has roles like orchestrator, chief, CFO, ad analyst, content helper, inbox triage, wiki keeper, and ops helper. The point is not titles. The point is clear lanes."
+        ],
+        [
+          "Outside examples",
+          "LangGraph uses a supervisor pattern where a central supervisor routes tasks to specialized agents. Crew style systems often define roles, goals, tasks, and process. AutoGen style systems use multiple agents in conversation. Same idea: one team, clear roles, clean handoffs."
         ],
         [
           "Build",
-          "Create a file called my-ai-workspace.md. Add headings for Accounts, Agent Commands, Rules, and Proof."
-        ],
-        [
-          "Practice",
-          "Write a short instruction block for your agent: what you want help with, what it should never do, and what proof you expect."
+          "Create agent-org.md. Add an orchestrator, chief, CFO, content agent, research agent, and proof checker. For each one, write purpose, allowed tools, what it should never do, and what proof it must return."
         ],
         [
           "Submit",
-          "Submit your my-ai-workspace.md text."
+          "Submit my-ai-workspace.md, proof-log.md, and agent-org.md. CJ should be able to open the folder and know exactly where you left off."
         ]
       ],
       "quiz": [
         {
-          "q": "What is Markdown?",
+          "q": "What is Markdown best for here?",
           "choices": [
-            "Plain text with structure",
-            "A private password",
-            "A video file",
-            "A paid ad platform"
+            "Saving structured instructions and proof",
+            "Hiding passwords",
+            "Replacing every app",
+            "Making videos"
           ],
           "answer": 0
         },
         {
-          "q": "Why do agents like MD files?",
+          "q": "What is an orchestrator?",
           "choices": [
-            "They are clear and easy to parse",
-            "They are impossible to edit",
-            "They hide mistakes",
-            "They only work on Macs"
+            "The role that routes work to the right specialist",
+            "A password",
+            "A video editor",
+            "A random file"
           ],
           "answer": 0
         },
         {
-          "q": "What belongs in an agent instruction file?",
+          "q": "Why make an agent org chart?",
           "choices": [
-            "Goals, rules, context, and proof requirements",
-            "Bank passwords",
-            "Random guesses",
-            "Nothing"
+            "To give each agent a clear lane and proof standard",
+            "To make titles sound fancy",
+            "To avoid saving work",
+            "To confuse CJ"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should help Reagan log back in later?",
+          "choices": [
+            "A saved folder, MD files, session notes, and proof log",
+            "Memory only",
+            "Guessing",
+            "A hidden token"
           ],
           "answer": 0
         }
       ],
-      "checkpoint": "I can write a simple MD file an agent can follow."
+      "checkpoint": "I can save my work, return later, and explain my agent org."
     },
     {
       "slug": "06-skills-commands-mcps",
       "title": "Lesson 6: Skills, Commands, Tools, and MCPs",
       "time": "60 minutes",
       "video": null,
-      "goal": "Reagan knows the difference between the agent building blocks CJ talks about.",
+      "goal": "Reagan knows these building blocks can exist across Claude, Codex, and other agent systems.",
       "sections": [
         [
           "Warm up",
-          "These words sound technical at first. They are not that complicated. They are how an agent knows what to do and what it can touch."
+          "Do not attach these words to one product. Claude can have commands and skills. Hermes can have commands and skills. Other systems can have tools, APIs, and MCPs too. Learn the concept, then learn the app."
         ],
         [
           "Teach",
-          "Skills are saved playbooks. Commands are shortcuts. Tools are actions the agent can take. MCPs are connections to outside systems. Memory is durable context that should still matter later."
+          "Skills are saved playbooks. Commands are shortcuts. Tools are actions an agent can take. APIs are ways software talks to software. MCPs are standardized connections to outside tools or data. Memory is durable context that should still matter later."
         ],
         [
           "Examples",
-          "Skill: how to update Mission Control. Command: /new. Tool: read a file. MCP: connect to an app or data source."
+          "Skill: a saved process for updating Mission Control. Command: /new or /help. Tool: read a file or search the web. API: send data to a calendar. MCP: connect an agent to Drive, GitHub, Notion, or another system."
+        ],
+        [
+          "How not to get confused",
+          "Ask two questions. What app am I using right now? What does this word mean inside that app? The same word can show up in more than one place."
         ],
         [
           "Build",
-          "Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, and agent."
+          "Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, model, agent, orchestrator, and proof."
         ],
         [
           "Submit",
-          "Submit the glossary and one question you still have."
+          "Submit the glossary and label which examples belong to Claude, Codex, the Telegram agent, or general agent systems."
         ]
       ],
       "quiz": [
         {
-          "q": "What is a skill?",
+          "q": "Are skills and commands tied to one app only?",
           "choices": [
-            "A saved playbook",
-            "A password",
-            "A random chat",
-            "A browser tab"
+            "No, similar ideas can exist across multiple agent systems",
+            "Yes, only one app has them",
+            "Only Telegram has them",
+            "They are passwords"
           ],
           "answer": 0
         },
         {
           "q": "What is an MCP?",
           "choices": [
-            "A connection that lets an agent use outside tools or data",
+            "A standard connection that lets an agent use outside tools or data",
             "A sports position",
             "A font",
             "A deleted file"
@@ -422,51 +486,55 @@
           "answer": 0
         },
         {
-          "q": "What is a command?",
+          "q": "What should Reagan ask when a term appears in a new app?",
           "choices": [
-            "A shortcut that triggers behavior",
-            "A secret token",
-            "A YouTube link",
-            "A final grade"
+            "What app am I using, and what does this word mean here?",
+            "How do I skip it?",
+            "Can I paste secrets?",
+            "Who can I blame?"
           ],
           "answer": 0
         }
       ],
-      "checkpoint": "I can explain the agent building blocks without mixing them up."
+      "checkpoint": "I can explain the building blocks without thinking they belong to only one tool."
     },
     {
       "slug": "07-first-project",
       "title": "Lesson 7: First Project, My AI Workspace",
       "time": "90 minutes",
       "video": null,
-      "goal": "Reagan finishes Week 1 with Claude, Codex, and Hermes working and a clean setup guide she can use again.",
+      "goal": "Reagan finishes Week 1 with Claude, Codex, Telegram agent access, saved sessions, and a clean setup guide she can use again.",
       "sections": [
         [
           "Project brief",
-          "Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram, and Hermes ready to use."
+          "Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram agent access, saved work files, and a way to log back in later."
         ],
         [
           "Required proof",
-          "Include screenshots or notes proving Claude login, Codex login, Telegram setup, Hermes response, and your glossary."
+          "Include screenshots or notes proving Claude login, Codex login, Telegram setup, agent response, Codex auth, saved session list, and your glossary. Hide every private token."
         ],
         [
           "Build",
-          "Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, glossary, rules, and what to ask CJ for if something is blocked."
+          "Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, where sessions are saved, how to resume, glossary, rules, and what to ask CJ for if something is blocked."
+        ],
+        [
+          "Agent org section",
+          "Add your agent org chart to the guide. Include orchestrator, chief, CFO, content agent, research agent, and proof checker. Explain what each role does in one sentence."
         ],
         [
           "Review",
-          "Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask Hermes what proof CJ would want before marking it complete."
+          "Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask your Telegram agent what proof CJ would want before marking it complete."
         ],
         [
           "Submit",
-          "Submit the guide, proof screenshots, quiz score, and a 2 minute walkthrough for CJ."
+          "Submit the guide, proof screenshots, quiz score, agent org chart, and a 2 minute walkthrough for CJ."
         ]
       ],
       "quiz": [
         {
           "q": "What is the Week 1 project?",
           "choices": [
-            "Set up my AI workspace",
+            "Set up and document my AI workspace",
             "Build a full app",
             "Post on social",
             "Run paid ads"
@@ -474,19 +542,19 @@
           "answer": 0
         },
         {
-          "q": "What accounts should be working by the end?",
+          "q": "What must Reagan be able to do later?",
           "choices": [
-            "Claude, Codex, Telegram, and Hermes",
-            "Only YouTube",
-            "Only GitHub",
-            "None"
+            "Log back in, find saved work, and resume",
+            "Start over from memory",
+            "Ask CJ where everything is",
+            "Ignore proof"
           ],
           "answer": 0
         },
         {
           "q": "What makes the project complete?",
           "choices": [
-            "Working access, setup guide, glossary, and proof",
+            "Working access, setup guide, glossary, agent org, saved work, and proof",
             "A nice title only",
             "A long video watched",
             "No screenshots"
@@ -494,7 +562,7 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I have my AI workspace set up and can prove it."
+      "checkpoint": "I have my AI workspace set up, saved, organized, and ready to use again."
     }
   ]
 }

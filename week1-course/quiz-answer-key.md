@@ -24,34 +24,38 @@
 3. Who makes the final call?
    Answer: Reagan
 
-## Lesson 4: Set Up Your Hermes Agent in Telegram
+## Lesson 4: Set Up Your Telegram Agent
 1. What is Telegram in this setup?
-   Answer: The front door to the agent
-2. Which command starts fresh?
-   Answer: /new
-3. What should Reagan do before asking Hermes to change real files?
-   Answer: Understand the task and proof needed
+   Answer: The front door where Reagan talks to the agent
+2. Which command starts the Codex subscription login flow?
+   Answer: hermes login --provider openai-codex
+3. Where should bot tokens be saved?
+   Answer: A private local secret location, never the workbook or screenshots
+4. Which command helps Reagan find saved sessions later?
+   Answer: hermes sessions list
 
-## Lesson 5: Markdown and MD Files
-1. What is Markdown?
-   Answer: Plain text with structure
-2. Why do agents like MD files?
-   Answer: They are clear and easy to parse
-3. What belongs in an agent instruction file?
-   Answer: Goals, rules, context, and proof requirements
+## Lesson 5: Markdown, Saved Work, and Agent Orgs
+1. What is Markdown best for here?
+   Answer: Saving structured instructions and proof
+2. What is an orchestrator?
+   Answer: The role that routes work to the right specialist
+3. Why make an agent org chart?
+   Answer: To give each agent a clear lane and proof standard
+4. What should help Reagan log back in later?
+   Answer: A saved folder, MD files, session notes, and proof log
 
 ## Lesson 6: Skills, Commands, Tools, and MCPs
-1. What is a skill?
-   Answer: A saved playbook
+1. Are skills and commands tied to one app only?
+   Answer: No, similar ideas can exist across multiple agent systems
 2. What is an MCP?
-   Answer: A connection that lets an agent use outside tools or data
-3. What is a command?
-   Answer: A shortcut that triggers behavior
+   Answer: A standard connection that lets an agent use outside tools or data
+3. What should Reagan ask when a term appears in a new app?
+   Answer: What app am I using, and what does this word mean here?
 
 ## Lesson 7: First Project, My AI Workspace
 1. What is the Week 1 project?
-   Answer: Set up my AI workspace
-2. What accounts should be working by the end?
-   Answer: Claude, Codex, Telegram, and Hermes
+   Answer: Set up and document my AI workspace
+2. What must Reagan be able to do later?
+   Answer: Log back in, find saved work, and resume
 3. What makes the project complete?
-   Answer: Working access, setup guide, glossary, and proof
+   Answer: Working access, setup guide, glossary, agent org, saved work, and proof

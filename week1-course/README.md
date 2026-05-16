@@ -2,17 +2,23 @@
 
 Interactive Week 1 course for Reagan.
 
-## What changed
+## Current focus
 
-This week now matches CJ's direction:
+This week now walks Reagan through the real first project: setting up her AI workspace, saving her work, and understanding agent orgs.
+
+## Included
 
 - Claude setup and first prompt
 - Codex setup and first task
 - Telegram setup
-- Hermes agent setup in Telegram
+- Hermes install in terminal
+- Codex subscription auth for Hermes
+- Telegram agent connection
+- Saved sessions and how to log back in later
 - LLMs vs agents
 - Markdown and MD files
-- Skills, commands, tools, APIs, MCPs, memory
+- Agent org charts with orchestrator, chief, CFO, content, research, and proof roles
+- Skills, commands, tools, APIs, MCPs, memory across multiple agent systems
 - Final project: My AI Workspace setup guide
 
 ## Files
