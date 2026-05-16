@@ -31,6 +31,8 @@ By the end, Reagan should have:
 
 ## Coach emphasis
 
+- Every lesson now has at least one visual aid: video, graphic, docs image, or online reference card. Use the visual first, then teach the concept.
+
 - Do not let this become theory only.
 - The setup section should be slow and literal.
 - Do not expose Telegram bot tokens, API keys, passwords, OAuth codes, or private data in screenshots.

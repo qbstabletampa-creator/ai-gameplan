@@ -20,6 +20,7 @@ This week now walks Reagan through the real first project: setting up her AI wor
 - Agent org charts with orchestrator, chief, CFO, content, research, and proof roles
 - Skills, commands, tools, APIs, MCPs, memory across multiple agent systems
 - Final project: My AI Workspace setup guide
+- Visual aid cards for every lesson using videos, online graphics, docs, and reference images
 
 ## Files
 

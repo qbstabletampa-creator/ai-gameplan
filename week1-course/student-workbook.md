@@ -14,6 +14,11 @@ Open `index.html` first. Use this workbook to write answers, paste proof, and ke
 **Video:** [What are AI Agents?](https://www.youtube.com/watch?v=F8NKVhkZZWI)
 **Why this video:** Understand the difference between a model that answers and an agent that can use tools.
 
+### Visual aids
+- [AI agents in motion](https://www.youtube.com/watch?v=F8NKVhkZZWI)
+  - Source: IBM Technology on YouTube
+  - Use it for: Use this visual to point out the shift from answering to acting.
+
 ### Warm up
 Write this in your own words: what is the difference between an AI that answers and an AI that acts?
 
@@ -46,6 +51,11 @@ Submit your chart and a 4 sentence explanation of why CJ uses agents instead of 
 
 **Video:** [Getting started with Claude.ai](https://www.youtube.com/watch?v=0vZ_UVLhSQQ)
 **Why this video:** Set up Claude, log in, and understand the first clicks without sitting through a long video.
+
+### Visual aids
+- [Claude first chat walkthrough](https://www.youtube.com/watch?v=0vZ_UVLhSQQ)
+  - Source: Anthropic on YouTube
+  - Use it for: Shows the first clicks and keeps the setup lesson short.
 
 ### Warm up
 Claude is where you go when you need a smart thinking partner. It is strong for writing, planning, summarizing, and explaining.
@@ -80,6 +90,14 @@ Submit a screenshot showing Claude open and paste the final 5 step plan into you
 **Video:** [Using OpenAI Codex CLI with GPT-5-Codex](https://www.youtube.com/watch?v=iqNzfK4_meQ)
 **Why this video:** See Codex from the official OpenAI channel and understand how it differs from Claude.
 
+### Visual aids
+- [Codex as a coding agent](https://www.youtube.com/watch?v=iqNzfK4_meQ)
+  - Source: OpenAI on YouTube
+  - Use it for: Reinforces that Codex is for building, editing, and checking work.
+- [Codex CLI official docs](https://developers.openai.com/codex/cli)
+  - Source: OpenAI Developers
+  - Use it for: Official reference for what Codex CLI is and when to use it.
+
 ### Warm up
 Codex is for building, editing, reviewing, and checking work. Think of it as another smart teammate, not a magic button.
 
@@ -111,6 +129,11 @@ Submit a screenshot showing Codex access and 3 bullets on when you would choose 
 **Goal:** Reagan installs Hermes, connects it to Telegram, uses Codex subscription auth, and proves she can leave and come back later.
 
 **Video:** Internal walkthrough or CJ guided setup.
+
+### Visual aids
+- [Telegram bot front door](https://core.telegram.org/bots/tutorial)
+  - Source: Telegram logo and Telegram bot docs
+  - Use it for: Use this while explaining BotFather, bot tokens, and why Telegram is only the front door.
 
 ### What this lesson does
 This is the one place we talk about Hermes in detail. Hermes is the agent software. Telegram is the phone app she will use to talk to it. Codex subscription auth is one way Hermes can access a model without pasting API keys into the course.
@@ -166,6 +189,14 @@ Submit proof that Telegram is installed, the bot responds, Hermes runs in termin
 
 **Video:** Internal walkthrough or CJ guided setup.
 
+### Visual aids
+- [Markdown is the playbook file](https://www.markdownguide.org/basic-syntax/)
+  - Source: Markdown logo on Wikimedia Commons
+  - Use it for: Shows that MD files are plain text with structure.
+- [Supervisor routes work to specialists](https://reference.langchain.com/python/langgraph-supervisor)
+  - Source: LangGraph supervisor reference
+  - Use it for: Use this to explain orchestrator, chief, CFO, research, content, and proof checker roles.
+
 ### Warm up
 Markdown is plain text with structure. It is how you leave clear instructions for yourself, Claude, Codex, or any agent system. MD files are the notebook, playbook, and handoff file.
 
@@ -208,6 +239,14 @@ Submit my-ai-workspace.md, proof-log.md, and agent-org.md. CJ should be able to 
 
 **Video:** Internal walkthrough or CJ guided setup.
 
+### Visual aids
+- [MCP connects assistants to tools and data](https://modelcontextprotocol.io/docs/getting-started/intro)
+  - Source: Model Context Protocol docs
+  - Use it for: Use this while teaching MCPs as a general connection standard, not one app feature.
+- [Anthropic MCP announcement](https://www.anthropic.com/news/model-context-protocol)
+  - Source: Anthropic
+  - Use it for: Reinforces that MCP is a broader protocol for agents and assistants.
+
 ### Warm up
 Do not attach these words to one product. Claude can have commands and skills. Hermes can have commands and skills. Other systems can have tools, APIs, and MCPs too. Learn the concept, then learn the app.
 
@@ -242,6 +281,14 @@ Submit the glossary and label which examples belong to Claude, Codex, the Telegr
 **Goal:** Reagan finishes Week 1 with Claude, Codex, Telegram agent access, saved sessions, and a clean setup guide she can use again.
 
 **Video:** Internal walkthrough or CJ guided setup.
+
+### Visual aids
+- [Workspace lives in files, repos, and proof logs](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files)
+  - Source: GitHub mark and course project workflow
+  - Use it for: Use this as the visual cue for saving, versioning, and returning to work later.
+- [Telegram is one access point for the final workspace](https://telegram.org/)
+  - Source: Telegram logo on Wikimedia Commons
+  - Use it for: Reminds her the final project needs proof that the chat front door works.
 
 ### Project brief
 Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram agent access, saved work files, and a way to log back in later.

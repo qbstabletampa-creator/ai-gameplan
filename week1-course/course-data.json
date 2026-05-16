@@ -104,7 +104,17 @@
           "answer": 1
         }
       ],
-      "checkpoint": "I can explain LLM vs agent without hype."
+      "checkpoint": "I can explain LLM vs agent without hype.",
+      "visuals": [
+        {
+          "type": "Video + thumbnail",
+          "title": "AI agents in motion",
+          "source": "IBM Technology on YouTube",
+          "url": "https://www.youtube.com/watch?v=F8NKVhkZZWI",
+          "image": "https://img.youtube.com/vi/F8NKVhkZZWI/hqdefault.jpg",
+          "note": "Use this visual to point out the shift from answering to acting."
+        }
+      ]
     },
     {
       "slug": "02-claude-setup",
@@ -175,7 +185,17 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I have Claude open and know how to start clean."
+      "checkpoint": "I have Claude open and know how to start clean.",
+      "visuals": [
+        {
+          "type": "Video + thumbnail",
+          "title": "Claude first chat walkthrough",
+          "source": "Anthropic on YouTube",
+          "url": "https://www.youtube.com/watch?v=0vZ_UVLhSQQ",
+          "image": "https://img.youtube.com/vi/0vZ_UVLhSQQ/hqdefault.jpg",
+          "note": "Shows the first clicks and keeps the setup lesson short."
+        }
+      ]
     },
     {
       "slug": "03-codex-setup",
@@ -246,7 +266,25 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I can open Codex and know what job it should do."
+      "checkpoint": "I can open Codex and know what job it should do.",
+      "visuals": [
+        {
+          "type": "Video + thumbnail",
+          "title": "Codex as a coding agent",
+          "source": "OpenAI on YouTube",
+          "url": "https://www.youtube.com/watch?v=iqNzfK4_meQ",
+          "image": "https://img.youtube.com/vi/iqNzfK4_meQ/hqdefault.jpg",
+          "note": "Reinforces that Codex is for building, editing, and checking work."
+        },
+        {
+          "type": "Docs card",
+          "title": "Codex CLI official docs",
+          "source": "OpenAI Developers",
+          "url": "https://developers.openai.com/codex/cli",
+          "image": "https://avatars.githubusercontent.com/u/14957082?s=200&v=4",
+          "note": "Official reference for what Codex CLI is and when to use it."
+        }
+      ]
     },
     {
       "slug": "04-hermes-telegram",
@@ -346,7 +384,17 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I can install the agent, connect Telegram, authenticate with Codex, and return to saved work."
+      "checkpoint": "I can install the agent, connect Telegram, authenticate with Codex, and return to saved work.",
+      "visuals": [
+        {
+          "type": "Graphic + docs",
+          "title": "Telegram bot front door",
+          "source": "Telegram logo and Telegram bot docs",
+          "url": "https://core.telegram.org/bots/tutorial",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+          "note": "Use this while explaining BotFather, bot tokens, and why Telegram is only the front door."
+        }
+      ]
     },
     {
       "slug": "05-markdown-and-md",
@@ -430,7 +478,25 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I can save my work, return later, and explain my agent org."
+      "checkpoint": "I can save my work, return later, and explain my agent org.",
+      "visuals": [
+        {
+          "type": "Graphic",
+          "title": "Markdown is the playbook file",
+          "source": "Markdown logo on Wikimedia Commons",
+          "url": "https://www.markdownguide.org/basic-syntax/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg",
+          "note": "Shows that MD files are plain text with structure."
+        },
+        {
+          "type": "Agent org graphic",
+          "title": "Supervisor routes work to specialists",
+          "source": "LangGraph supervisor reference",
+          "url": "https://reference.langchain.com/python/langgraph-supervisor",
+          "image": "https://raw.githubusercontent.com/langchain-ai/langgraph-supervisor-py/5d341ac33475c1199a1ce2c9226338f063016a5e/static/img/supervisor.png",
+          "note": "Use this to explain orchestrator, chief, CFO, research, content, and proof checker roles."
+        }
+      ]
     },
     {
       "slug": "06-skills-commands-mcps",
@@ -496,7 +562,25 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I can explain the building blocks without thinking they belong to only one tool."
+      "checkpoint": "I can explain the building blocks without thinking they belong to only one tool.",
+      "visuals": [
+        {
+          "type": "Docs graphic",
+          "title": "MCP connects assistants to tools and data",
+          "source": "Model Context Protocol docs",
+          "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+          "image": "https://modelcontextprotocol.io/favicon.ico",
+          "note": "Use this while teaching MCPs as a general connection standard, not one app feature."
+        },
+        {
+          "type": "Reference",
+          "title": "Anthropic MCP announcement",
+          "source": "Anthropic",
+          "url": "https://www.anthropic.com/news/model-context-protocol",
+          "image": "https://www.anthropic.com/favicon.ico",
+          "note": "Reinforces that MCP is a broader protocol for agents and assistants."
+        }
+      ]
     },
     {
       "slug": "07-first-project",
@@ -562,7 +646,25 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I have my AI workspace set up, saved, organized, and ready to use again."
+      "checkpoint": "I have my AI workspace set up, saved, organized, and ready to use again.",
+      "visuals": [
+        {
+          "type": "Project proof visual",
+          "title": "Workspace lives in files, repos, and proof logs",
+          "source": "GitHub mark and course project workflow",
+          "url": "https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files",
+          "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "note": "Use this as the visual cue for saving, versioning, and returning to work later."
+        },
+        {
+          "type": "Graphic",
+          "title": "Telegram is one access point for the final workspace",
+          "source": "Telegram logo on Wikimedia Commons",
+          "url": "https://telegram.org/",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+          "note": "Reminds her the final project needs proof that the chat front door works."
+        }
+      ]
     }
   ]
 }
