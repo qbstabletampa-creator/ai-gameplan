@@ -1,40 +1,33 @@
-# AI Gameplan Week 1, Setup 101
+# AI Gameplan Week 1: Setup 101
 
-Interactive Week 1 course for Reagan.
+Interactive course for Rea to set up her first AI workspace.
+
+## Outcome
+
+By the end, Rea should have:
+
+- Claude access
+- Codex access
+- Telegram agent access
+- An AI Workspace folder
+- Markdown setup notes
+- Proof screenshots
+- Saved course progress file
+- Google Drive backup
+- One closeout note
 
 ## Current focus
 
-This week now walks Reagan through the real first project: setting up her AI workspace, saving her work, and understanding agent orgs.
-
-## Included
-
-- Claude setup and first prompt
-- Codex setup and first task
-- Telegram setup
-- Hermes install in terminal
-- Codex subscription auth for Hermes
-- Telegram agent connection
-- Saved sessions and how to log back in later
-- LLMs vs agents
-- Markdown and MD files
-- Agent org charts with orchestrator, chief, CFO, content, research, and proof roles
-- Skills, commands, tools, APIs, MCPs, memory across multiple agent systems
-- Final project: My AI Workspace setup guide
-- Visual aid cards for every lesson using videos, online graphics, docs, and reference images
-
-## Files
-
-- `index.html`, interactive course
-- `course-data.json`, course source data
-- `student-workbook.md`, student work area
-- `coach-notes.md`, CJ review notes
-- `quiz-answer-key.md`, answer key
-
-## Public URL
-
-https://qbstabletampa-creator.github.io/ai-gameplan/week1-course/
+This version uses short YouTube clips, local visual cards, and QB Stable operating practices. It does not teach frameworks we are not using.
 
 ## Hard rules
 
-- Every lesson must include relevant visual content.
-- Quiz correct answers must be mixed, not always A.
+- Every lesson needs a relevant visual aid or short clip.
+- Quiz answers must stay mixed.
+- Setup work must include save, backup, and resume habits.
+- Do not include private tokens or secrets.
+- Teach actual CJ systems: closeout, wiki, vaults, Drive backup, and proof.
+
+## Live site
+
+https://qbstabletampa-creator.github.io/ai-gameplan/week1-course/

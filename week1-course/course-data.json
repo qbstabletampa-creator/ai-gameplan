@@ -4,34 +4,74 @@
   "lastUpdated": "2026-05-16",
   "videos": [
     {
-      "id": "F8NKVhkZZWI",
-      "title": "What are AI Agents?",
-      "channel": "IBM Technology",
-      "url": "https://www.youtube.com/watch?v=F8NKVhkZZWI",
-      "views": "1,701,695",
-      "likes": "31,578",
-      "duration": "12:28",
-      "purpose": "Understand the difference between a model that answers and an agent that can use tools."
+      "id": "n5ksOqcBWoQ",
+      "title": "What are AI agents? AI Agents Explained in 2 minutes",
+      "channel": "Glide",
+      "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
+      "views": "5,938",
+      "likes": "Short YouTube clip",
+      "duration": "1:55",
+      "purpose": "Quick visual intro to agents before CJ examples."
     },
     {
       "id": "0vZ_UVLhSQQ",
       "title": "Getting started with Claude.ai",
       "channel": "Anthropic",
       "url": "https://www.youtube.com/watch?v=0vZ_UVLhSQQ",
-      "views": "Official Anthropic video",
+      "views": "1,115,047",
       "likes": "Official Anthropic video",
       "duration": "5:19",
-      "purpose": "Set up Claude, log in, and understand the first clicks without sitting through a long video."
+      "purpose": "Set up Claude, log in, and understand the first clicks without a long tutorial."
     },
     {
       "id": "iqNzfK4_meQ",
       "title": "Using OpenAI Codex CLI with GPT-5-Codex",
       "channel": "OpenAI",
       "url": "https://www.youtube.com/watch?v=iqNzfK4_meQ",
-      "views": "202,487",
-      "likes": "4,040",
+      "views": "202,660",
+      "likes": "Official OpenAI video",
       "duration": "5:42",
-      "purpose": "See Codex from the official OpenAI channel and understand how it differs from Claude."
+      "purpose": "See Codex from the official OpenAI channel and understand when it fits."
+    },
+    {
+      "id": "7u-RfnO7oZs",
+      "title": "How to CREATE a Telegram Bot Account",
+      "channel": "How To Everything",
+      "url": "https://www.youtube.com/watch?v=7u-RfnO7oZs",
+      "views": "222",
+      "likes": "Short clip",
+      "duration": "1:34",
+      "purpose": "A quick BotFather visual before the guided internal setup."
+    },
+    {
+      "id": "A8mLSLnk89A",
+      "title": "Markdown in 2 Minutes",
+      "channel": "BaseScript",
+      "url": "https://www.youtube.com/watch?v=A8mLSLnk89A",
+      "views": "278",
+      "likes": "Short clip",
+      "duration": "2:14",
+      "purpose": "Show Markdown as simple structured text before she builds workspace files."
+    },
+    {
+      "id": "taeX8tgpPRQ",
+      "title": "MCP Explained in 2 Minutes",
+      "channel": "9x",
+      "url": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
+      "views": "26,478",
+      "likes": "Short clip",
+      "duration": "2:28",
+      "purpose": "Explain MCP as a connection standard in plain language."
+    },
+    {
+      "id": "6DhHj3joUvY",
+      "title": "How To Use Google Drive",
+      "channel": "Insider Tech",
+      "url": "https://www.youtube.com/watch?v=6DhHj3joUvY",
+      "views": "200,092",
+      "likes": "Short YouTube clip",
+      "duration": "2:25",
+      "purpose": "Show the backup habit for files, screenshots, and proof."
     }
   ],
   "lessons": [
@@ -40,16 +80,16 @@
       "title": "Lesson 1: LLMs vs Agents",
       "time": "45 minutes",
       "video": {
-        "id": "F8NKVhkZZWI",
-        "title": "What are AI Agents?",
-        "channel": "IBM Technology",
-        "url": "https://www.youtube.com/watch?v=F8NKVhkZZWI",
-        "views": "1,701,695",
-        "likes": "31,578",
-        "duration": "12:28",
-        "purpose": "Understand the difference between a model that answers and an agent that can use tools."
+        "id": "n5ksOqcBWoQ",
+        "title": "What are AI agents? AI Agents Explained in 2 minutes",
+        "channel": "Glide",
+        "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
+        "views": "5,938",
+        "likes": "Short YouTube clip",
+        "duration": "1:55",
+        "purpose": "Quick visual intro to agents before CJ examples."
       },
-      "goal": "Reagan can explain the difference between Claude as an LLM and Hermes as an agent in normal words.",
+      "goal": "Reagan can explain the difference between an LLM and an agent in normal words, using CJ examples instead of hype.",
       "sections": [
         [
           "Warm up",
@@ -107,12 +147,12 @@
       "checkpoint": "I can explain LLM vs agent without hype.",
       "visuals": [
         {
-          "type": "Video + thumbnail",
-          "title": "AI agents in motion",
-          "source": "IBM Technology on YouTube",
-          "url": "https://www.youtube.com/watch?v=F8NKVhkZZWI",
-          "image": "https://img.youtube.com/vi/F8NKVhkZZWI/hqdefault.jpg",
-          "note": "Use this visual to point out the shift from answering to acting."
+          "type": "Short YouTube clip",
+          "title": "AI agents in 2 minutes",
+          "source": "Glide on YouTube",
+          "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
+          "image": "https://img.youtube.com/vi/n5ksOqcBWoQ/hqdefault.jpg",
+          "note": "Use this to start the LLM vs agent conversation fast."
         }
       ]
     },
@@ -125,10 +165,10 @@
         "title": "Getting started with Claude.ai",
         "channel": "Anthropic",
         "url": "https://www.youtube.com/watch?v=0vZ_UVLhSQQ",
-        "views": "Official Anthropic video",
+        "views": "1,115,047",
         "likes": "Official Anthropic video",
         "duration": "5:19",
-        "purpose": "Set up Claude, log in, and understand the first clicks without sitting through a long video."
+        "purpose": "Set up Claude, log in, and understand the first clicks without a long tutorial."
       },
       "goal": "Reagan creates or logs into Claude and runs a useful first prompt.",
       "sections": [
@@ -206,10 +246,10 @@
         "title": "Using OpenAI Codex CLI with GPT-5-Codex",
         "channel": "OpenAI",
         "url": "https://www.youtube.com/watch?v=iqNzfK4_meQ",
-        "views": "202,487",
-        "likes": "4,040",
+        "views": "202,660",
+        "likes": "Official OpenAI video",
         "duration": "5:42",
-        "purpose": "See Codex from the official OpenAI channel and understand how it differs from Claude."
+        "purpose": "See Codex from the official OpenAI channel and understand when it fits."
       },
       "goal": "Reagan creates or logs into Codex and understands when Codex is the right tool.",
       "sections": [
@@ -290,56 +330,37 @@
       "slug": "04-hermes-telegram",
       "title": "Lesson 4: Set Up Your Telegram Agent",
       "time": "120 minutes",
-      "video": null,
+      "video": {
+        "id": "7u-RfnO7oZs",
+        "title": "How to CREATE a Telegram Bot Account",
+        "channel": "How To Everything",
+        "url": "https://www.youtube.com/watch?v=7u-RfnO7oZs",
+        "views": "222",
+        "likes": "Short clip",
+        "duration": "1:34",
+        "purpose": "A quick BotFather visual before the guided internal setup."
+      },
       "goal": "Reagan installs Hermes, connects it to Telegram, uses Codex subscription auth, and proves she can leave and come back later.",
       "sections": [
         [
-          "What this lesson does",
-          "This is the one place we talk about Hermes in detail. Hermes is the agent software. Telegram is the phone app she will use to talk to it. Codex subscription auth is one way Hermes can access a model without pasting API keys into the course."
+          "Warm up",
+          "Telegram is the front door. The agent is the worker behind it. BotFather creates the bot account, then Hermes connects the bot to the agent."
         ],
         [
-          "Before you start",
-          "You need a laptop, terminal access, Telegram on your phone or desktop, a Codex subscription login, and CJ nearby for any approval or pairing step. Do not paste tokens, bot keys, passwords, or private client info into the workbook."
+          "Watch with purpose",
+          "Watch the 1:34 BotFather clip. Write down what BotFather creates and what it does not create."
         ],
         [
-          "Step 1, set up Telegram",
-          "Download Telegram from telegram.org or the app store. Create an account with your phone number. Add a profile name Reagan will recognize. Turn on two step verification in Telegram settings. Open Telegram Desktop too, because setup is easier when the terminal and Telegram are on the same computer."
+          "Setup",
+          "Create the Telegram bot with BotFather. Save the bot name. Do not paste the bot token into public docs or screenshots. CJ approves the token connection step."
         ],
         [
-          "Step 2, create the bot front door",
-          "In Telegram, search for BotFather. Start a chat. Send /newbot. Give it a clear name like Reagan AI Agent. Give it a username ending in bot. Copy the bot token into a private local note only. Do not put it in screenshots, GitHub, Google Docs, or the workbook."
+          "Hermes connection",
+          "Follow the guided internal setup for the Telegram gateway. Confirm you can send one message to the bot and get one response back."
         ],
         [
-          "Step 3, install Hermes in terminal",
-          "Open terminal. Run this command: curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash. Close and reopen terminal if hermes is not found. Then run hermes doctor and save any warnings in your private setup notes."
-        ],
-        [
-          "Step 4, sign in with Codex subscription auth",
-          "Run hermes login --provider openai-codex. Follow the browser login. Use the Codex subscription account CJ approved. Then run hermes model and choose the Codex or OpenAI Codex provider option if shown. Do not paste a password or token into chat."
-        ],
-        [
-          "Step 5, basic Hermes setup",
-          "Run hermes setup. Confirm the model works with hermes chat -q \"Reply with one sentence that says setup is working.\" Then run hermes config path and hermes config env-path so you know where settings and secrets live."
-        ],
-        [
-          "Step 6, connect Telegram",
-          "Run hermes gateway setup and choose Telegram. Paste the bot token only when the setup wizard asks for it. Then run hermes gateway run for a first test. Message your bot in Telegram with /help. If it answers, the front door works."
-        ],
-        [
-          "Step 7, approve and test safely",
-          "If the agent asks CJ to approve the chat, complete that with CJ watching. Test /help, /new, /model, /tools, /skills, and /status. Then ask one safe question: what can you help me do, and what should I avoid asking you to change yet?"
-        ],
-        [
-          "Step 8, save your work and log back in",
-          "Name the session with /title Week 1 Setup. In terminal, run hermes sessions list so you can see saved sessions. Practice returning with hermes --continue or hermes --resume SESSION_ID. In Telegram, keep using the same bot chat unless CJ tells you to start fresh with /new."
-        ],
-        [
-          "Troubleshooting",
-          "If anything fails, do not guess. Copy the exact command, the exact error, and what step you were on into your private setup notes. Then ask CJ or the agent for help. Never solve auth problems by posting tokens into chat."
-        ],
-        [
-          "Submit",
-          "Submit proof that Telegram is installed, the bot responds, Hermes runs in terminal, Codex auth completed, and you know how to find saved sessions. Hide every token or private value."
+          "Proof",
+          "Submit a screenshot of the bot chat working, with any private token hidden. Add the bot name and the date to proof-log.md."
         ]
       ],
       "quiz": [
@@ -387,93 +408,90 @@
       "checkpoint": "I can install the agent, connect Telegram, authenticate with Codex, and return to saved work.",
       "visuals": [
         {
-          "type": "Graphic + docs",
-          "title": "Telegram bot front door",
-          "source": "Telegram logo and Telegram bot docs",
-          "url": "https://core.telegram.org/bots/tutorial",
-          "image": "assets/visuals/telegram-bot.svg",
-          "note": "Use this while explaining BotFather, bot tokens, and why Telegram is only the front door."
+          "type": "Short YouTube clip",
+          "title": "BotFather quick visual",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/watch?v=7u-RfnO7oZs",
+          "image": "https://img.youtube.com/vi/7u-RfnO7oZs/hqdefault.jpg",
+          "note": "Quick visual for creating a Telegram bot account before CJ approves connection steps."
         }
       ]
     },
     {
       "slug": "05-markdown-and-md",
-      "title": "Lesson 5: Markdown, Saved Work, and Agent Orgs",
+      "title": "Lesson 5: Markdown, Saved Work, Wiki, and Closeout",
       "time": "75 minutes",
-      "video": null,
-      "goal": "Reagan can use MD files to save work, log back in later, and design a simple agent org chart.",
+      "video": {
+        "id": "A8mLSLnk89A",
+        "title": "Markdown in 2 Minutes",
+        "channel": "BaseScript",
+        "url": "https://www.youtube.com/watch?v=A8mLSLnk89A",
+        "views": "278",
+        "likes": "Short clip",
+        "duration": "2:14",
+        "purpose": "Show Markdown as simple structured text before she builds workspace files."
+      },
+      "goal": "Reagan builds the habit of saving useful work in Markdown, backing it up, and closing the loop with proof.",
       "sections": [
         [
-          "Warm up",
-          "Markdown is plain text with structure. It is how you leave clear instructions for yourself, Claude, Codex, or any agent system. MD files are the notebook, playbook, and handoff file."
+          "Markdown is the playbook",
+          "Markdown is plain text with structure. Use headings, bullets, links, screenshots, and checklists. It is how we keep work readable for people and useful for agents."
         ],
         [
-          "Markdown basics",
-          "Use headings for sections, bullets for lists, checkboxes for action steps, and code blocks for exact commands. A good MD file should still make sense when you open it next week."
+          "Karpathy style setup",
+          "Start every workspace with clear context, examples, constraints, and proof. The agent should not guess where things live or what good looks like."
         ],
         [
-          "Save your work",
-          "Create a folder called ai-workspace. Inside it, create my-ai-workspace.md, agent-org.md, prompts.md, and proof-log.md. Every session should leave behind notes, links, screenshots, commands tested, and next steps."
+          "Wiki and vaults",
+          "The wiki is where durable knowledge goes. Vaults split work by lane: main ops, QB Stable content, RISE content, Brady football knowledge, and recruiting. Rea does not need to master every vault yet. She needs to know that good knowledge gets saved where the team can find it."
         ],
         [
-          "Log back in later",
-          "Write down where work lives. Example: Telegram bot chat for messages, terminal sessions for local agent history, MD files for notes, Drive or vault folder for proof. Practice closing the laptop, reopening the course, and finding the last step without asking CJ."
-        ],
-        [
-          "Agent orgs",
-          "An agent org is a team map. One agent is the orchestrator that routes work. Other agents have jobs. CJ's team has roles like orchestrator, chief, CFO, ad analyst, content helper, inbox triage, wiki keeper, and ops helper. The point is not titles. The point is clear lanes."
-        ],
-        [
-          "Outside examples",
-          "LangGraph uses a supervisor pattern where a central supervisor routes tasks to specialized agents. Crew style systems often define roles, goals, tasks, and process. AutoGen style systems use multiple agents in conversation. Same idea: one team, clear roles, clean handoffs."
+          "Closeout habit",
+          "Every session ends with what changed, where it lives, proof, and the next step. If it is not written down, it did not happen."
         ],
         [
           "Build",
-          "Create agent-org.md. Add an orchestrator, chief, CFO, content agent, research agent, and proof checker. For each one, write purpose, allowed tools, what it should never do, and what proof it must return."
-        ],
-        [
-          "Submit",
-          "Submit my-ai-workspace.md, proof-log.md, and agent-org.md. CJ should be able to open the folder and know exactly where you left off."
+          "Create an ai-workspace folder with my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today\u2019s setup notes and one clean next step."
         ]
       ],
       "quiz": [
         {
           "q": "What is Markdown best for here?",
           "choices": [
-            "Saving structured instructions and proof",
+            "Saving readable structured work",
             "Hiding passwords",
-            "Replacing every app",
-            "Making videos"
+            "Replacing judgment",
+            "Deleting proof"
           ],
           "answer": 0
         },
         {
-          "q": "What is an orchestrator?",
+          "q": "What belongs in a closeout note?",
           "choices": [
-            "A password",
-            "A video editor",
-            "A random file",
-            "The role that routes work to the right specialist"
-          ],
-          "answer": 3
-        },
-        {
-          "q": "Why make an agent org chart?",
-          "choices": [
-            "To make titles sound fancy",
-            "To avoid saving work",
-            "To give each agent a clear lane and proof standard",
-            "To confuse CJ"
+            "A random quote",
+            "Only the date",
+            "What changed, where it lives, proof, and next step",
+            "Nothing"
           ],
           "answer": 2
         },
         {
-          "q": "What should help Reagan log back in later?",
+          "q": "Why use wiki and vaults?",
           "choices": [
-            "A saved folder, MD files, session notes, and proof log",
-            "Memory only",
-            "Guessing",
-            "A hidden token"
+            "To make work harder",
+            "To save durable knowledge where the team can find it",
+            "To avoid writing",
+            "To store private tokens"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is the Karpathy style setup idea for Rea?",
+          "choices": [
+            "Give the agent clear context, examples, constraints, and proof",
+            "Ask vague questions only",
+            "Skip examples",
+            "Never save notes"
           ],
           "answer": 0
         }
@@ -481,20 +499,28 @@
       "checkpoint": "I can save my work, return later, and explain my agent org.",
       "visuals": [
         {
-          "type": "Graphic",
-          "title": "Markdown is the playbook file",
-          "source": "Markdown logo on Wikimedia Commons",
-          "url": "https://www.markdownguide.org/basic-syntax/",
-          "image": "assets/visuals/markdown-playbook.svg",
-          "note": "Shows that MD files are plain text with structure."
+          "type": "Short YouTube clip",
+          "title": "Markdown in 2 minutes",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/watch?v=A8mLSLnk89A",
+          "image": "https://img.youtube.com/vi/A8mLSLnk89A/hqdefault.jpg",
+          "note": "Shows Markdown fast, without a long coding detour."
         },
         {
-          "type": "Agent org graphic",
-          "title": "Supervisor routes work to specialists",
-          "source": "LangGraph supervisor reference",
-          "url": "https://reference.langchain.com/python/langgraph-supervisor",
-          "image": "assets/visuals/agent-supervisor.svg",
-          "note": "Use this to explain orchestrator, chief, CFO, research, content, and proof checker roles."
+          "type": "Best practice card",
+          "title": "Closeout saves the work",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/closeout-system.svg",
+          "note": "Use this to teach the session end habit: changed, proof, location, next step."
+        },
+        {
+          "type": "Best practice card",
+          "title": "Wiki and vaults are team memory",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/wiki-vaults.svg",
+          "note": "Durable knowledge belongs in the right vault, not buried in chat."
         }
       ]
     },
@@ -502,32 +528,37 @@
       "slug": "06-skills-commands-mcps",
       "title": "Lesson 6: Skills, Commands, Tools, and MCPs",
       "time": "60 minutes",
-      "video": null,
+      "video": {
+        "id": "taeX8tgpPRQ",
+        "title": "MCP Explained in 2 Minutes",
+        "channel": "9x",
+        "url": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
+        "views": "26,478",
+        "likes": "Short clip",
+        "duration": "2:28",
+        "purpose": "Explain MCP as a connection standard in plain language."
+      },
       "goal": "Reagan knows these building blocks can exist across Claude, Codex, and other agent systems.",
       "sections": [
         [
           "Warm up",
-          "Do not attach these words to one product. Claude can have commands and skills. Hermes can have commands and skills. Other systems can have tools, APIs, and MCPs too. Learn the concept, then learn the app."
+          "A command tells the agent what to do. A skill is a saved best practice. A tool lets the agent touch the outside world. An MCP is a clean way to connect tools and data."
         ],
         [
-          "Teach",
-          "Skills are saved playbooks. Commands are shortcuts. Tools are actions an agent can take. APIs are ways software talks to software. MCPs are standardized connections to outside tools or data. Memory is durable context that should still matter later."
+          "Watch with purpose",
+          "Watch the 2:28 MCP clip. Write down the simplest definition of MCP in one sentence."
         ],
         [
-          "Examples",
-          "Skill: a saved process for updating Mission Control. Command: /new or /help. Tool: read a file or search the web. API: send data to a calendar. MCP: connect an agent to Drive, GitHub, Notion, or another system."
+          "Examples we actually use",
+          "Closeout is a skill. Wiki is durable memory. Drive backup protects files. Telegram is an access point. MCPs connect agents to systems when the setup supports it."
         ],
         [
-          "How not to get confused",
-          "Ask two questions. What app am I using right now? What does this word mean inside that app? The same word can show up in more than one place."
+          "Best practice",
+          "Do not teach random frameworks just because they are popular. Use the system CJ actually runs. If we do not use it, it does not belong in Setup 101."
         ],
         [
           "Build",
-          "Make a glossary with one definition and one example for MD, skill, command, tool, API, MCP, memory, model, agent, orchestrator, and proof."
-        ],
-        [
-          "Submit",
-          "Submit the glossary and label which examples belong to Claude, Codex, the Telegram agent, or general agent systems."
+          "Add a glossary to my-ai-workspace.md with: LLM, agent, command, skill, tool, MCP, wiki, vault, closeout, Drive backup."
         ]
       ],
       "quiz": [
@@ -565,20 +596,20 @@
       "checkpoint": "I can explain the building blocks without thinking they belong to only one tool.",
       "visuals": [
         {
-          "type": "Docs graphic",
-          "title": "MCP connects assistants to tools and data",
-          "source": "Model Context Protocol docs",
-          "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
-          "image": "assets/visuals/mcp-tools.svg",
-          "note": "Use this while teaching MCPs as a general connection standard, not one app feature."
+          "type": "Short YouTube clip",
+          "title": "MCP in 2 minutes",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
+          "image": "https://img.youtube.com/vi/taeX8tgpPRQ/hqdefault.jpg",
+          "note": "Use this only to explain the connection idea, not a random framework."
         },
         {
-          "type": "Reference",
-          "title": "Anthropic MCP announcement",
-          "source": "Anthropic",
-          "url": "https://www.anthropic.com/news/model-context-protocol",
-          "image": "assets/visuals/agent-protocol.svg",
-          "note": "Reinforces that MCP is a broader protocol for agents and assistants."
+          "type": "Best practice card",
+          "title": "Karpathy setup notes",
+          "source": "CJ best practice adaptation",
+          "url": "#",
+          "image": "assets/visuals/karpathy-setup.svg",
+          "note": "Context, examples, constraints, proof. That is the setup habit."
         }
       ]
     },
@@ -586,32 +617,37 @@
       "slug": "07-first-project",
       "title": "Lesson 7: First Project, My AI Workspace",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan finishes Week 1 with Claude, Codex, Telegram agent access, saved sessions, and a clean setup guide she can use again.",
+      "video": {
+        "id": "6DhHj3joUvY",
+        "title": "How To Use Google Drive",
+        "channel": "Insider Tech",
+        "url": "https://www.youtube.com/watch?v=6DhHj3joUvY",
+        "views": "200,092",
+        "likes": "Short YouTube clip",
+        "duration": "2:25",
+        "purpose": "Show the backup habit for files, screenshots, and proof."
+      },
+      "goal": "Reagan finishes with a real AI workspace, saved progress, a Drive backup, and a clear resume point.",
       "sections": [
         [
           "Project brief",
-          "Your first project is not fake. Set up your own AI workspace. By the end, you should have Claude, Codex, Telegram agent access, saved work files, and a way to log back in later."
+          "Build My AI Workspace. It should prove she can log into Claude, use Codex, message the Telegram agent, save Markdown notes, and back up proof."
         ],
         [
-          "Required proof",
-          "Include screenshots or notes proving Claude login, Codex login, Telegram setup, agent response, Codex auth, saved session list, and your glossary. Hide every private token."
+          "Progress save",
+          "Use the Save progress button in this course. Download the progress file. Upload it to the AI Workspace folder in Google Drive."
         ],
         [
-          "Build",
-          "Create My AI Workspace setup guide. Include accounts, links, first prompts, commands tested, where sessions are saved, how to resume, glossary, rules, and what to ask CJ for if something is blocked."
+          "Drive backup",
+          "Back up my-ai-workspace.md, prompts.md, proof-log.md, closeout.md, and screenshots to Drive. The rule is simple: local work plus cloud proof."
         ],
         [
-          "Agent org section",
-          "Add your agent org chart to the guide. Include orchestrator, chief, CFO, content agent, research agent, and proof checker. Explain what each role does in one sentence."
-        ],
-        [
-          "Review",
-          "Ask Claude to make the guide clearer. Ask Codex to check for missing steps. Ask your Telegram agent what proof CJ would want before marking it complete."
+          "Closeout",
+          "Write one closeout note: what was set up, what worked, what is still missing, where the files live, and what the next step is."
         ],
         [
           "Submit",
-          "Submit the guide, proof screenshots, quiz score, agent org chart, and a 2 minute walkthrough for CJ."
+          "Submit the Drive folder link or screenshot, the downloaded progress file, and the final closeout note."
         ]
       ],
       "quiz": [
@@ -619,7 +655,7 @@
           "q": "What is the Week 1 project?",
           "choices": [
             "Build a full app",
-            "Set up and document my AI workspace",
+            "Set up, save, and back up my AI workspace",
             "Post on social",
             "Run paid ads"
           ],
@@ -630,7 +666,7 @@
           "choices": [
             "Start over from memory",
             "Ask CJ where everything is",
-            "Log back in, find saved work, and resume",
+            "Open the saved progress file, Drive folder, and closeout note",
             "Ignore proof"
           ],
           "answer": 2
@@ -638,7 +674,7 @@
         {
           "q": "What makes the project complete?",
           "choices": [
-            "Working access, setup guide, glossary, agent org, saved work, and proof",
+            "Working access, saved files, Drive backup, proof, and closeout",
             "A nice title only",
             "A long video watched",
             "No screenshots"
@@ -649,26 +685,29 @@
       "checkpoint": "I have my AI workspace set up, saved, organized, and ready to use again.",
       "visuals": [
         {
-          "type": "Project proof visual",
-          "title": "Workspace lives in files, repos, and proof logs",
-          "source": "GitHub mark and course project workflow",
-          "url": "https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files",
-          "image": "assets/visuals/workspace-proof.svg",
-          "note": "Use this as the visual cue for saving, versioning, and returning to work later."
+          "type": "Short YouTube clip",
+          "title": "Google Drive in 2 minutes",
+          "source": "Insider Tech on YouTube",
+          "url": "https://www.youtube.com/watch?v=6DhHj3joUvY",
+          "image": "https://img.youtube.com/vi/6DhHj3joUvY/hqdefault.jpg",
+          "note": "Use this to teach the backup habit without making Drive the whole lesson."
         },
         {
-          "type": "Graphic",
-          "title": "Telegram is one access point for the final workspace",
-          "source": "Course visual card",
-          "url": "https://telegram.org/",
-          "image": "assets/visuals/telegram-workspace.svg",
-          "note": "Reminds her the final project needs proof that the chat front door works."
+          "type": "Best practice card",
+          "title": "Drive backup protects progress",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/drive-backup.svg",
+          "note": "Every real deliverable gets a cloud copy and proof."
         }
       ]
     }
   ],
   "qualityRules": [
     "Every lesson must have at least one relevant visual aid: video, graphic, online image, docs card, X post, or useful combination.",
-    "Quiz correct answers must be varied. Do not make every correct answer A."
+    "Quiz correct answers must be varied. Do not make every correct answer A.",
+    "Prefer short YouTube clips over generic link cards when a credible short clip exists.",
+    "Do not teach tools or frameworks we do not use in CJ operations.",
+    "Every setup lesson must include a save, backup, and resume habit."
   ]
 }
