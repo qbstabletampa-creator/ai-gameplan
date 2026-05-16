@@ -45,6 +45,7 @@
     html {
       scroll-behavior: smooth;
       overflow-x: hidden;
+      scroll-padding-top: 120px;
     }
 
     body {
@@ -450,8 +451,13 @@
 
     .week-block {
       position: relative;
-      margin-bottom: 4rem;
-      padding-bottom: 2rem;
+      margin-bottom: 3rem;
+      padding-bottom: 1.5rem;
+      scroll-margin-top: 96px;
+    }
+
+    .section, .section-dark, .section-gray {
+      scroll-margin-top: 96px;
     }
 
     .week-block::before {
@@ -614,6 +620,130 @@
     .deliverable-text {
       font-size: 0.95rem;
       color: var(--gray-800);
+    }
+
+
+
+    /* ===== SCROLL MOTION ===== */
+    .motion-lane {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .motion-orb {
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(212,195,106,0.18), transparent 65%);
+      filter: blur(2px);
+      transform: translate3d(0, 0, 0);
+      transition: transform 0.12s linear;
+    }
+
+    .motion-orb.one { top: 20%; left: 8%; }
+    .motion-orb.two { top: 55%; right: 5%; width: 240px; height: 240px; opacity: 0.8; }
+
+    .section, .section-dark, .section-gray, .hero, .footer {
+      position: relative;
+      z-index: 1;
+    }
+
+    .week-block.visible .module-item {
+      animation: modulePop 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+
+    .week-block.visible .module-item:nth-child(1) { animation-delay: 0.03s; }
+    .week-block.visible .module-item:nth-child(2) { animation-delay: 0.08s; }
+    .week-block.visible .module-item:nth-child(3) { animation-delay: 0.13s; }
+    .week-block.visible .module-item:nth-child(4) { animation-delay: 0.18s; }
+    .week-block.visible .module-item:nth-child(5) { animation-delay: 0.23s; }
+    .week-block.visible .module-item:nth-child(6) { animation-delay: 0.28s; }
+    .week-block.visible .module-item:nth-child(7) { animation-delay: 0.33s; }
+    .week-block.visible .module-item:nth-child(8) { animation-delay: 0.38s; }
+
+    @keyframes modulePop {
+      from { opacity: 0; transform: translateX(-18px) scale(0.98); }
+      to { opacity: 1; transform: translateX(0) scale(1); }
+    }
+
+    .setup-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .setup-card, .resource-card {
+      border: 1px solid var(--gray-200);
+      border-radius: 14px;
+      padding: 1.25rem;
+      background: var(--white);
+      transition: all 0.35s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .setup-card::before, .resource-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent, rgba(212,195,106,0.12), transparent);
+      transform: translateX(-100%);
+      transition: transform 0.7s ease;
+    }
+
+    .setup-card:hover, .resource-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 12px 35px var(--gold-dim);
+      transform: translateY(-5px);
+    }
+
+    .setup-card:hover::before, .resource-card:hover::before {
+      transform: translateX(100%);
+    }
+
+    .setup-kicker, .resource-kicker {
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.4rem;
+    }
+
+    .setup-title, .resource-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 800;
+      font-size: 1.05rem;
+      margin-bottom: 0.35rem;
+      position: relative;
+    }
+
+    .setup-copy, .resource-copy {
+      font-size: 0.9rem;
+      color: var(--gray-600);
+      position: relative;
+    }
+
+    .resource-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .resource-link {
+      display: inline-flex;
+      margin-top: 0.75rem;
+      color: var(--black);
+      font-weight: 800;
+      text-decoration: none;
+      border-bottom: 2px solid var(--gold);
+      position: relative;
     }
 
     /* ===== GRADING ===== */
@@ -1047,6 +1177,10 @@
 
   <!-- Progress Bar -->
   <div class="progress-bar" id="progressBar"></div>
+  <div class="motion-lane" aria-hidden="true">
+    <div class="motion-orb one"></div>
+    <div class="motion-orb two"></div>
+  </div>
 
   <!-- Side TOC -->
   <div class="side-toc" id="sideToc">
@@ -1093,7 +1227,7 @@
         <div class="hero-stat-label">Modules</div>
       </div>
       <div class="hero-stat">
-        <div class="hero-stat-number" data-count="20">0</div>
+        <div class="hero-stat-number" data-count="21">0</div>
         <div class="hero-stat-label">Deliverables</div>
       </div>
     </div>
@@ -1126,7 +1260,7 @@
       <div class="info-card reveal-scale reveal-delay-4">
         <div class="info-card-icon">&#x1F6E0;&#xFE0F;</div>
         <div class="info-card-title">Tools</div>
-        <div class="info-card-value">Claude Code</div>
+        <div class="info-card-value">Claude, Codex, Hermes</div>
       </div>
     </div>
   </section>
@@ -1144,62 +1278,95 @@
       <!-- Week 1 -->
       <div class="week-block reveal-left" id="week1">
         <div class="week-number">Week 01</div>
-        <div class="week-title">Claude Code 101</div>
-        <div class="week-tagline">"Build Your Workshop." We'll walk you through setup, Rea. Just follow the steps.</div>
+        <div class="week-title">Setup 101: Your First AI Workspace</div>
+        <div class="week-tagline">"Build Your Workshop." By Friday, Rea has Claude, Codex, and her own Hermes agent in Telegram.</div>
+
+        <div class="setup-grid">
+          <div class="setup-card">
+            <div class="setup-kicker">Concept</div>
+            <div class="setup-title">LLM vs agent</div>
+            <div class="setup-copy">An LLM answers. An agent acts. It can use tools, remember rules, call APIs, and help you finish real work.</div>
+          </div>
+          <div class="setup-card">
+            <div class="setup-kicker">Accounts</div>
+            <div class="setup-title">Claude, Codex, Telegram</div>
+            <div class="setup-copy">Create the accounts, log in, test a first prompt, and know what each tool is best for.</div>
+          </div>
+          <div class="setup-card">
+            <div class="setup-kicker">Agent pieces</div>
+            <div class="setup-title">MD, skills, commands, MCPs</div>
+            <div class="setup-copy">Markdown gives instructions. Skills are playbooks. Commands are shortcuts. MCPs connect outside tools.</div>
+          </div>
+        </div>
+
+        <div class="resource-row">
+          <div class="resource-card">
+            <div class="resource-kicker">Short video</div>
+            <div class="resource-title">Getting started with Claude.ai</div>
+            <div class="resource-copy">5:19. Shorter replacement for the 30 minute Claude video. Watch, log in, then test a real prompt.</div>
+            <a class="resource-link" href="https://www.youtube.com/watch?v=0vZ_UVLhSQQ" target="_blank" rel="noopener">Watch the Claude setup video</a>
+          </div>
+          <div class="resource-card">
+            <div class="resource-kicker">First win</div>
+            <div class="resource-title">Build your own agent access</div>
+            <div class="resource-copy">Rea finishes Week 1 with a working Telegram agent and a simple written guide explaining how it works.</div>
+          </div>
+        </div>
+
         <ul class="module-list">
           <li class="module-item">
             <span class="module-number">1.1</span>
             <div class="module-content">
-              <div class="module-topic">LLMs vs Agentic AI</div>
+              <div class="module-topic">What an LLM is: Claude, ChatGPT, Gemini</div>
               <span class="module-time">45 min</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.2</span>
             <div class="module-content">
-              <div class="module-topic">Terminal basics</div>
-              <span class="module-time">1 hr</span>
+              <div class="module-topic">What an agent is: tools, memory, actions, guardrails</div>
+              <span class="module-time">45 min</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.3</span>
             <div class="module-content">
-              <div class="module-topic">Claude Code setup</div>
+              <div class="module-topic">Claude setup, login, first useful prompt</div>
               <span class="module-time">1 hr</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.4</span>
             <div class="module-content">
-              <div class="module-topic">Claude Cowork, pair programming with AI</div>
+              <div class="module-topic">Codex setup, login, when to use it</div>
               <span class="module-time">1 hr</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.5</span>
             <div class="module-content">
-              <div class="module-topic">CLAUDE.md, your AI's instruction manual</div>
+              <div class="module-topic">Hermes in Telegram: setup, /help, /new, /model, /tools, /skills</div>
               <span class="module-time">1.5 hr</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.6</span>
             <div class="module-content">
-              <div class="module-topic">Skills, agents, memory, and rules</div>
-              <span class="module-time">1.5 hr</span>
+              <div class="module-topic">Markdown, MD files, and why agents read instructions this way</div>
+              <span class="module-time">1 hr</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.7</span>
             <div class="module-content">
-              <div class="module-topic">APIs and MCP servers</div>
+              <div class="module-topic">Skills, commands, tools, APIs, and MCP servers</div>
               <span class="module-time">1.5 hr</span>
             </div>
           </li>
           <li class="module-item">
             <span class="module-number">1.8</span>
             <div class="module-content">
-              <div class="module-topic">Week 1 Project, build something real</div>
+              <div class="module-topic">Week 1 Project: set up my AI workspace</div>
               <span class="module-time">3 hr</span>
             </div>
           </li>
@@ -1208,19 +1375,27 @@
           <div class="deliverables-title">Deliverables</div>
           <div class="deliverable-item">
             <div class="deliverable-check" onclick="this.classList.toggle('checked')"></div>
-            <div class="deliverable-text">Written explanation: LLM vs AI agent</div>
+            <div class="deliverable-text">Claude account created, logged in, and tested</div>
           </div>
           <div class="deliverable-item">
             <div class="deliverable-check" onclick="this.classList.toggle('checked')"></div>
-            <div class="deliverable-text">Your personal CLAUDE.md file</div>
+            <div class="deliverable-text">Codex account created, logged in, and tested</div>
           </div>
           <div class="deliverable-item">
             <div class="deliverable-check" onclick="this.classList.toggle('checked')"></div>
-            <div class="deliverable-text">One MCP server connected and working</div>
+            <div class="deliverable-text">Hermes agent running in Telegram</div>
           </div>
           <div class="deliverable-item">
             <div class="deliverable-check" onclick="this.classList.toggle('checked')"></div>
-            <div class="deliverable-text">Week 1 project on GitHub</div>
+            <div class="deliverable-text">Written explanation: LLM vs agent</div>
+          </div>
+          <div class="deliverable-item">
+            <div class="deliverable-check" onclick="this.classList.toggle('checked')"></div>
+            <div class="deliverable-text">One page glossary: MD, skills, commands, tools, APIs, MCPs</div>
+          </div>
+          <div class="deliverable-item">
+            <div class="deliverable-check" onclick="this.classList.toggle('checked')"></div>
+            <div class="deliverable-text">Week 1 project: My AI Workspace setup guide</div>
           </div>
         </div>
       </div>
@@ -1498,7 +1673,7 @@
       <li class="reveal-right reveal-delay-2"><div class="check-circle"></div>Laptop ready (charged, updated, enough storage)</li>
       <li class="reveal-right reveal-delay-3"><div class="check-circle"></div>Create a GitHub account</li>
       <li class="reveal-right reveal-delay-4"><div class="check-circle"></div>Create or update LinkedIn account</li>
-      <li class="reveal-right reveal-delay-5"><div class="check-circle"></div>Claude Code subscription active (link provided by CJ)</li>
+      <li class="reveal-right reveal-delay-5"><div class="check-circle"></div>Claude account ready, Codex access ready, Telegram installed</li>
       <li class="reveal-right reveal-delay-6"><div class="check-circle"></div>Come with questions</li>
     </ul>
   </section>
@@ -1513,8 +1688,8 @@
       <div class="outcomes-grid">
         <div class="outcome-card reveal-left reveal-delay-1">
           <div class="outcome-number">01</div>
-          <div class="outcome-title">Claude Code Proficiency</div>
-          <div class="outcome-desc">A rare, in-demand skill most people don't have yet</div>
+          <div class="outcome-title">AI Agent Fluency</div>
+          <div class="outcome-desc">Claude, Codex, and Hermes set up the right way</div>
         </div>
         <div class="outcome-card reveal-right reveal-delay-2">
           <div class="outcome-number">02</div>
@@ -1584,7 +1759,7 @@
       </div>
       <div class="policy-item reveal-fade reveal-delay-6">
         <div class="policy-rule">AI is a tool, not a crutch.</div>
-        <div class="policy-detail">Claude helps you work faster. You still need to understand what it's doing and why.</div>
+        <div class="policy-detail">AI helps you work faster. You still need to understand what it is doing and why.</div>
       </div>
     </div>
   </section>
@@ -1602,6 +1777,13 @@
       const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       const progress = (scrollTop / scrollHeight) * 100;
       document.getElementById('progressBar').style.width = progress + '%';
+
+      const orbOne = document.querySelector('.motion-orb.one');
+      const orbTwo = document.querySelector('.motion-orb.two');
+      if (orbOne && orbTwo) {
+        orbOne.style.transform = `translate3d(${Math.sin(scrollTop / 180) * 28}px, ${scrollTop * 0.08}px, 0)`;
+        orbTwo.style.transform = `translate3d(${Math.cos(scrollTop / 220) * -35}px, ${scrollTop * -0.05}px, 0)`;
+      }
 
       // Show/hide nav
       const nav = document.getElementById('nav');
@@ -1652,7 +1834,10 @@
       link.addEventListener('click', (e) => {
         e.preventDefault();
         const target = document.querySelector(link.getAttribute('href'));
-        if (target) target.scrollIntoView({ behavior: 'smooth' });
+        if (target) {
+          const y = target.getBoundingClientRect().top + window.scrollY - 120;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
       });
     });
 
