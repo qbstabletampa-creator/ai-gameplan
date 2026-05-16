@@ -5,6 +5,8 @@
 **Last Updated:** 2026-05-16
 
 ## How to use this week
+
+Quiz note: correct answers are intentionally mixed. Read each option. Do not assume A is right.
 Open `index.html` first. Use this workbook to write answers, paste proof, and keep your setup organized. Never paste tokens, passwords, or private client info here.
 
 ## Lesson 1: LLMs vs Agents

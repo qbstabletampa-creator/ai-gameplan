@@ -13,6 +13,11 @@ This week is setup 101. Reagan needs to walk through the real setup, not just un
 
 After the Telegram agent setup lesson, stop making every concept sound like it belongs to one product. Skills, commands, tools, APIs, MCPs, memory, and agent orgs can exist in Claude, Codex, and other agent systems. Teach the concept first, then the specific app.
 
+## Hard rules
+
+1. Every lesson must include relevant visual content. Use at least one video, graphic, online image, docs card, X post, or a useful combo.
+2. Quiz answers must be mixed. Never let every correct answer be A.
+
 ## End of week outcome
 
 By the end, Reagan should have:

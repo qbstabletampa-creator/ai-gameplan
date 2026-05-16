@@ -33,3 +33,8 @@ This week now walks Reagan through the real first project: setting up her AI wor
 ## Public URL
 
 https://qbstabletampa-creator.github.io/ai-gameplan/week1-course/
+
+## Hard rules
+
+- Every lesson must include relevant visual content.
+- Quiz correct answers must be mixed, not always A.

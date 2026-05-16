@@ -86,12 +86,12 @@
         {
           "q": "Which one is an LLM?",
           "choices": [
-            "Claude",
             "A calendar webhook",
             "Mission Control",
+            "Claude",
             "A Google Drive folder"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "q": "Which example fits an agent best?",
@@ -157,22 +157,22 @@
         {
           "q": "What is Claude best used for in this course?",
           "choices": [
-            "Thinking, writing, planning, and explaining",
             "Storing passwords",
             "Posting publicly without review",
-            "Replacing your judgment"
+            "Replacing your judgment",
+            "Thinking, writing, planning, and explaining"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "q": "What should you avoid pasting into Claude?",
           "choices": [
-            "Secrets or private client data",
             "A fake sample task",
+            "Secrets or private client data",
             "A public job description",
             "A draft checklist"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "q": "What makes a first prompt useful?",
@@ -238,22 +238,22 @@
         {
           "q": "When should Reagan use Codex?",
           "choices": [
-            "For building, editing, reviewing, or checking work",
             "For saving passwords",
             "For texting clients as CJ",
+            "For building, editing, reviewing, or checking work",
             "For ignoring instructions"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "q": "Why compare Claude and Codex?",
           "choices": [
-            "Different tools catch different things",
             "One always wins forever",
             "To avoid thinking",
-            "To make homework longer"
+            "To make homework longer",
+            "Different tools catch different things"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "q": "Who makes the final call?",
@@ -346,42 +346,42 @@
         {
           "q": "What is Telegram in this setup?",
           "choices": [
-            "The front door where Reagan talks to the agent",
             "The model itself",
+            "The front door where Reagan talks to the agent",
             "A spreadsheet",
             "A password vault"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "q": "Which command starts the Codex subscription login flow?",
           "choices": [
-            "hermes login --provider openai-codex",
             "/deleteall",
             "sudo paste password",
-            "git push token"
+            "git push token",
+            "hermes login --provider openai-codex"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "q": "Where should bot tokens be saved?",
           "choices": [
-            "A private local secret location, never the workbook or screenshots",
             "In the public README",
             "In a text to everyone",
+            "A private local secret location, never the workbook or screenshots",
             "Inside a quiz answer"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "q": "Which command helps Reagan find saved sessions later?",
           "choices": [
-            "hermes sessions list",
             "hermes forget everything",
+            "hermes sessions list",
             "/panic",
             "delete terminal"
           ],
-          "answer": 0
+          "answer": 1
         }
       ],
       "checkpoint": "I can install the agent, connect Telegram, authenticate with Codex, and return to saved work.",
@@ -450,22 +450,22 @@
         {
           "q": "What is an orchestrator?",
           "choices": [
-            "The role that routes work to the right specialist",
             "A password",
             "A video editor",
-            "A random file"
+            "A random file",
+            "The role that routes work to the right specialist"
           ],
-          "answer": 0
+          "answer": 3
         },
         {
           "q": "Why make an agent org chart?",
           "choices": [
-            "To give each agent a clear lane and proof standard",
             "To make titles sound fancy",
             "To avoid saving work",
+            "To give each agent a clear lane and proof standard",
             "To confuse CJ"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "q": "What should help Reagan log back in later?",
@@ -534,32 +534,32 @@
         {
           "q": "Are skills and commands tied to one app only?",
           "choices": [
-            "No, similar ideas can exist across multiple agent systems",
             "Yes, only one app has them",
+            "No, similar ideas can exist across multiple agent systems",
             "Only Telegram has them",
             "They are passwords"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "q": "What is an MCP?",
           "choices": [
-            "A standard connection that lets an agent use outside tools or data",
             "A sports position",
             "A font",
+            "A standard connection that lets an agent use outside tools or data",
             "A deleted file"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "q": "What should Reagan ask when a term appears in a new app?",
           "choices": [
-            "What app am I using, and what does this word mean here?",
             "How do I skip it?",
             "Can I paste secrets?",
-            "Who can I blame?"
+            "Who can I blame?",
+            "What app am I using, and what does this word mean here?"
           ],
-          "answer": 0
+          "answer": 3
         }
       ],
       "checkpoint": "I can explain the building blocks without thinking they belong to only one tool.",
@@ -618,22 +618,22 @@
         {
           "q": "What is the Week 1 project?",
           "choices": [
-            "Set up and document my AI workspace",
             "Build a full app",
+            "Set up and document my AI workspace",
             "Post on social",
             "Run paid ads"
           ],
-          "answer": 0
+          "answer": 1
         },
         {
           "q": "What must Reagan be able to do later?",
           "choices": [
-            "Log back in, find saved work, and resume",
             "Start over from memory",
             "Ask CJ where everything is",
+            "Log back in, find saved work, and resume",
             "Ignore proof"
           ],
-          "answer": 0
+          "answer": 2
         },
         {
           "q": "What makes the project complete?",
@@ -666,5 +666,9 @@
         }
       ]
     }
+  ],
+  "qualityRules": [
+    "Every lesson must have at least one relevant visual aid: video, graphic, online image, docs card, X post, or useful combination.",
+    "Quiz correct answers must be varied. Do not make every correct answer A."
   ]
 }
