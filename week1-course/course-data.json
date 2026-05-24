@@ -1,7 +1,7 @@
 {
   "title": "AI Gameplan Week 1: Setup 101",
   "student": "Reagan",
-  "lastUpdated": "2026-05-16",
+  "lastUpdated": "2026-05-24",
   "videos": [
     {
       "id": "n5ksOqcBWoQ",
@@ -76,89 +76,98 @@
   ],
   "lessons": [
     {
-      "slug": "01-llms-vs-agents",
-      "title": "Lesson 1: LLMs vs Agents",
-      "time": "45 minutes",
-      "video": {
-        "id": "n5ksOqcBWoQ",
-        "title": "What are AI agents? AI Agents Explained in 2 minutes",
-        "channel": "Glide",
-        "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
-        "views": "5,938",
-        "likes": "Short YouTube clip",
-        "duration": "1:55",
-        "purpose": "Quick visual intro to agents before CJ examples."
-      },
-      "goal": "Reagan can explain the difference between an LLM and an agent in normal words, using CJ examples instead of hype.",
+      "slug": "01-setup-sprint",
+      "title": "Lesson 1: Setup Sprint, Open Every Door",
+      "time": "75 minutes",
+      "video": null,
+      "goal": "Reagan creates the starting workspace first: Claude access, Codex access, Telegram installed, and a proof folder ready before the concepts get heavy.",
       "sections": [
         [
-          "Warm up",
-          "Write this in your own words: what is the difference between an AI that answers and an AI that acts?"
+          "Why this comes first",
+          "This course starts with a real setup win. Before learning all the terms, open the tools, create the proof folder, and make sure you can come back tomorrow without starting over."
         ],
         [
-          "Teach",
-          "An LLM is the brain. It predicts, reasons, writes, summarizes, and explains. Claude, ChatGPT, and Gemini are LLMs. An agent uses an LLM plus tools, memory, rules, and a goal. The simple line: an LLM thinks and answers. An agent thinks and acts."
+          "Create the AI Workspace folder",
+          "Create a folder named AI Workspace. Inside it, make a Proof folder and a Notes folder. This is where screenshots, Markdown files, and progress exports will live."
         ],
         [
-          "Watch with purpose",
-          "Watch the IBM agent video. Write down the first moment where the video moves from talking to doing."
+          "Open the tools",
+          "Create or log into Claude. Create or log into Codex with the account CJ provides. Install Telegram if needed. Do not save or screenshot passwords, tokens, or private client data."
         ],
         [
-          "Build",
-          "Make a two column chart. Left side: LLM. Right side: agent. Add 5 examples to each side from CJ's world."
+          "Start the proof log",
+          "Create proof-log.md. Add today’s date, the tool names, and one line for each status: Claude open, Codex open, Telegram installed, Drive folder created."
         ],
         [
           "Submit",
-          "Submit your chart and a 4 sentence explanation of why CJ uses agents instead of only chatbots."
+          "Submit one screenshot of the AI Workspace folder and one screenshot showing each tool is reachable. Hide private values. If a login needs CJ, write waiting on CJ next to that item."
         ]
       ],
       "quiz": [
         {
-          "q": "What is the cleanest difference between an LLM and an agent?",
+          "q": "What is the first win in Setup 101?",
           "choices": [
-            "An LLM answers, an agent can act with tools",
-            "An agent is always free",
-            "An LLM cannot write",
-            "They are the exact same thing"
+            "Memorize every AI term",
+            "Set up the workspace and prove the tools are reachable",
+            "Post online about the course",
+            "Skip screenshots"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Where should setup proof go?",
+          "choices": [
+            "AI Workspace Proof folder",
+            "A public README with tokens",
+            "Only in memory",
+            "Nowhere"
           ],
           "answer": 0
         },
         {
-          "q": "Which one is an LLM?",
+          "q": "What should Reagan hide from screenshots and notes?",
           "choices": [
-            "A calendar webhook",
-            "Mission Control",
-            "Claude",
-            "A Google Drive folder"
-          ],
-          "answer": 2
-        },
-        {
-          "q": "Which example fits an agent best?",
-          "choices": [
-            "Explain what a press release is",
-            "Search Drive, find a file, update a project, and report proof",
-            "Write one poem",
-            "Define football"
+            "The folder name",
+            "Passwords, tokens, and private client data",
+            "The date",
+            "The lesson title"
           ],
           "answer": 1
+        },
+        {
+          "q": "If a login needs CJ approval, what should Reagan do?",
+          "choices": [
+            "Guess the password",
+            "Quit the course",
+            "Write the blocked item and keep moving on safe setup work",
+            "Share private info publicly"
+          ],
+          "answer": 2
         }
       ],
-      "checkpoint": "I can explain LLM vs agent without hype.",
+      "checkpoint": "I have the workspace folder started and can reach Claude, Codex, and Telegram or clearly mark what is waiting on CJ.",
       "visuals": [
         {
-          "type": "Short YouTube clip",
-          "title": "AI agents in 2 minutes",
-          "source": "Glide on YouTube",
-          "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
-          "image": "https://img.youtube.com/vi/n5ksOqcBWoQ/hqdefault.jpg",
-          "note": "Use this to start the LLM vs agent conversation fast."
+          "type": "Internal walkthrough",
+          "title": "Workspace proof map",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/workspace-proof.svg",
+          "note": "Shows what proof needs to exist before Rea moves deeper into the course."
+        },
+        {
+          "type": "Best practice card",
+          "title": "Telegram is the front door",
+          "source": "Hermes setup pattern",
+          "url": "#",
+          "image": "assets/visuals/telegram-workspace.svg",
+          "note": "Keeps the first lesson focused on access, proof, and safe setup."
         }
       ]
     },
     {
       "slug": "02-claude-setup",
-      "title": "Lesson 2: Claude Setup and First Prompt",
+      "title": "Lesson 2: Claude Setup and First Useful Prompt",
       "time": "60 minutes",
       "video": {
         "id": "0vZ_UVLhSQQ",
@@ -170,15 +179,11 @@
         "duration": "5:19",
         "purpose": "Set up Claude, log in, and understand the first clicks without a long tutorial."
       },
-      "goal": "Reagan creates or logs into Claude and runs a useful first prompt.",
+      "goal": "Reagan confirms Claude access and learns how to ask for useful help without pasting private information.",
       "sections": [
         [
           "Warm up",
-          "Claude is where you go when you need a smart thinking partner. It is strong for writing, planning, summarizing, and explaining."
-        ],
-        [
-          "Setup",
-          "Go to claude.ai. Create or log into your account. Confirm you can start a new chat. Do not add private passwords, tokens, or client info."
+          "Claude is the thinking partner. Use it for writing, planning, summarizing, and explaining. It is not a password vault and it does not replace judgment."
         ],
         [
           "Watch with purpose",
@@ -187,6 +192,10 @@
         [
           "Build",
           "Ask Claude to create a 5 step plan for setting up your AI workspace for this course. Then ask it to make the plan shorter and more direct."
+        ],
+        [
+          "Save",
+          "Paste the final plan into prompts.md and write one sentence about what made the second version better."
         ],
         [
           "Submit",
@@ -418,8 +427,115 @@
       ]
     },
     {
-      "slug": "05-markdown-and-md",
-      "title": "Lesson 5: Markdown, Saved Work, Wiki, and Closeout",
+      "slug": "05-language-of-agents",
+      "title": "Lesson 5: LLMs, Agents, Skills, Commands, Tools, and MCPs",
+      "time": "75 minutes",
+      "video": {
+        "id": "n5ksOqcBWoQ",
+        "title": "What are AI agents? AI Agents Explained in 2 minutes",
+        "channel": "Glide",
+        "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
+        "views": "5,938",
+        "likes": "Short YouTube clip",
+        "duration": "1:55",
+        "purpose": "Quick visual intro to agents before CJ examples."
+      },
+      "goal": "Reagan can explain the core agent language in plain English and connect each word to the setup she just built.",
+      "sections": [
+        [
+          "Start from what you built",
+          "Look at your setup proof. Claude is an LLM. Hermes through Telegram is an agent front door. Codex is a build focused AI teammate. The terms make more sense after the tools are open."
+        ],
+        [
+          "LLM vs agent",
+          "An LLM thinks and answers. An agent thinks and acts with tools, memory, rules, and a goal. Simple line: chatbot answers, agent gets work done."
+        ],
+        [
+          "Watch with purpose",
+          "Watch the 2 minute agent clip. Write down the first moment where the video moves from talking to doing."
+        ],
+        [
+          "Building blocks",
+          "A command tells the agent what to do. A skill is a saved best practice. A tool lets the agent touch the outside world. An MCP is a clean way to connect tools and data."
+        ],
+        [
+          "Build",
+          "Add a glossary to my-ai-workspace.md with: LLM, agent, command, skill, tool, MCP, wiki, vault, closeout, Drive backup. Use your own words."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is the cleanest difference between an LLM and an agent?",
+          "choices": [
+            "An LLM answers, an agent can act with tools",
+            "An agent is always free",
+            "An LLM cannot write",
+            "They are the exact same thing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is a skill in this course?",
+          "choices": [
+            "A password",
+            "A saved best practice the agent can reuse",
+            "A random app logo",
+            "A deleted file"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What is an MCP?",
+          "choices": [
+            "A sports position",
+            "A font",
+            "A standard connection that lets an agent use outside tools or data",
+            "A private token"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Which example fits an agent best?",
+          "choices": [
+            "Define football",
+            "Write one poem only",
+            "Search Drive, find a file, update a project, and report proof",
+            "Do nothing with tools"
+          ],
+          "answer": 2
+        }
+      ],
+      "checkpoint": "I can explain the agent language without acting like every word belongs to one app only.",
+      "visuals": [
+        {
+          "type": "Short YouTube clip",
+          "title": "AI agents in 2 minutes",
+          "source": "Glide on YouTube",
+          "url": "https://www.youtube.com/watch?v=n5ksOqcBWoQ",
+          "image": "https://img.youtube.com/vi/n5ksOqcBWoQ/hqdefault.jpg",
+          "note": "Use this to start the LLM vs agent conversation fast."
+        },
+        {
+          "type": "Short YouTube clip",
+          "title": "MCP in 2 minutes",
+          "source": "YouTube",
+          "url": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
+          "image": "https://img.youtube.com/vi/taeX8tgpPRQ/hqdefault.jpg",
+          "note": "Use this only to explain the connection idea, not a random framework."
+        },
+        {
+          "type": "Best practice card",
+          "title": "Agent building blocks",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/agent-protocol.svg",
+          "note": "Connects the vocabulary to the workspace Rea just set up."
+        }
+      ]
+    },
+    {
+      "slug": "06-markdown-closeout-drive",
+      "title": "Lesson 6: Markdown, Saved Work, Drive Backup, and Closeout",
       "time": "75 minutes",
       "video": {
         "id": "A8mLSLnk89A",
@@ -435,15 +551,15 @@
       "sections": [
         [
           "Markdown is the playbook",
-          "Markdown is plain text with structure. Use headings, bullets, links, screenshots, and checklists. It is how we keep work readable for people and useful for agents."
+          "Markdown is plain text with structure. Use headings, bullets, links, screenshots, and checklists. It keeps work readable for people and useful for agents."
         ],
         [
           "Karpathy style setup",
           "Start every workspace with clear context, examples, constraints, and proof. The agent should not guess where things live or what good looks like."
         ],
         [
-          "Wiki and vaults",
-          "The wiki is where durable knowledge goes. Vaults split work by lane: main ops, QB Stable content, RISE content, Brady football knowledge, and recruiting. Rea does not need to master every vault yet. She needs to know that good knowledge gets saved where the team can find it."
+          "Drive backup",
+          "Local files are not enough. Back up the AI Workspace folder to Google Drive so Rea can recover progress and CJ can review proof fast."
         ],
         [
           "Closeout habit",
@@ -451,7 +567,7 @@
         ],
         [
           "Build",
-          "Create an ai-workspace folder with my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today\u2019s setup notes and one clean next step."
+          "Create or update my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today’s setup notes and one clean next step."
         ]
       ],
       "quiz": [
@@ -521,95 +637,14 @@
           "url": "#",
           "image": "assets/visuals/wiki-vaults.svg",
           "note": "Durable knowledge belongs in the right vault, not buried in chat."
-        }
-      ]
-    },
-    {
-      "slug": "06-skills-commands-mcps",
-      "title": "Lesson 6: Skills, Commands, Tools, and MCPs",
-      "time": "60 minutes",
-      "video": {
-        "id": "taeX8tgpPRQ",
-        "title": "MCP Explained in 2 Minutes",
-        "channel": "9x",
-        "url": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
-        "views": "26,478",
-        "likes": "Short clip",
-        "duration": "2:28",
-        "purpose": "Explain MCP as a connection standard in plain language."
-      },
-      "goal": "Reagan knows these building blocks can exist across Claude, Codex, and other agent systems.",
-      "sections": [
-        [
-          "Warm up",
-          "A command tells the agent what to do. A skill is a saved best practice. A tool lets the agent touch the outside world. An MCP is a clean way to connect tools and data."
-        ],
-        [
-          "Watch with purpose",
-          "Watch the 2:28 MCP clip. Write down the simplest definition of MCP in one sentence."
-        ],
-        [
-          "Examples we actually use",
-          "Closeout is a skill. Wiki is durable memory. Drive backup protects files. Telegram is an access point. MCPs connect agents to systems when the setup supports it."
-        ],
-        [
-          "Best practice",
-          "Do not teach random frameworks just because they are popular. Use the system CJ actually runs. If we do not use it, it does not belong in Setup 101."
-        ],
-        [
-          "Build",
-          "Add a glossary to my-ai-workspace.md with: LLM, agent, command, skill, tool, MCP, wiki, vault, closeout, Drive backup."
-        ]
-      ],
-      "quiz": [
-        {
-          "q": "Are skills and commands tied to one app only?",
-          "choices": [
-            "Yes, only one app has them",
-            "No, similar ideas can exist across multiple agent systems",
-            "Only Telegram has them",
-            "They are passwords"
-          ],
-          "answer": 1
         },
-        {
-          "q": "What is an MCP?",
-          "choices": [
-            "A sports position",
-            "A font",
-            "A standard connection that lets an agent use outside tools or data",
-            "A deleted file"
-          ],
-          "answer": 2
-        },
-        {
-          "q": "What should Reagan ask when a term appears in a new app?",
-          "choices": [
-            "How do I skip it?",
-            "Can I paste secrets?",
-            "Who can I blame?",
-            "What app am I using, and what does this word mean here?"
-          ],
-          "answer": 3
-        }
-      ],
-      "checkpoint": "I can explain the building blocks without thinking they belong to only one tool.",
-      "visuals": [
         {
           "type": "Short YouTube clip",
-          "title": "MCP in 2 minutes",
-          "source": "YouTube",
-          "url": "https://www.youtube.com/watch?v=taeX8tgpPRQ",
-          "image": "https://img.youtube.com/vi/taeX8tgpPRQ/hqdefault.jpg",
-          "note": "Use this only to explain the connection idea, not a random framework."
-        },
-        {
-          "type": "Best practice card",
-          "title": "Karpathy setup notes",
-          "source": "CJ best practice adaptation",
-          "url": "#",
-          "image": "assets/visuals/karpathy-setup.svg",
-          "note": "Context, examples, constraints, proof. That is the setup habit."
+          "title": "Google Drive in 2 minutes",
+          "source": "Insider Tech on YouTube",
+          "url": "https://www.youtube.com/watch?v=6DhHj3joUvY",
+          "image": "https://img.youtube.com/vi/6DhHj3joUvY/hqdefault.jpg",
+          "note": "Shows the backup habit without making Drive the whole course."
         }
       ]
     },
@@ -631,7 +666,7 @@
       "sections": [
         [
           "Project brief",
-          "Build My AI Workspace. It should prove she can log into Claude, use Codex, message the Telegram agent, save Markdown notes, and back up proof."
+          "Build My AI Workspace. It should prove she can log into Claude, use Codex, message the Telegram agent, explain the agent language, save Markdown notes, and back up proof."
         ],
         [
           "Progress save",
@@ -639,7 +674,7 @@
         ],
         [
           "Drive backup",
-          "Back up my-ai-workspace.md, prompts.md, proof-log.md, closeout.md, and screenshots to Drive. The rule is simple: local work plus cloud proof."
+          "Back up my-ai-workspace.md, prompts.md, proof-log.md, closeout.md, the glossary, and screenshots to Drive. The rule is simple: local work plus cloud proof."
         ],
         [
           "Closeout",
@@ -704,7 +739,8 @@
     }
   ],
   "qualityRules": [
-    "Every lesson must have at least one relevant visual aid: video, graphic, online image, docs card, X post, or useful combination.",
+    "Lesson 1 must start with setup and proof before heavy concepts.",
+    "Every lesson must have at least one relevant visual aid: video, graphic, docs card, internal walkthrough, or useful combination.",
     "Quiz correct answers must be varied. Do not make every correct answer A.",
     "Prefer short YouTube clips over generic link cards when a credible short clip exists.",
     "Do not teach tools or frameworks we do not use in CJ operations.",

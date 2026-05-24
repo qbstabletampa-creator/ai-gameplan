@@ -1,72 +1,79 @@
 # AI Gameplan Week 1: Setup 101 Student Workbook
 
 **Student:** Reagan
-**Last Updated:** 2026-05-16
+**Last Updated:** 2026-05-24
 
 ## Non negotiables
+- Setup first, concepts second.
 - Use short clips to understand the idea fast.
 - Save useful work in Markdown.
 - Back up proof to Google Drive.
 - End every work block with a closeout note.
 - Do not paste private tokens, passwords, or client info.
 
-## Lesson 1: LLMs vs Agents
-**Time:** 45 minutes
+## Lesson 1: Setup Sprint, Open Every Door
+**Time:** 75 minutes
 
-**Goal:** Reagan can explain the difference between an LLM and an agent in normal words, using CJ examples instead of hype.
+**Goal:** Reagan creates the starting workspace first: Claude access, Codex access, Telegram installed, and a proof folder ready before the concepts get heavy.
 
-### Short clip
-[What are AI agents? AI Agents Explained in 2 minutes](https://www.youtube.com/watch?v=n5ksOqcBWoQ)
-- Channel: Glide
-- Duration: 1:55
-- Purpose: Quick visual intro to agents before CJ examples.
+### Guided setup
+This lesson uses CJ guided setup and internal proof instead of a public video. Hide secrets in every screenshot.
 
 ### Work
-#### Warm up
-Write this in your own words: what is the difference between an AI that answers and an AI that acts?
+#### Why this comes first
+This course starts with a real setup win. Before learning all the terms, open the tools, create the proof folder, and make sure you can come back tomorrow without starting over.
 
-#### Teach
-An LLM is the brain. It predicts, reasons, writes, summarizes, and explains. Claude, ChatGPT, and Gemini are LLMs. An agent uses an LLM plus tools, memory, rules, and a goal. The simple line: an LLM thinks and answers. An agent thinks and acts.
+#### Create the AI Workspace folder
+Create a folder named AI Workspace. Inside it, make a Proof folder and a Notes folder. This is where screenshots, Markdown files, and progress exports will live.
 
-#### Watch with purpose
-Watch the IBM agent video. Write down the first moment where the video moves from talking to doing.
+#### Open the tools
+Create or log into Claude. Create or log into Codex with the account CJ provides. Install Telegram if needed. Do not save or screenshot passwords, tokens, or private client data.
 
-#### Build
-Make a two column chart. Left side: LLM. Right side: agent. Add 5 examples to each side from CJ's world.
+#### Start the proof log
+Create proof-log.md. Add today’s date, the tool names, and one line for each status: Claude open, Codex open, Telegram installed, Drive folder created.
 
 #### Submit
-Submit your chart and a 4 sentence explanation of why CJ uses agents instead of only chatbots.
+Submit one screenshot of the AI Workspace folder and one screenshot showing each tool is reachable. Hide private values. If a login needs CJ, write waiting on CJ next to that item.
 
 ### Visual aids
-- [AI agents in 2 minutes](https://www.youtube.com/watch?v=n5ksOqcBWoQ)
-  - Source: Glide on YouTube
-  - Use it for: Use this to start the LLM vs agent conversation fast.
+- [Workspace proof map](#)
+  - Source: QB Stable operating practice
+  - Use it for: Shows what proof needs to exist before Rea moves deeper into the course.
+- [Telegram is the front door](#)
+  - Source: Hermes setup pattern
+  - Use it for: Keeps the first lesson focused on access, proof, and safe setup.
 
 ### Quiz
 Answers are mixed on purpose. Think before clicking.
 
-1. What is the cleanest difference between an LLM and an agent?
-   A. An LLM answers, an agent can act with tools
-   B. An agent is always free
-   C. An LLM cannot write
-   D. They are the exact same thing
+1. What is the first win in Setup 101?
+   A. Memorize every AI term
+   B. Set up the workspace and prove the tools are reachable
+   C. Post online about the course
+   D. Skip screenshots
 
-2. Which one is an LLM?
-   A. A calendar webhook
-   B. Mission Control
-   C. Claude
-   D. A Google Drive folder
+2. Where should setup proof go?
+   A. AI Workspace Proof folder
+   B. A public README with tokens
+   C. Only in memory
+   D. Nowhere
 
-3. Which example fits an agent best?
-   A. Explain what a press release is
-   B. Search Drive, find a file, update a project, and report proof
-   C. Write one poem
-   D. Define football
+3. What should Reagan hide from screenshots and notes?
+   A. The folder name
+   B. Passwords, tokens, and private client data
+   C. The date
+   D. The lesson title
 
-## Lesson 2: Claude Setup and First Prompt
+4. If a login needs CJ approval, what should Reagan do?
+   A. Guess the password
+   B. Quit the course
+   C. Write the blocked item and keep moving on safe setup work
+   D. Share private info publicly
+
+## Lesson 2: Claude Setup and First Useful Prompt
 **Time:** 60 minutes
 
-**Goal:** Reagan creates or logs into Claude and runs a useful first prompt.
+**Goal:** Reagan confirms Claude access and learns how to ask for useful help without pasting private information.
 
 ### Short clip
 [Getting started with Claude.ai](https://www.youtube.com/watch?v=0vZ_UVLhSQQ)
@@ -76,16 +83,16 @@ Answers are mixed on purpose. Think before clicking.
 
 ### Work
 #### Warm up
-Claude is where you go when you need a smart thinking partner. It is strong for writing, planning, summarizing, and explaining.
-
-#### Setup
-Go to claude.ai. Create or log into your account. Confirm you can start a new chat. Do not add private passwords, tokens, or client info.
+Claude is the thinking partner. Use it for writing, planning, summarizing, and explaining. It is not a password vault and it does not replace judgment.
 
 #### Watch with purpose
 Watch the 5:19 Anthropic video. Pause after the first prompt example and write what made the prompt clear.
 
 #### Build
 Ask Claude to create a 5 step plan for setting up your AI workspace for this course. Then ask it to make the plan shorter and more direct.
+
+#### Save
+Paste the final plan into prompts.md and write one sentence about what made the second version better.
 
 #### Submit
 Submit a screenshot showing Claude open and paste the final 5 step plan into your workbook.
@@ -231,7 +238,72 @@ Answers are mixed on purpose. Think before clicking.
    C. /panic
    D. delete terminal
 
-## Lesson 5: Markdown, Saved Work, Wiki, and Closeout
+## Lesson 5: LLMs, Agents, Skills, Commands, Tools, and MCPs
+**Time:** 75 minutes
+
+**Goal:** Reagan can explain the core agent language in plain English and connect each word to the setup she just built.
+
+### Short clip
+[What are AI agents? AI Agents Explained in 2 minutes](https://www.youtube.com/watch?v=n5ksOqcBWoQ)
+- Channel: Glide
+- Duration: 1:55
+- Purpose: Quick visual intro to agents before CJ examples.
+
+### Work
+#### Start from what you built
+Look at your setup proof. Claude is an LLM. Hermes through Telegram is an agent front door. Codex is a build focused AI teammate. The terms make more sense after the tools are open.
+
+#### LLM vs agent
+An LLM thinks and answers. An agent thinks and acts with tools, memory, rules, and a goal. Simple line: chatbot answers, agent gets work done.
+
+#### Watch with purpose
+Watch the 2 minute agent clip. Write down the first moment where the video moves from talking to doing.
+
+#### Building blocks
+A command tells the agent what to do. A skill is a saved best practice. A tool lets the agent touch the outside world. An MCP is a clean way to connect tools and data.
+
+#### Build
+Add a glossary to my-ai-workspace.md with: LLM, agent, command, skill, tool, MCP, wiki, vault, closeout, Drive backup. Use your own words.
+
+### Visual aids
+- [AI agents in 2 minutes](https://www.youtube.com/watch?v=n5ksOqcBWoQ)
+  - Source: Glide on YouTube
+  - Use it for: Use this to start the LLM vs agent conversation fast.
+- [MCP in 2 minutes](https://www.youtube.com/watch?v=taeX8tgpPRQ)
+  - Source: YouTube
+  - Use it for: Use this only to explain the connection idea, not a random framework.
+- [Agent building blocks](#)
+  - Source: QB Stable operating practice
+  - Use it for: Connects the vocabulary to the workspace Rea just set up.
+
+### Quiz
+Answers are mixed on purpose. Think before clicking.
+
+1. What is the cleanest difference between an LLM and an agent?
+   A. An LLM answers, an agent can act with tools
+   B. An agent is always free
+   C. An LLM cannot write
+   D. They are the exact same thing
+
+2. What is a skill in this course?
+   A. A password
+   B. A saved best practice the agent can reuse
+   C. A random app logo
+   D. A deleted file
+
+3. What is an MCP?
+   A. A sports position
+   B. A font
+   C. A standard connection that lets an agent use outside tools or data
+   D. A private token
+
+4. Which example fits an agent best?
+   A. Define football
+   B. Write one poem only
+   C. Search Drive, find a file, update a project, and report proof
+   D. Do nothing with tools
+
+## Lesson 6: Markdown, Saved Work, Drive Backup, and Closeout
 **Time:** 75 minutes
 
 **Goal:** Reagan builds the habit of saving useful work in Markdown, backing it up, and closing the loop with proof.
@@ -244,19 +316,19 @@ Answers are mixed on purpose. Think before clicking.
 
 ### Work
 #### Markdown is the playbook
-Markdown is plain text with structure. Use headings, bullets, links, screenshots, and checklists. It is how we keep work readable for people and useful for agents.
+Markdown is plain text with structure. Use headings, bullets, links, screenshots, and checklists. It keeps work readable for people and useful for agents.
 
 #### Karpathy style setup
 Start every workspace with clear context, examples, constraints, and proof. The agent should not guess where things live or what good looks like.
 
-#### Wiki and vaults
-The wiki is where durable knowledge goes. Vaults split work by lane: main ops, QB Stable content, RISE content, Brady football knowledge, and recruiting. Rea does not need to master every vault yet. She needs to know that good knowledge gets saved where the team can find it.
+#### Drive backup
+Local files are not enough. Back up the AI Workspace folder to Google Drive so Rea can recover progress and CJ can review proof fast.
 
 #### Closeout habit
 Every session ends with what changed, where it lives, proof, and the next step. If it is not written down, it did not happen.
 
 #### Build
-Create an ai-workspace folder with my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today’s setup notes and one clean next step.
+Create or update my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today’s setup notes and one clean next step.
 
 ### Visual aids
 - [Markdown in 2 minutes](https://www.youtube.com/watch?v=A8mLSLnk89A)
@@ -268,6 +340,9 @@ Create an ai-workspace folder with my-ai-workspace.md, prompts.md, proof-log.md,
 - [Wiki and vaults are team memory](#)
   - Source: QB Stable operating practice
   - Use it for: Durable knowledge belongs in the right vault, not buried in chat.
+- [Google Drive in 2 minutes](https://www.youtube.com/watch?v=6DhHj3joUvY)
+  - Source: Insider Tech on YouTube
+  - Use it for: Shows the backup habit without making Drive the whole course.
 
 ### Quiz
 Answers are mixed on purpose. Think before clicking.
@@ -296,62 +371,6 @@ Answers are mixed on purpose. Think before clicking.
    C. Skip examples
    D. Never save notes
 
-## Lesson 6: Skills, Commands, Tools, and MCPs
-**Time:** 60 minutes
-
-**Goal:** Reagan knows these building blocks can exist across Claude, Codex, and other agent systems.
-
-### Short clip
-[MCP Explained in 2 Minutes](https://www.youtube.com/watch?v=taeX8tgpPRQ)
-- Channel: 9x
-- Duration: 2:28
-- Purpose: Explain MCP as a connection standard in plain language.
-
-### Work
-#### Warm up
-A command tells the agent what to do. A skill is a saved best practice. A tool lets the agent touch the outside world. An MCP is a clean way to connect tools and data.
-
-#### Watch with purpose
-Watch the 2:28 MCP clip. Write down the simplest definition of MCP in one sentence.
-
-#### Examples we actually use
-Closeout is a skill. Wiki is durable memory. Drive backup protects files. Telegram is an access point. MCPs connect agents to systems when the setup supports it.
-
-#### Best practice
-Do not teach random frameworks just because they are popular. Use the system CJ actually runs. If we do not use it, it does not belong in Setup 101.
-
-#### Build
-Add a glossary to my-ai-workspace.md with: LLM, agent, command, skill, tool, MCP, wiki, vault, closeout, Drive backup.
-
-### Visual aids
-- [MCP in 2 minutes](https://www.youtube.com/watch?v=taeX8tgpPRQ)
-  - Source: YouTube
-  - Use it for: Use this only to explain the connection idea, not a random framework.
-- [Karpathy setup notes](#)
-  - Source: CJ best practice adaptation
-  - Use it for: Context, examples, constraints, proof. That is the setup habit.
-
-### Quiz
-Answers are mixed on purpose. Think before clicking.
-
-1. Are skills and commands tied to one app only?
-   A. Yes, only one app has them
-   B. No, similar ideas can exist across multiple agent systems
-   C. Only Telegram has them
-   D. They are passwords
-
-2. What is an MCP?
-   A. A sports position
-   B. A font
-   C. A standard connection that lets an agent use outside tools or data
-   D. A deleted file
-
-3. What should Reagan ask when a term appears in a new app?
-   A. How do I skip it?
-   B. Can I paste secrets?
-   C. Who can I blame?
-   D. What app am I using, and what does this word mean here?
-
 ## Lesson 7: First Project, My AI Workspace
 **Time:** 90 minutes
 
@@ -365,13 +384,13 @@ Answers are mixed on purpose. Think before clicking.
 
 ### Work
 #### Project brief
-Build My AI Workspace. It should prove she can log into Claude, use Codex, message the Telegram agent, save Markdown notes, and back up proof.
+Build My AI Workspace. It should prove she can log into Claude, use Codex, message the Telegram agent, explain the agent language, save Markdown notes, and back up proof.
 
 #### Progress save
 Use the Save progress button in this course. Download the progress file. Upload it to the AI Workspace folder in Google Drive.
 
 #### Drive backup
-Back up my-ai-workspace.md, prompts.md, proof-log.md, closeout.md, and screenshots to Drive. The rule is simple: local work plus cloud proof.
+Back up my-ai-workspace.md, prompts.md, proof-log.md, closeout.md, the glossary, and screenshots to Drive. The rule is simple: local work plus cloud proof.
 
 #### Closeout
 Write one closeout note: what was set up, what worked, what is still missing, where the files live, and what the next step is.

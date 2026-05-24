@@ -1,0 +1,355 @@
+{
+  "title": "AI Gameplan Week 3: Real Projects",
+  "student": "Reagan",
+  "lastUpdated": "2026-05-24",
+  "week": 3,
+  "tagline": "Do real work. Use agents, research, data, and reporting on business tasks that matter.",
+  "lessons": [
+    {
+      "slug": "01-agent-delegation",
+      "title": "Lesson 1: Agent Delegation",
+      "time": "75 minutes",
+      "video": null,
+      "goal": "Reagan learns how to split work between herself, AI chat, and an agent.",
+      "sections": [
+        [
+          "Define the job",
+          "Write the goal, context, constraints, and proof needed."
+        ],
+        [
+          "Choose the worker",
+          "Decide what Reagan does, what Claude drafts, what Codex checks, and what an agent can research."
+        ],
+        [
+          "Set guardrails",
+          "No private info, no public action, verify before reporting."
+        ],
+        [
+          "Submit",
+          "Turn in one delegation plan for a real CJ task."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What should come before delegation?",
+          "choices": [
+            "Clear goal and proof",
+            "Random commands",
+            "No context",
+            "Public posting"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should an agent not do without approval?",
+          "choices": [
+            "Public side effects",
+            "Draft notes",
+            "Summarize public info",
+            "Organize files"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What makes delegation safe?",
+          "choices": [
+            "Constraints and verification",
+            "Guessing",
+            "No owner",
+            "Secrets in prompts"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for agent delegation.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Agent delegation map",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/agent-supervisor.svg",
+          "note": "Split work by risk, proof, and owner."
+        }
+      ]
+    },
+    {
+      "slug": "02-business-admin-workflow",
+      "title": "Lesson 2: Business Admin Workflow",
+      "time": "75 minutes",
+      "video": null,
+      "goal": "Reagan builds a simple admin workflow for a real business task.",
+      "sections": [
+        [
+          "Pick the task",
+          "Choose invoice tracking, camp list cleanup, lead follow up, schedule prep, or folder organization."
+        ],
+        [
+          "Map the current process",
+          "Write current steps, pain points, and what good looks like."
+        ],
+        [
+          "Create a cleaner version",
+          "Use AI to draft a checklist or SOP. Reagan edits it for reality."
+        ],
+        [
+          "Submit",
+          "Turn in the workflow, checklist, and proof that it can be followed."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does SOP mean here?",
+          "choices": [
+            "A repeatable checklist for doing the job",
+            "A secret password",
+            "A social post",
+            "A random idea"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should Reagan improve?",
+          "choices": [
+            "Clarity and repeatability",
+            "Confusion",
+            "Private data exposure",
+            "No proof"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What makes admin work valuable?",
+          "choices": [
+            "It saves time and reduces misses",
+            "It looks fancy",
+            "It avoids responsibility",
+            "It hides work"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for business admin workflow.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Admin workflow",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/closeout-system.svg",
+          "note": "A simple checklist can save CJ hours when it is real."
+        }
+      ]
+    },
+    {
+      "slug": "03-research-report",
+      "title": "Lesson 3: Research Report",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan learns to research with sources, not guesses.",
+      "sections": [
+        [
+          "Write the question",
+          "Turn the topic into one clear question and 3 sub questions."
+        ],
+        [
+          "Find sources",
+          "Use official pages first, then credible support sources."
+        ],
+        [
+          "Make a source log",
+          "Record title, link, date checked, and why it matters."
+        ],
+        [
+          "Submit",
+          "Turn in a 1 to 2 page research report with source log."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What source comes first?",
+          "choices": [
+            "Official source when available",
+            "Random comment",
+            "No source",
+            "Old screenshot only"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What belongs in a source log?",
+          "choices": [
+            "Title, link, date checked, why it matters",
+            "Password",
+            "Private token",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should AI never replace?",
+          "choices": [
+            "Source verification",
+            "Formatting help",
+            "Outline help",
+            "Draft cleanup"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for research report.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Research source log",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/wiki-vaults.svg",
+          "note": "Every claim needs a source CJ can check."
+        }
+      ]
+    },
+    {
+      "slug": "04-data-and-reporting",
+      "title": "Lesson 4: Data and Reporting",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan turns a small dataset or report into an executive summary.",
+      "sections": [
+        [
+          "Pick the data",
+          "Use a safe sample report, campaign numbers CJ provides, or public stats."
+        ],
+        [
+          "Find the signal",
+          "Identify what changed, what matters, and what question remains."
+        ],
+        [
+          "Write the summary",
+          "Use plain language: what happened, why it matters, what to do next."
+        ],
+        [
+          "Submit",
+          "Turn in one page with 3 insights, 3 risks, and 3 next actions."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What should a report answer first?",
+          "choices": [
+            "What happened and why it matters",
+            "How fancy it looks",
+            "How long it is",
+            "Who to blame"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is an insight?",
+          "choices": [
+            "A useful pattern from the data",
+            "A random number",
+            "A password",
+            "A logo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should Reagan do with unknowns?",
+          "choices": [
+            "Label them clearly",
+            "Pretend certainty",
+            "Hide them",
+            "Delete the report"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for data and reporting.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Executive summary",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/reporting-system.svg",
+          "note": "Short, clear, useful. No data dump."
+        }
+      ]
+    },
+    {
+      "slug": "05-cj-backlog-project",
+      "title": "Lesson 5: CJ Backlog Project",
+      "time": "150 minutes",
+      "video": null,
+      "goal": "Reagan completes one assigned real project from CJ backlog with a clean closeout.",
+      "sections": [
+        [
+          "Get the assignment",
+          "Write the goal, due date, owner, files, and proof before starting."
+        ],
+        [
+          "Work in passes",
+          "Draft, check, revise, then package."
+        ],
+        [
+          "Ask when blocked",
+          "If blocked for 30 minutes, write the exact blocker and ask CJ."
+        ],
+        [
+          "Submit",
+          "Turn in the finished work, proof, Drive location, and closeout note."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What should Reagan do before starting backlog work?",
+          "choices": [
+            "Write goal, files, owner, proof",
+            "Guess",
+            "Post publicly",
+            "Skip notes"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "When should she ask CJ?",
+          "choices": [
+            "After 30 minutes blocked with a clear question",
+            "Never",
+            "Before reading",
+            "Only after deleting work"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What proves the project is done?",
+          "choices": [
+            "Finished work, location, proof, and closeout",
+            "A vague text",
+            "No files",
+            "Only effort"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for cj backlog project.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Real project closeout",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/workspace-proof.svg",
+          "note": "The work is not done until CJ can find it and review it."
+        }
+      ]
+    }
+  ],
+  "qualityRules": [
+    "Real work must have a written goal before execution.",
+    "Every claim in research needs a source.",
+    "Every report needs next actions, not just numbers.",
+    "Every project needs a closeout note."
+  ]
+}

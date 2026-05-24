@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Drive Backup">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#111111"/>
+      <stop offset="1" stop-color="#25210f"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="675" rx="44" fill="url(#bg)"/>
+  <circle cx="1005" cy="92" r="170" fill="#00F5FF" opacity="0.18"/>
+  <circle cx="160" cy="560" r="190" fill="#00F5FF" opacity="0.10"/>
+  <rect x="70" y="70" width="1060" height="535" rx="34" fill="#0b0b0b" stroke="#00F5FF" stroke-width="3"/>
+  <g filter="url(#glow)"><circle cx="210" cy="235" r="86" fill="#00F5FF" opacity="0.95"/><text x="210" y="263" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900" text-anchor="middle" fill="#050505">☁</text></g>
+  <text x="345" y="230" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="900" fill="#ffffff">Drive Backup</text>
+  <text x="350" y="305" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600" fill="#d7d7d7">Cloud copy for every real deliverable</text>
+  <path d="M350 390 C470 330, 560 455, 690 395 S920 335, 1030 415" fill="none" stroke="#00F5FF" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="350" cy="390" r="14" fill="#ffffff"/><circle cx="690" cy="395" r="14" fill="#ffffff"/><circle cx="1030" cy="415" r="14" fill="#ffffff"/>
+  <text x="80" y="640" font-family="Inter, Arial, sans-serif" font-size="22" fill="#a6a6a6">AI Gameplan • Setup 101</text>
+</svg>

@@ -1,18 +1,21 @@
 # AI Gameplan Week 1: Setup 101 Quiz Answer Key
 
-**Last Updated:** 2026-05-16
+**Last Updated:** 2026-05-24
 
-## Lesson 1: LLMs vs Agents
-1. What is the cleanest difference between an LLM and an agent?
-   Answer: A. An LLM answers, an agent can act with tools
+## Lesson 1: Setup Sprint, Open Every Door
+1. What is the first win in Setup 101?
+   Answer: B. Set up the workspace and prove the tools are reachable
 
-2. Which one is an LLM?
-   Answer: C. Claude
+2. Where should setup proof go?
+   Answer: A. AI Workspace Proof folder
 
-3. Which example fits an agent best?
-   Answer: B. Search Drive, find a file, update a project, and report proof
+3. What should Reagan hide from screenshots and notes?
+   Answer: B. Passwords, tokens, and private client data
 
-## Lesson 2: Claude Setup and First Prompt
+4. If a login needs CJ approval, what should Reagan do?
+   Answer: C. Write the blocked item and keep moving on safe setup work
+
+## Lesson 2: Claude Setup and First Useful Prompt
 1. What is Claude best used for in this course?
    Answer: D. Thinking, writing, planning, and explaining
 
@@ -45,7 +48,20 @@
 4. Which command helps Reagan find saved sessions later?
    Answer: B. hermes sessions list
 
-## Lesson 5: Markdown, Saved Work, Wiki, and Closeout
+## Lesson 5: LLMs, Agents, Skills, Commands, Tools, and MCPs
+1. What is the cleanest difference between an LLM and an agent?
+   Answer: A. An LLM answers, an agent can act with tools
+
+2. What is a skill in this course?
+   Answer: B. A saved best practice the agent can reuse
+
+3. What is an MCP?
+   Answer: C. A standard connection that lets an agent use outside tools or data
+
+4. Which example fits an agent best?
+   Answer: C. Search Drive, find a file, update a project, and report proof
+
+## Lesson 6: Markdown, Saved Work, Drive Backup, and Closeout
 1. What is Markdown best for here?
    Answer: A. Saving readable structured work
 
@@ -57,16 +73,6 @@
 
 4. What is the Karpathy style setup idea for Rea?
    Answer: A. Give the agent clear context, examples, constraints, and proof
-
-## Lesson 6: Skills, Commands, Tools, and MCPs
-1. Are skills and commands tied to one app only?
-   Answer: B. No, similar ideas can exist across multiple agent systems
-
-2. What is an MCP?
-   Answer: C. A standard connection that lets an agent use outside tools or data
-
-3. What should Reagan ask when a term appears in a new app?
-   Answer: D. What app am I using, and what does this word mean here?
 
 ## Lesson 7: First Project, My AI Workspace
 1. What is the Week 1 project?

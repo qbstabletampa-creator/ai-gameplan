@@ -1,0 +1,432 @@
+{
+  "title": "AI Gameplan Week 2: Content and Automation",
+  "student": "Reagan",
+  "lastUpdated": "2026-05-24",
+  "week": 2,
+  "tagline": "Make it work for you. Build a sports content system with AI support and proof.",
+  "lessons": [
+    {
+      "slug": "01-sports-brand-audit",
+      "title": "Lesson 1: Sports Brand Audit",
+      "time": "60 minutes",
+      "video": {
+        "id": "6DhHj3joUvY",
+        "title": "How To Use Google Drive",
+        "channel": "Insider Tech",
+        "url": "https://www.youtube.com/watch?v=6DhHj3joUvY",
+        "views": "200,092",
+        "likes": "Short YouTube clip",
+        "duration": "2:25",
+        "purpose": "Use Drive to save screenshots and audit proof."
+      },
+      "goal": "Reagan audits a college athletics social account and learns what strong sports content does.",
+      "sections": [
+        [
+          "Pick the account",
+          "Choose one college athletics department or team account. Use public information only."
+        ],
+        [
+          "Audit the basics",
+          "Review bio, pinned posts, last 10 posts, video usage, graphics, calls to action, and fan engagement."
+        ],
+        [
+          "Use AI the right way",
+          "Ask Claude to organize your notes, not invent facts. Paste only public observations."
+        ],
+        [
+          "Submit",
+          "Turn in a one page audit with 3 strengths, 3 misses, and 3 fixes."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What should the audit use?",
+          "choices": [
+            "Only public information",
+            "Private DMs",
+            "Guessed analytics",
+            "Passwords"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should AI do in the audit?",
+          "choices": [
+            "Invent stats",
+            "Organize notes and sharpen recommendations",
+            "Post without review",
+            "Replace observation"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What makes feedback useful?",
+          "choices": [
+            "Specific examples and fixes",
+            "Vague opinions",
+            "Only emojis",
+            "No proof"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for sports brand audit.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Audit with proof",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/proof-log.svg",
+          "note": "Every recommendation needs a screenshot, link, or clear observation."
+        }
+      ]
+    },
+    {
+      "slug": "02-content-calendar",
+      "title": "Lesson 2: Content Calendar",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan builds a 5 day content calendar for a sports brand.",
+      "sections": [
+        [
+          "Define the audience",
+          "Write who the content is for: athletes, parents, fans, recruits, students, or alumni."
+        ],
+        [
+          "Pick the pillars",
+          "Use 4 pillars: educate, spotlight, promote, and humanize."
+        ],
+        [
+          "Build the week",
+          "Create 5 posts with platform, hook, caption idea, visual idea, and goal."
+        ],
+        [
+          "Submit",
+          "Turn in the calendar plus one note explaining why each post belongs."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does a content pillar do?",
+          "choices": [
+            "Keeps ideas organized",
+            "Stores passwords",
+            "Deletes work",
+            "Posts automatically"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Which post is strongest?",
+          "choices": [
+            "Generic update",
+            "One clear audience, one clear message, one clear action",
+            "Random trend only",
+            "No goal"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Who approves public posting?",
+          "choices": [
+            "Reagan alone",
+            "AI",
+            "CJ or the assigned owner",
+            "Nobody"
+          ],
+          "answer": 2
+        }
+      ],
+      "checkpoint": "I can show proof for content calendar.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Calendar system",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/calendar-system.svg",
+          "note": "A strong calendar explains audience, goal, hook, and proof."
+        }
+      ]
+    },
+    {
+      "slug": "03-ai-assisted-copy",
+      "title": "Lesson 3: AI Assisted Copy",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan writes sports captions with AI help while keeping human judgment in charge.",
+      "sections": [
+        [
+          "Start with context",
+          "Give the AI sport, audience, tone, goal, facts, and constraints."
+        ],
+        [
+          "Draft three ways",
+          "Create one hype version, one parent friendly version, and one professional version."
+        ],
+        [
+          "Human pass",
+          "Remove generic phrases. Make it sound like a real person wrote it."
+        ],
+        [
+          "Submit",
+          "Turn in 3 captions and explain which one you would use."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What makes an AI copy prompt better?",
+          "choices": [
+            "No context",
+            "Context, audience, facts, and tone",
+            "Private secrets",
+            "One word"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What should Reagan remove?",
+          "choices": [
+            "Specific details",
+            "Generic AI sounding phrases",
+            "Proof",
+            "Clear action"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Who makes the final call?",
+          "choices": [
+            "The tool",
+            "Reagan with CJ review when public",
+            "A trend account",
+            "Nobody"
+          ],
+          "answer": 1
+        }
+      ],
+      "checkpoint": "I can show proof for ai assisted copy.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Human copy pass",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/markdown-playbook.svg",
+          "note": "AI can draft. Rea still has to decide if it is true, clear, and useful."
+        }
+      ]
+    },
+    {
+      "slug": "04-clip-ideas-and-repurposing",
+      "title": "Lesson 4: Clip Ideas and Repurposing",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan turns one long sports video or article into short content ideas without rehosting outside videos.",
+      "sections": [
+        [
+          "Pick source material",
+          "Use a public YouTube video, article, or team post. Do not download or rehost outside video."
+        ],
+        [
+          "Find moments",
+          "Identify 5 moments that could become clips, quote cards, or carousel posts."
+        ],
+        [
+          "Write hooks",
+          "Write a hook, title, and caption angle for each moment."
+        ],
+        [
+          "Submit",
+          "Turn in 5 clip ideas with source links and timestamps when available."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What should Reagan avoid?",
+          "choices": [
+            "Source links",
+            "Timestamps",
+            "Clipping and rehosting outside videos without rights",
+            "Hooks"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What makes a clip idea useful?",
+          "choices": [
+            "Hook, source, timestamp, and purpose",
+            "No source",
+            "Only a title",
+            "Private info"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What can AI help with?",
+          "choices": [
+            "Finding angles and drafting hooks",
+            "Ignoring rights",
+            "Posting without review",
+            "Deleting sources"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for clip ideas and repurposing.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Clip idea board",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/content-system.svg",
+          "note": "Use source links and timestamps. Do not rehost what we do not own."
+        }
+      ]
+    },
+    {
+      "slug": "05-simple-automation-map",
+      "title": "Lesson 5: Simple Automation Map",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan designs one safe automation map for a content workflow.",
+      "sections": [
+        [
+          "Pick the repeatable job",
+          "Choose one job: collect links, draft captions, save screenshots, or build a weekly report."
+        ],
+        [
+          "Map inputs and outputs",
+          "Write what starts the automation, what tools it touches, and what the final output should be."
+        ],
+        [
+          "Add safety rules",
+          "No public posting, no private data, and human review before anything goes out."
+        ],
+        [
+          "Submit",
+          "Turn in a one page automation map with trigger, steps, owner, proof, and safety rules."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What must every public automation include?",
+          "choices": [
+            "Human review",
+            "No owner",
+            "Secret posting",
+            "No proof"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is a trigger?",
+          "choices": [
+            "What starts the workflow",
+            "A password",
+            "A final grade",
+            "A logo"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the safest first automation?",
+          "choices": [
+            "Draft and save for review",
+            "Post publicly at random",
+            "Delete messages",
+            "Send private data"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for simple automation map.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Automation map",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/mcp-tools.svg",
+          "note": "A safe automation drafts, saves, and asks for review."
+        }
+      ]
+    },
+    {
+      "slug": "06-week-2-project-social-media-system",
+      "title": "Lesson 6: Week 2 Project, Social Media System",
+      "time": "120 minutes",
+      "video": null,
+      "goal": "Reagan packages the audit, calendar, captions, clip ideas, and automation map into one sports social system.",
+      "sections": [
+        [
+          "Assemble the system",
+          "Create a Week 2 folder with audit, calendar, captions, clip ideas, automation map, and proof."
+        ],
+        [
+          "Write the explanation",
+          "Answer: How would I run social for a college athletics department?"
+        ],
+        [
+          "Back it up",
+          "Upload the folder to Drive and export course progress."
+        ],
+        [
+          "Submit",
+          "Turn in Drive link, final write up, and closeout note."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is the Week 2 final product?",
+          "choices": [
+            "A sports social media system",
+            "A password list",
+            "A random post",
+            "A deleted folder"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What belongs in the closeout?",
+          "choices": [
+            "Changed, location, proof, next step",
+            "Only a quote",
+            "Nothing",
+            "A secret token"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should the final write up explain?",
+          "choices": [
+            "How Reagan would run social for a college athletics department",
+            "Why proof does not matter",
+            "How to skip review",
+            "How to hide work"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for week 2 project, social media system.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Week 2 package",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/drive-backup.svg",
+          "note": "One folder. Clear proof. Ready for CJ review."
+        }
+      ]
+    }
+  ],
+  "qualityRules": [
+    "Every content deliverable must include source links or screenshots.",
+    "No public posting without CJ approval.",
+    "AI drafts are not final until Reagan does a human pass.",
+    "Every week ends with Drive backup and closeout."
+  ]
+}

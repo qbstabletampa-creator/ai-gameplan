@@ -1,0 +1,423 @@
+{
+  "title": "AI Gameplan Week 4: Career Launch",
+  "student": "Reagan",
+  "lastUpdated": "2026-05-24",
+  "week": 4,
+  "tagline": "Get the job. Turn the work into a portfolio, applications, outreach, and confidence.",
+  "lessons": [
+    {
+      "slug": "01-resume-rebuild",
+      "title": "Lesson 1: Resume Rebuild",
+      "time": "120 minutes",
+      "video": null,
+      "goal": "Reagan builds three tailored resume versions for college athletics roles.",
+      "sections": [
+        [
+          "Collect proof",
+          "List the work from Weeks 1 to 3 that belongs on a resume."
+        ],
+        [
+          "Build the master resume",
+          "Write one master version with skills, projects, outcomes, and proof."
+        ],
+        [
+          "Tailor three versions",
+          "Create versions for operations, social and content, and admin or recruiting support."
+        ],
+        [
+          "Submit",
+          "Turn in all three resumes and explain what changed for each target."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What should lead the resume?",
+          "choices": [
+            "Proof and outcomes",
+            "Generic adjectives",
+            "Private info",
+            "Fake titles"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why make three versions?",
+          "choices": [
+            "Different jobs value different proof",
+            "To make busy work",
+            "To confuse people",
+            "Because AI said so"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should never be added?",
+          "choices": [
+            "Fake experience",
+            "Real projects",
+            "Clear outcomes",
+            "Skills she can defend"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for resume rebuild.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Resume proof stack",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/proof-log.svg",
+          "note": "Resume bullets should come from real work she can defend."
+        }
+      ]
+    },
+    {
+      "slug": "02-linkedin-and-online-presence",
+      "title": "Lesson 2: LinkedIn and Online Presence",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan updates LinkedIn and creates a clean professional presence.",
+      "sections": [
+        [
+          "Profile basics",
+          "Headline, about section, experience, education, skills, and featured work."
+        ],
+        [
+          "Tell the story",
+          "Position the course as proof she can learn fast, use AI responsibly, and produce sports work."
+        ],
+        [
+          "Draft outreach",
+          "Write 3 connection messages for people in college athletics."
+        ],
+        [
+          "Submit",
+          "Turn in screenshots or draft copy for CJ review before publishing."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What is LinkedIn for here?",
+          "choices": [
+            "Professional proof and networking",
+            "Private passwords",
+            "Random memes",
+            "Ignoring employers"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who reviews public profile changes?",
+          "choices": [
+            "CJ before final publish",
+            "Nobody",
+            "AI only",
+            "A stranger"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should outreach be?",
+          "choices": [
+            "Specific, respectful, short",
+            "Spammy",
+            "Demanding",
+            "Generic blast"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for linkedin and online presence.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "LinkedIn proof",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/content-system.svg",
+          "note": "Keep it professional, specific, and true."
+        }
+      ]
+    },
+    {
+      "slug": "03-target-list-and-research",
+      "title": "Lesson 3: Target List and Research",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan creates a target list of college athletics organizations and roles.",
+      "sections": [
+        [
+          "Pick targets",
+          "Find 10 organizations, departments, or roles that fit the goal."
+        ],
+        [
+          "Research each one",
+          "Record role, contact path, why it fits, recent news, and source link."
+        ],
+        [
+          "Rank the list",
+          "Mark top 3 and explain why."
+        ],
+        [
+          "Submit",
+          "Turn in the target list and source log."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "How many targets are required?",
+          "choices": [
+            "10",
+            "1",
+            "100 with no notes",
+            "None"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What makes a target strong?",
+          "choices": [
+            "Fit, source, role, and reason",
+            "Random school name",
+            "No link",
+            "Only mascot"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should Reagan rank?",
+          "choices": [
+            "Top 3 targets with reasons",
+            "Passwords",
+            "Private DMs",
+            "Nothing"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for target list and research.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Target research board",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/wiki-vaults.svg",
+          "note": "A good target list has reasons, not just names."
+        }
+      ]
+    },
+    {
+      "slug": "04-game-day-ops-mock-project",
+      "title": "Lesson 4: Game Day Ops Mock Project",
+      "time": "120 minutes",
+      "video": null,
+      "goal": "Reagan creates a game day operations plan to show sports admin thinking.",
+      "sections": [
+        [
+          "Define the event",
+          "Choose a sample football, flag football, or athletics event."
+        ],
+        [
+          "Map the day",
+          "Build timeline, staffing, equipment, comms, risk plan, and fan experience notes."
+        ],
+        [
+          "Use AI as checker",
+          "Ask AI what is missing, then decide what to add."
+        ],
+        [
+          "Submit",
+          "Turn in a polished Game Day Operations Plan."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does an ops plan need?",
+          "choices": [
+            "Timeline, roles, equipment, comms, risks",
+            "Only a logo",
+            "No details",
+            "A password"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How should AI help?",
+          "choices": [
+            "Check gaps and draft structure",
+            "Invent private facts",
+            "Run the event alone",
+            "Skip review"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does this project prove?",
+          "choices": [
+            "She can think like a sports operator",
+            "She watched videos only",
+            "She can hide work",
+            "She can avoid details"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for game day ops mock project.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Game day plan",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/calendar-system.svg",
+          "note": "Operations is details, timing, roles, and calm execution."
+        }
+      ]
+    },
+    {
+      "slug": "05-job-search-system",
+      "title": "Lesson 5: Job Search System",
+      "time": "90 minutes",
+      "video": null,
+      "goal": "Reagan builds a repeatable job search tracker and outreach workflow.",
+      "sections": [
+        [
+          "Build the tracker",
+          "Columns: organization, role, link, contact, status, next step, date, notes."
+        ],
+        [
+          "Draft application blocks",
+          "Create reusable but editable bullets for cover letters and messages."
+        ],
+        [
+          "Set weekly rhythm",
+          "Define when to search, apply, follow up, and update CJ."
+        ],
+        [
+          "Submit",
+          "Turn in tracker plus 5 tailored application targets."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What does the tracker prevent?",
+          "choices": [
+            "Losing follow ups",
+            "Doing work",
+            "Saving proof",
+            "Clear next steps"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What should application blocks be?",
+          "choices": [
+            "Reusable but tailored",
+            "Copied blindly",
+            "Fake",
+            "Secret"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the weekly rhythm for?",
+          "choices": [
+            "Consistent action and follow up",
+            "Random stress",
+            "Avoiding work",
+            "Deleting notes"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for job search system.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Job search tracker",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/reporting-system.svg",
+          "note": "The system keeps the search moving when motivation dips."
+        }
+      ]
+    },
+    {
+      "slug": "06-portfolio-and-final-presentation",
+      "title": "Lesson 6: Portfolio and Final Presentation",
+      "time": "120 minutes",
+      "video": null,
+      "goal": "Reagan packages the course into a portfolio and presents it to CJ.",
+      "sections": [
+        [
+          "Build the portfolio",
+          "Include best work from all 4 weeks with short explanations and proof links."
+        ],
+        [
+          "Write the story",
+          "Explain what she learned, what she built, and how she will use it in college athletics."
+        ],
+        [
+          "Practice the talk",
+          "Prepare a 10 minute presentation for CJ."
+        ],
+        [
+          "Submit",
+          "Turn in portfolio, Drive folder, presentation notes, and final closeout."
+        ]
+      ],
+      "quiz": [
+        {
+          "q": "What belongs in the portfolio?",
+          "choices": [
+            "Best work with proof and context",
+            "Every random draft",
+            "Private tokens",
+            "Nothing"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How long is the presentation?",
+          "choices": [
+            "10 minutes",
+            "2 hours",
+            "No limit",
+            "10 seconds"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What is the final outcome?",
+          "choices": [
+            "A portfolio and job search system she can use",
+            "Only notes",
+            "A deleted folder",
+            "A public post without review"
+          ],
+          "answer": 0
+        }
+      ],
+      "checkpoint": "I can show proof for portfolio and final presentation.",
+      "visuals": [
+        {
+          "type": "Best practice card",
+          "title": "Final portfolio",
+          "source": "QB Stable operating practice",
+          "url": "#",
+          "image": "assets/visuals/drive-backup.svg",
+          "note": "Package the proof so an employer can understand it fast."
+        }
+      ]
+    }
+  ],
+  "qualityRules": [
+    "Resume and LinkedIn claims must be true and backed by proof.",
+    "Public profile changes need CJ review.",
+    "Every target needs a source and reason.",
+    "Final portfolio must be employer ready."
+  ]
+}

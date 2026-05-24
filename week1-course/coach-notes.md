@@ -1,13 +1,15 @@
 # AI Gameplan Week 1 Coach Notes
 
 **Summary:** Setup 101 should give Rea a working AI workspace, not just ideas. She should leave with accounts, proof, saved progress, Drive backup, and a closeout habit.
-**Last Updated:** 2026-05-16
+**Last Updated:** 2026-05-24
 **Sources:** CJ direction in Telegram, Hermes Agent setup reference, selected YouTube metadata checked with yt-dlp, QB Stable closeout, wiki, vault, and Drive practices.
 
 ---
 
 ## CJ direction applied
 
+- May 24 pass: Lesson 1 now starts with account access, AI Workspace folder, proof log, and screenshots before LLM vs agent theory.
+- May 24 pass: Agent vocabulary moved after setup so Rea learns terms against tools she has already opened.
 - Prefer short YouTube clips over generic link cards.
 - Remove outside frameworks we do not use.
 - Teach the actual QB Stable operating habits: closeout, wiki and vaults, Karpathy style setup notes, Google Drive backup.

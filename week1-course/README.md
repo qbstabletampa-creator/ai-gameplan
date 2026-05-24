@@ -1,6 +1,6 @@
 # AI Gameplan Week 1: Setup 101
 
-Interactive course for Rea to set up her first AI workspace.
+Interactive course for Rea to set up her first AI workspace. May 24 pass starts with setup and proof before heavy concepts.
 
 ## Outcome
 

@@ -6,22 +6,14 @@ Live site: https://qbstabletampa-creator.github.io/ai-gameplan/
 
 ## Course buildout
 
-- `index.html`, public syllabus and itinerary.
-- `week1/`, full Week 1 course package.
+- `index.html`, public syllabus and navigation hub.
+- `week1-course/`, Week 1 interactive course.
+- `week2-course/`, Week 2 interactive course.
+- `week3-course/`, Week 3 interactive course.
+- `week4-course/`, Week 4 interactive course.
 
-## Week 1
+## Source of truth
 
-Theme: Build Your AI Workbench.
+Use the root site navigation and `week*-course/` folders.
 
-Tools:
-
-- Claude Code
-- Codex
-- Hermes
-- GitHub
-- Terminal
-- YouTube and short video learning
-
-Week 1 hub:
-
-https://qbstabletampa-creator.github.io/ai-gameplan/week1/
+The old `week1/` package is legacy and redirects to `week1-course/`.
