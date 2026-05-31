@@ -1,6 +1,6 @@
 # AI Gameplan Week 1: Setup 101 Quiz Answer Key
 
-**Last Updated:** 2026-05-24
+**Last Updated:** 2026-05-31
 
 ## Lesson 1: Setup Sprint, Open Every Door
 1. What is the first win in Setup 101?
@@ -14,6 +14,9 @@
 
 4. If a login needs CJ approval, what should Reagan do?
    Answer: C. Write the blocked item and keep moving on safe setup work
+
+5. What is the right setup choice when we do not know the MacBook RAM?
+   Answer: B. Use browser based cloud tools unless CJ approves more
 
 ## Lesson 2: Claude Setup and First Useful Prompt
 1. What is Claude best used for in this course?
@@ -34,6 +37,9 @@
 
 3. Who makes the final call?
    Answer: A. Reagan
+
+4. When should Reagan run CLI or local installs on the MacBook?
+   Answer: B. Only when CJ approves the step live
 
 ## Lesson 4: Set Up Your Telegram Agent
 1. What is Telegram in this setup?
@@ -60,6 +66,9 @@
 
 4. Which example fits an agent best?
    Answer: C. Search Drive, find a file, update a project, and report proof
+
+5. What is a cloud model?
+   Answer: A. A model that runs through a browser or app on outside servers
 
 ## Lesson 6: Markdown, Saved Work, Drive Backup, and Closeout
 1. What is Markdown best for here?

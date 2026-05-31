@@ -1,24 +1,31 @@
 # AI Gameplan Week 1: Setup 101
 
-Interactive course for Rea to set up her first AI workspace. May 24 pass starts with setup and proof before heavy concepts.
+Interactive course for Rea to set up her first AI workspace on a MacBook.
 
 ## Outcome
 
 By the end, Rea should have:
 
-- Claude access
-- Codex access
+- Claude access through the browser
+- Codex or OpenAI access through the path CJ provides
 - Telegram agent access
-- An AI Workspace folder
+- A MacBook AI Workspace folder in Documents
 - Markdown setup notes
-- Proof screenshots
+- Proof screenshots with private values hidden
 - Saved course progress file
 - Google Drive backup
 - One closeout note
 
+## MacBook rules
+
+- Cloud first because RAM is unknown.
+- No local models, Docker, Ollama, LM Studio, or heavy CLI installs unless CJ approves live.
+- Use Finder the same way every time: Documents > AI Workspace for work, Downloads only for temporary files, Google Drive for backup.
+- Videos are setup references. If a video shows terminal commands, Reagan watches first and runs nothing heavy without CJ.
+
 ## Current focus
 
-This version uses short YouTube clips, local visual cards, and QB Stable operating practices. It does not teach frameworks we are not using.
+This version uses short YouTube clips, local visual cards, Mac setup guidance, and QB Stable operating practices. It does not teach frameworks we are not using.
 
 ## Hard rules
 

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="MacBook cloud first setup map">
+  <rect width="1200" height="720" fill="#050505"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D4C36A"/><stop offset="1" stop-color="#00F5FF"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".45"/></filter>
+  </defs>
+  <text x="72" y="92" fill="#D4C36A" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">MacBook Setup Rule</text>
+  <text x="72" y="138" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="24">Cloud first. Save proof. No heavy local models unless CJ approves.</text>
+  <g filter="url(#shadow)">
+    <rect x="80" y="210" width="300" height="190" rx="28" fill="#111" stroke="#D4C36A" stroke-width="3"/>
+    <text x="120" y="270" fill="#fff" font-size="30" font-family="Arial" font-weight="800">MacBook</text>
+    <text x="120" y="318" fill="#cfcfcf" font-size="22" font-family="Arial">Finder</text>
+    <text x="120" y="354" fill="#cfcfcf" font-size="22" font-family="Arial">Chrome or Safari</text>
+    <text x="120" y="390" fill="#cfcfcf" font-size="22" font-family="Arial">Telegram Desktop</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="455" y="170" width="300" height="270" rx="28" fill="#101820" stroke="#00F5FF" stroke-width="3"/>
+    <text x="495" y="230" fill="#00F5FF" font-size="30" font-family="Arial" font-weight="800">Cloud Tools</text>
+    <text x="495" y="285" fill="#fff" font-size="22" font-family="Arial">Claude</text>
+    <text x="495" y="326" fill="#fff" font-size="22" font-family="Arial">Codex or OpenAI</text>
+    <text x="495" y="367" fill="#fff" font-size="22" font-family="Arial">Hermes via Telegram</text>
+    <text x="495" y="408" fill="#fff" font-size="22" font-family="Arial">Google Drive</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="830" y="210" width="290" height="190" rx="28" fill="#141414" stroke="#39FF14" stroke-width="3"/>
+    <text x="870" y="270" fill="#39FF14" font-size="30" font-family="Arial" font-weight="800">Proof</text>
+    <text x="870" y="318" fill="#fff" font-size="22" font-family="Arial">Screenshots</text>
+    <text x="870" y="354" fill="#fff" font-size="22" font-family="Arial">Markdown notes</text>
+    <text x="870" y="390" fill="#fff" font-size="22" font-family="Arial">Closeout</text>
+  </g>
+  <path d="M390 305 C420 270 420 270 455 270" stroke="url(#g)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M755 310 C790 270 790 270 825 300" stroke="url(#g)" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="72" y="530" width="1056" height="86" rx="24" fill="rgba(212,195,106,.12)" stroke="rgba(212,195,106,.45)"/>
+  <text x="104" y="585" fill="#fff" font-family="Arial" font-size="28" font-weight="700">Tomorrow test: close laptop, reopen, find folder, open course, message agent.</text>
+</svg>

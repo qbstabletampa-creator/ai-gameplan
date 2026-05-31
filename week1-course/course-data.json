@@ -1,7 +1,7 @@
 {
   "title": "AI Gameplan Week 1: Setup 101",
   "student": "Reagan",
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-05-31",
   "videos": [
     {
       "id": "n5ksOqcBWoQ",
@@ -88,11 +88,19 @@
         ],
         [
           "Create the AI Workspace folder",
-          "Create a folder named AI Workspace. Inside it, make a Proof folder and a Notes folder. This is where screenshots, Markdown files, and progress exports will live."
+          "On the MacBook, open Finder and create a folder named AI Workspace in Documents. Inside it, make Proof, Notes, and Exports folders. Keep screenshots, Markdown files, and progress exports there before backing them up to Google Drive."
+        ],
+        [
+          "MacBook ready check",
+          "Before the course starts, charge the MacBook, connect WiFi, update Chrome, install Telegram Desktop if it is missing, bookmark Claude, OpenAI or Codex, Google Drive, and this course page, then clean the Downloads folder so setup files are easy to find."
         ],
         [
           "Open the tools",
-          "Create or log into Claude. Create or log into Codex with the account CJ provides. Install Telegram if needed. Do not save or screenshot passwords, tokens, or private client data."
+          "Use cloud tools first because we do not know this MacBook's RAM. Open Claude in the browser. Open Codex or OpenAI with the account CJ provides. Open Telegram Desktop or Telegram Web. Do not install local models, Docker, Ollama, LM Studio, or anything heavy unless CJ approves it live."
+        ],
+        [
+          "Cloud model rule",
+          "The default path is browser based. If a video shows a terminal or CLI install, treat that as a demo unless CJ specifically says to run it on Reagan's MacBook. The win is access, safe prompts, saved proof, and a clean resume path, not turning her laptop into a server."
         ],
         [
           "Start the proof log",
@@ -100,7 +108,7 @@
         ],
         [
           "Submit",
-          "Submit one screenshot of the AI Workspace folder and one screenshot showing each tool is reachable. Hide private values. If a login needs CJ, write waiting on CJ next to that item."
+          "Submit one screenshot of the AI Workspace folder, one screenshot showing each cloud tool is reachable, and one note confirming the MacBook ready check is done. Hide private values. If a login needs CJ, write waiting on CJ next to that item."
         ]
       ],
       "quiz": [
@@ -143,10 +151,28 @@
             "Share private info publicly"
           ],
           "answer": 2
+        },
+        {
+          "q": "What is the right setup choice when we do not know the MacBook RAM?",
+          "choices": [
+            "Install a local model first",
+            "Use browser based cloud tools unless CJ approves more",
+            "Skip backups",
+            "Save tokens in screenshots"
+          ],
+          "answer": 1
         }
       ],
-      "checkpoint": "I have the workspace folder started and can reach Claude, Codex, and Telegram or clearly mark what is waiting on CJ.",
+      "checkpoint": "I have the MacBook ready, the workspace folder started, and cloud access to Claude, Codex or OpenAI, and Telegram clearly proven or marked as waiting on CJ.",
       "visuals": [
+        {
+          "type": "Mac setup card",
+          "title": "MacBook cloud first setup",
+          "source": "QB Stable setup rule",
+          "url": "#",
+          "image": "assets/visuals/mac-cloud-setup.svg",
+          "note": "Shows the safe path for an unknown RAM MacBook: browser tools, Drive backup, and no heavy local models."
+        },
         {
           "type": "Internal walkthrough",
           "title": "Workspace proof map",
@@ -186,12 +212,16 @@
           "Claude is the thinking partner. Use it for writing, planning, summarizing, and explaining. It is not a password vault and it does not replace judgment."
         ],
         [
+          "Mac browser setup",
+          "Use Chrome or Safari on the MacBook. Sign in, bookmark Claude, and keep the AI Workspace folder open in Finder so saved notes and screenshots go to the same place every time."
+        ],
+        [
           "Watch with purpose",
           "Watch the 5:19 Anthropic video. Pause after the first prompt example and write what made the prompt clear."
         ],
         [
           "Build",
-          "Ask Claude to create a 5 step plan for setting up your AI workspace for this course. Then ask it to make the plan shorter and more direct."
+          "Ask Claude to create a 5 step plan for setting up your AI workspace on a MacBook using cloud tools only. Then ask it to make the plan shorter and more direct."
         ],
         [
           "Save",
@@ -199,7 +229,7 @@
         ],
         [
           "Submit",
-          "Submit a screenshot showing Claude open and paste the final 5 step plan into your workbook."
+          "Submit a screenshot showing Claude open in the Mac browser and paste the final 5 step cloud setup plan into your workbook."
         ]
       ],
       "quiz": [
@@ -268,7 +298,11 @@
         ],
         [
           "Setup",
-          "Create or log into the account CJ provides. Confirm you can open Codex and start a task. Keep private data out of test prompts."
+          "Start with the cloud or account based Codex path CJ provides. Confirm you can open Codex and start a safe sample task. If the official video shows CLI commands, watch them for context first. Do not run terminal installs on the MacBook unless CJ approves them."
+        ],
+        [
+          "Mac safety rule",
+          "Unknown RAM means no local model work today. Codex is here to review, edit, and build from cloud access. If terminal access is needed, CJ can demo it while Reagan records what changed in proof-log.md."
         ],
         [
           "Watch with purpose",
@@ -280,7 +314,7 @@
         ],
         [
           "Submit",
-          "Submit a screenshot showing Codex access and 3 bullets on when you would choose Codex instead of Claude."
+          "Submit a screenshot showing Codex or OpenAI access and 3 bullets on when you would choose Codex instead of Claude. Add one line confirming no heavy local install was started."
         ]
       ],
       "quiz": [
@@ -313,9 +347,19 @@
             "The video"
           ],
           "answer": 0
+        },
+        {
+          "q": "When should Reagan run CLI or local installs on the MacBook?",
+          "choices": [
+            "Any time a video mentions them",
+            "Only when CJ approves the step live",
+            "Before making a backup",
+            "Before signing in to cloud tools"
+          ],
+          "answer": 1
         }
       ],
-      "checkpoint": "I can open Codex and know what job it should do.",
+      "checkpoint": "I can open the Codex path CJ gives me and know what job it should do without relying on a heavy local setup.",
       "visuals": [
         {
           "type": "Video + thumbnail",
@@ -353,7 +397,7 @@
       "sections": [
         [
           "Warm up",
-          "Telegram is the front door. The agent is the worker behind it. BotFather creates the bot account, then Hermes connects the bot to the agent."
+          "Telegram is the front door. The agent is the worker behind it. BotFather can create a bot account, but CJ's Hermes setup connects the real agent. Today the goal is cloud connected access, not running Hermes locally on the MacBook."
         ],
         [
           "Watch with purpose",
@@ -361,15 +405,15 @@
         ],
         [
           "Setup",
-          "Create the Telegram bot with BotFather. Save the bot name. Do not paste the bot token into public docs or screenshots. CJ approves the token connection step."
+          "Install Telegram Desktop from the official Telegram site or use Telegram Web if needed. Create the Telegram bot only if CJ asks. Save the bot name. Never paste a bot token into public docs, screenshots, or the workbook."
         ],
         [
           "Hermes connection",
-          "Follow the guided internal setup for the Telegram gateway. Confirm you can send one message to the bot and get one response back."
+          "Follow CJ's guided internal setup for the Telegram agent front door. If a token, gateway setting, or admin step is needed, CJ handles it. Reagan records the bot name, what worked, and how to reopen the chat tomorrow."
         ],
         [
           "Proof",
-          "Submit a screenshot of the bot chat working, with any private token hidden. Add the bot name and the date to proof-log.md."
+          "Submit a screenshot of the Telegram agent chat working, with any private token hidden. Add the bot name, date, MacBook setup status, and resume steps to proof-log.md."
         ]
       ],
       "quiz": [
@@ -414,7 +458,7 @@
           "answer": 1
         }
       ],
-      "checkpoint": "I can install the agent, connect Telegram, authenticate with Codex, and return to saved work.",
+      "checkpoint": "I can reach the Telegram agent front door, know what CJ had to approve, and can return to saved work tomorrow.",
       "visuals": [
         {
           "type": "Short YouTube clip",
@@ -444,11 +488,15 @@
       "sections": [
         [
           "Start from what you built",
-          "Look at your setup proof. Claude is an LLM. Hermes through Telegram is an agent front door. Codex is a build focused AI teammate. The terms make more sense after the tools are open."
+          "Look at your setup proof. Claude is a cloud LLM. Codex is a build focused AI tool. Telegram is a front door. Hermes is the agent system behind that front door. The MacBook is just the workstation, not the brain."
         ],
         [
           "LLM vs agent",
           "An LLM thinks and answers. An agent thinks and acts with tools, memory, rules, and a goal. Simple line: chatbot answers, agent gets work done."
+        ],
+        [
+          "Cloud vs local",
+          "A cloud model runs on someone else's servers through the browser or app. A local model runs on the laptop and needs more RAM and setup. For this course, use cloud models unless CJ says otherwise."
         ],
         [
           "Watch with purpose",
@@ -503,6 +551,16 @@
             "Do nothing with tools"
           ],
           "answer": 2
+        },
+        {
+          "q": "What is a cloud model?",
+          "choices": [
+            "A model that runs through a browser or app on outside servers",
+            "A model that must run on Reagan’s laptop",
+            "A folder in Downloads",
+            "A Telegram sticker pack"
+          ],
+          "answer": 0
         }
       ],
       "checkpoint": "I can explain the agent language without acting like every word belongs to one app only.",
@@ -559,7 +617,11 @@
         ],
         [
           "Drive backup",
-          "Local files are not enough. Back up the AI Workspace folder to Google Drive so Rea can recover progress and CJ can review proof fast."
+          "Local files are not enough. On the MacBook, keep the working folder in Documents, then back up the AI Workspace folder to Google Drive so Rea can recover progress and CJ can review proof."
+        ],
+        [
+          "Mac folder habit",
+          "Use Finder the same way every time: Documents > AI Workspace for work, Downloads for temporary files, and Google Drive for backup. If a file lands in Downloads, move it before closing the laptop."
         ],
         [
           "Closeout habit",
@@ -567,7 +629,7 @@
         ],
         [
           "Build",
-          "Create or update my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today’s setup notes and one clean next step."
+          "Create or update my-ai-workspace.md, prompts.md, proof-log.md, and closeout.md. Add today’s Mac setup notes, cloud tool links, and one clean next step."
         ]
       ],
       "quiz": [
@@ -666,7 +728,11 @@
       "sections": [
         [
           "Project brief",
-          "Build My AI Workspace. It should prove she can log into Claude, use Codex, message the Telegram agent, explain the agent language, save Markdown notes, and back up proof."
+          "Build My AI Workspace for a MacBook cloud setup. It should prove she can log into Claude, use Codex or OpenAI, message the Telegram agent, explain the agent language, save Markdown files, and back everything up to Drive."
+        ],
+        [
+          "Before Reagan leaves tomorrow",
+          "She should be able to close the MacBook, reopen it, open Documents > AI Workspace, open the course bookmark, open the Drive backup, and message the Telegram agent without CJ hunting for files."
         ],
         [
           "Progress save",
@@ -682,7 +748,7 @@
         ],
         [
           "Submit",
-          "Submit the Drive folder link or screenshot, the downloaded progress file, and the final closeout note."
+          "Submit the Drive folder link or screenshot, the downloaded progress file, the final closeout note, and one MacBook resume checklist showing exactly how to start again tomorrow."
         ]
       ],
       "quiz": [
@@ -717,7 +783,7 @@
           "answer": 0
         }
       ],
-      "checkpoint": "I have my AI workspace set up, saved, organized, and ready to use again.",
+      "checkpoint": "I have my MacBook based AI workspace set up, saved, organized, backed up, and ready to use again.",
       "visuals": [
         {
           "type": "Short YouTube clip",
