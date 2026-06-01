@@ -1,7 +1,7 @@
 {
   "title": "AI Gameplan Week 4: Career Launch",
   "student": "Reagan",
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-06-01",
   "week": 4,
   "tagline": "Get the job. Turn the work into a portfolio, applications, outreach, and confidence.",
   "lessons": [
@@ -9,12 +9,25 @@
       "slug": "01-resume-rebuild",
       "title": "Lesson 1: Resume Rebuild",
       "time": "120 minutes",
-      "video": null,
-      "goal": "Reagan builds three tailored resume versions for college athletics roles.",
+      "video": {
+        "id": "MkWZuOEJzl8",
+        "title": "How to Write a Resume That Gets Interviews",
+        "channel": "Greg Langstaff",
+        "url": "https://www.youtube.com/watch?v=MkWZuOEJzl8",
+        "views": "22,580",
+        "likes": "Short YouTube clip",
+        "duration": "6:46",
+        "purpose": "Learn resume writing basics before building your own tailored versions."
+      },
+      "goal": "You build three tailored resume versions for college athletics roles.",
       "sections": [
         [
           "Collect proof",
           "List the work from Weeks 1 to 3 that belongs on a resume."
+        ],
+        [
+          "Cloud first reminder",
+          "Quick check: are you using Claude in the browser, saving to Google Drive, and keeping your AI Workspace folder organized? This is your final week. Everything you build goes into your portfolio. If you need to install anything new, check with CJ first. Browser tools and cloud storage come first."
         ],
         [
           "Build the master resume",
@@ -56,7 +69,7 @@
             "Fake experience",
             "Real projects",
             "Clear outcomes",
-            "Skills she can defend"
+            "Skills you can defend"
           ],
           "answer": 0
         }
@@ -69,7 +82,7 @@
           "source": "QB Stable operating practice",
           "url": "#",
           "image": "assets/visuals/proof-log.svg",
-          "note": "Resume bullets should come from real work she can defend."
+          "note": "Resume bullets should come from real work you can defend."
         }
       ]
     },
@@ -77,8 +90,17 @@
       "slug": "02-linkedin-and-online-presence",
       "title": "Lesson 2: LinkedIn and Online Presence",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan updates LinkedIn and creates a clean professional presence.",
+      "video": {
+        "id": "o31LAQGyYvE",
+        "title": "How to Optimize Your LinkedIn Profile",
+        "channel": "Waalaxy",
+        "url": "https://www.youtube.com/watch?v=o31LAQGyYvE",
+        "views": "5,233",
+        "likes": "Short YouTube clip",
+        "duration": "3:28",
+        "purpose": "See how to set up a LinkedIn profile that stands out to employers."
+      },
+      "goal": "You update LinkedIn and create a clean professional presence.",
       "sections": [
         [
           "Profile basics",
@@ -86,7 +108,7 @@
         ],
         [
           "Tell the story",
-          "Position the course as proof she can learn fast, use AI responsibly, and produce sports work."
+          "Position the course as proof you can learn fast, use AI responsibly, and produce sports work."
         ],
         [
           "Draft outreach",
@@ -145,8 +167,17 @@
       "slug": "03-target-list-and-research",
       "title": "Lesson 3: Target List and Research",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan creates a target list of college athletics organizations and roles.",
+      "video": {
+        "id": "HLh_AACcBs0",
+        "title": "How to Research a Company Before an Interview",
+        "channel": "Don Georgevich",
+        "url": "https://www.youtube.com/watch?v=HLh_AACcBs0",
+        "views": "21,130",
+        "likes": "Short YouTube clip",
+        "duration": "7:33",
+        "purpose": "Learn how to research organizations so your target list has real depth."
+      },
+      "goal": "You create a target list of college athletics organizations and roles.",
       "sections": [
         [
           "Pick targets",
@@ -187,7 +218,7 @@
           "answer": 0
         },
         {
-          "q": "What should Reagan rank?",
+          "q": "What should you rank?",
           "choices": [
             "Top 3 targets with reasons",
             "Passwords",
@@ -214,7 +245,7 @@
       "title": "Lesson 4: Game Day Ops Mock Project",
       "time": "120 minutes",
       "video": null,
-      "goal": "Reagan creates a game day operations plan to show sports admin thinking.",
+      "goal": "You create a game day operations plan to show sports admin thinking.",
       "sections": [
         [
           "Define the event",
@@ -257,10 +288,10 @@
         {
           "q": "What does this project prove?",
           "choices": [
-            "She can think like a sports operator",
-            "She watched videos only",
-            "She can hide work",
-            "She can avoid details"
+            "You can think like a sports operator",
+            "You watched videos only",
+            "You can hide work",
+            "You can avoid details"
           ],
           "answer": 0
         }
@@ -281,8 +312,17 @@
       "slug": "05-job-search-system",
       "title": "Lesson 5: Job Search System",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan builds a repeatable job search tracker and outreach workflow.",
+      "video": {
+        "id": "deSAYvC47fk",
+        "title": "How to Job Search Effectively",
+        "channel": "Indeed",
+        "url": "https://www.youtube.com/watch?v=deSAYvC47fk",
+        "views": "340,351",
+        "likes": "Short YouTube clip",
+        "duration": "3:47",
+        "purpose": "Build a repeatable job search process instead of applying randomly."
+      },
+      "goal": "You build a repeatable job search tracker and outreach workflow.",
       "sections": [
         [
           "Build the tracker",
@@ -350,7 +390,7 @@
       "title": "Lesson 6: Portfolio and Final Presentation",
       "time": "120 minutes",
       "video": null,
-      "goal": "Reagan packages the course into a portfolio and presents it to CJ.",
+      "goal": "You package the course into a portfolio and presents it to CJ.",
       "sections": [
         [
           "Build the portfolio",
@@ -358,7 +398,7 @@
         ],
         [
           "Write the story",
-          "Explain what she learned, what she built, and how she will use it in college athletics."
+          "Explain what you learned, what you built, and how you will use it in college athletics."
         ],
         [
           "Practice the talk",
@@ -393,7 +433,7 @@
         {
           "q": "What is the final outcome?",
           "choices": [
-            "A portfolio and job search system she can use",
+            "A portfolio and job search system you can use",
             "Only notes",
             "A deleted folder",
             "A public post without review"
@@ -418,6 +458,7 @@
     "Resume and LinkedIn claims must be true and backed by proof.",
     "Public profile changes need CJ review.",
     "Every target needs a source and reason.",
-    "Final portfolio must be employer ready."
+    "Final portfolio must be employer ready.",
+    "Cloud first: browser tools and cloud storage before any installs. Check with CJ before installing anything new."
   ]
 }

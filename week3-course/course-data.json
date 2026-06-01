@@ -1,7 +1,7 @@
 {
   "title": "AI Gameplan Week 3: Real Projects",
   "student": "Reagan",
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-06-01",
   "week": 3,
   "tagline": "Do real work. Use agents, research, data, and reporting on business tasks that matter.",
   "lessons": [
@@ -9,16 +9,29 @@
       "slug": "01-agent-delegation",
       "title": "Lesson 1: Agent Delegation",
       "time": "75 minutes",
-      "video": null,
-      "goal": "Reagan learns how to split work between herself, AI chat, and an agent.",
+      "video": {
+        "id": "hLJTcVHW8_I",
+        "title": "AI Agents Explained Simply",
+        "channel": "AI Alfie",
+        "url": "https://www.youtube.com/watch?v=hLJTcVHW8_I",
+        "views": "556,040",
+        "likes": "Short YouTube clip",
+        "duration": "6:52",
+        "purpose": "Understand what AI agents are and how they work before you start delegating to them."
+      },
+      "goal": "You learn how to split work between yourself, AI chat, and an agent.",
       "sections": [
         [
           "Define the job",
           "Write the goal, context, constraints, and proof needed."
         ],
         [
+          "Cloud first reminder",
+          "Quick check: are you using Claude in the browser, saving to Google Drive, and keeping your AI Workspace folder organized? This week involves real tasks. If you need to install anything new, check with CJ first. Browser tools and cloud storage come first."
+        ],
+        [
           "Choose the worker",
-          "Decide what Reagan does, what Claude drafts, what Codex checks, and what an agent can research."
+          "Decide what You do, what Claude drafts, what Codex checks, and what an agent can research."
         ],
         [
           "Set guardrails",
@@ -78,7 +91,7 @@
       "title": "Lesson 2: Business Admin Workflow",
       "time": "75 minutes",
       "video": null,
-      "goal": "Reagan builds a simple admin workflow for a real business task.",
+      "goal": "You build a simple admin workflow for a real business task.",
       "sections": [
         [
           "Pick the task",
@@ -90,7 +103,7 @@
         ],
         [
           "Create a cleaner version",
-          "Use AI to draft a checklist or SOP. Reagan edits it for reality."
+          "Use AI to draft a checklist or SOP. You edit it for reality."
         ],
         [
           "Submit",
@@ -109,7 +122,7 @@
           "answer": 0
         },
         {
-          "q": "What should Reagan improve?",
+          "q": "What should you improve?",
           "choices": [
             "Clarity and repeatability",
             "Confusion",
@@ -145,8 +158,17 @@
       "slug": "03-research-report",
       "title": "Lesson 3: Research Report",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan learns to research with sources, not guesses.",
+      "video": {
+        "id": "htZRCE2GgIs",
+        "title": "How I Use AI Tools to 10x My Productivity",
+        "channel": "Jeff Su",
+        "url": "https://www.youtube.com/watch?v=htZRCE2GgIs",
+        "views": "629,441",
+        "likes": "Short YouTube clip",
+        "duration": "11:56",
+        "purpose": "See how AI tools are used for research and productivity in real workflows."
+      },
+      "goal": "You learn to research with sources, not guesses.",
       "sections": [
         [
           "Write the question",
@@ -213,8 +235,17 @@
       "slug": "04-data-and-reporting",
       "title": "Lesson 4: Data and Reporting",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan turns a small dataset or report into an executive summary.",
+      "video": {
+        "id": "SE-wnHBtP1s",
+        "title": "How to Write an Executive Summary",
+        "channel": "HubSpot",
+        "url": "https://www.youtube.com/watch?v=SE-wnHBtP1s",
+        "views": "240,700",
+        "likes": "Short YouTube clip",
+        "duration": "2:04",
+        "purpose": "Learn how to turn data into a clear, short summary that decision makers can act on."
+      },
+      "goal": "You turn a small dataset or report into an executive summary.",
       "sections": [
         [
           "Pick the data",
@@ -255,7 +286,7 @@
           "answer": 0
         },
         {
-          "q": "What should Reagan do with unknowns?",
+          "q": "What should you do with unknowns?",
           "choices": [
             "Label them clearly",
             "Pretend certainty",
@@ -282,7 +313,7 @@
       "title": "Lesson 5: CJ Backlog Project",
       "time": "150 minutes",
       "video": null,
-      "goal": "Reagan completes one assigned real project from CJ backlog with a clean closeout.",
+      "goal": "You complete one assigned real project from CJ backlog with a clean closeout.",
       "sections": [
         [
           "Get the assignment",
@@ -303,7 +334,7 @@
       ],
       "quiz": [
         {
-          "q": "What should Reagan do before starting backlog work?",
+          "q": "What should you do before starting backlog work?",
           "choices": [
             "Write goal, files, owner, proof",
             "Guess",
@@ -313,7 +344,7 @@
           "answer": 0
         },
         {
-          "q": "When should she ask CJ?",
+          "q": "When should you ask CJ?",
           "choices": [
             "After 30 minutes blocked with a clear question",
             "Never",
@@ -350,6 +381,7 @@
     "Real work must have a written goal before execution.",
     "Every claim in research needs a source.",
     "Every report needs next actions, not just numbers.",
-    "Every project needs a closeout note."
+    "Every project needs a closeout note.",
+    "Cloud first: browser tools and cloud storage before any installs. Check with CJ before installing anything new."
   ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "AI Gameplan Week 2: Content and Automation",
   "student": "Reagan",
-  "lastUpdated": "2026-05-24",
+  "lastUpdated": "2026-06-01",
   "week": 2,
   "tagline": "Make it work for you. Build a sports content system with AI support and proof.",
   "lessons": [
@@ -19,7 +19,7 @@
         "duration": "2:25",
         "purpose": "Use Drive to save screenshots and audit proof."
       },
-      "goal": "Reagan audits a college athletics social account and learns what strong sports content does.",
+      "goal": "You audit a college athletics social account and learn what strong sports content does.",
       "sections": [
         [
           "Pick the account",
@@ -28,6 +28,10 @@
         [
           "Audit the basics",
           "Review bio, pinned posts, last 10 posts, video usage, graphics, calls to action, and fan engagement."
+        ],
+        [
+          "Cloud first reminder",
+          "Quick check: are you using Claude in the browser, saving to Google Drive, and keeping your AI Workspace folder organized? If you need to install anything new this week, check with CJ first. Browser tools and cloud storage come first."
         ],
         [
           "Use AI the right way",
@@ -86,8 +90,17 @@
       "slug": "02-content-calendar",
       "title": "Lesson 2: Content Calendar",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan builds a 5 day content calendar for a sports brand.",
+      "video": {
+        "id": "QcZ5sYJ-G-U",
+        "title": "How to Create a Social Media Content Calendar",
+        "channel": "Buffer",
+        "url": "https://www.youtube.com/watch?v=QcZ5sYJ-G-U",
+        "views": "10,522",
+        "likes": "Short YouTube clip",
+        "duration": "6:55",
+        "purpose": "See how a real content calendar is built step by step."
+      },
+      "goal": "You build a 5 day content calendar for a sports brand.",
       "sections": [
         [
           "Define the audience",
@@ -130,7 +143,7 @@
         {
           "q": "Who approves public posting?",
           "choices": [
-            "Reagan alone",
+            "You alone",
             "AI",
             "CJ or the assigned owner",
             "Nobody"
@@ -154,8 +167,17 @@
       "slug": "03-ai-assisted-copy",
       "title": "Lesson 3: AI Assisted Copy",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan writes sports captions with AI help while keeping human judgment in charge.",
+      "video": {
+        "id": "8yqcDL4TmzM",
+        "title": "How to Use ChatGPT to Write Better Content",
+        "channel": "Anson Alexander",
+        "url": "https://www.youtube.com/watch?v=8yqcDL4TmzM",
+        "views": "160,218",
+        "likes": "Short YouTube clip",
+        "duration": "8:19",
+        "purpose": "Learn prompting techniques for getting better AI written content."
+      },
+      "goal": "You write sports captions with AI help while keeping human judgment in charge.",
       "sections": [
         [
           "Start with context",
@@ -186,7 +208,7 @@
           "answer": 1
         },
         {
-          "q": "What should Reagan remove?",
+          "q": "What should you remove?",
           "choices": [
             "Specific details",
             "Generic AI sounding phrases",
@@ -199,7 +221,7 @@
           "q": "Who makes the final call?",
           "choices": [
             "The tool",
-            "Reagan with CJ review when public",
+            "You with CJ review when public",
             "A trend account",
             "Nobody"
           ],
@@ -223,7 +245,7 @@
       "title": "Lesson 4: Clip Ideas and Repurposing",
       "time": "90 minutes",
       "video": null,
-      "goal": "Reagan turns one long sports video or article into short content ideas without rehosting outside videos.",
+      "goal": "You turn one long sports video or article into short content ideas without rehosting outside videos.",
       "sections": [
         [
           "Pick source material",
@@ -244,7 +266,7 @@
       ],
       "quiz": [
         {
-          "q": "What should Reagan avoid?",
+          "q": "What should you avoid?",
           "choices": [
             "Source links",
             "Timestamps",
@@ -290,8 +312,17 @@
       "slug": "05-simple-automation-map",
       "title": "Lesson 5: Simple Automation Map",
       "time": "90 minutes",
-      "video": null,
-      "goal": "Reagan designs one safe automation map for a content workflow.",
+      "video": {
+        "id": "KSOxkhWs2Ic",
+        "title": "5 AI Automations You Can Build Today",
+        "channel": "AI Advantage",
+        "url": "https://www.youtube.com/watch?v=KSOxkhWs2Ic",
+        "views": "380,503",
+        "likes": "Short YouTube clip",
+        "duration": "7:55",
+        "purpose": "See real examples of simple AI automations to inspire your automation map."
+      },
+      "goal": "You design one safe automation map for a content workflow.",
       "sections": [
         [
           "Pick the repeatable job",
@@ -359,7 +390,7 @@
       "title": "Lesson 6: Week 2 Project, Social Media System",
       "time": "120 minutes",
       "video": null,
-      "goal": "Reagan packages the audit, calendar, captions, clip ideas, and automation map into one sports social system.",
+      "goal": "You package the audit, calendar, captions, clip ideas, and automation map into one sports social system.",
       "sections": [
         [
           "Assemble the system",
@@ -402,7 +433,7 @@
         {
           "q": "What should the final write up explain?",
           "choices": [
-            "How Reagan would run social for a college athletics department",
+            "How You would run social for a college athletics department",
             "Why proof does not matter",
             "How to skip review",
             "How to hide work"
@@ -426,7 +457,8 @@
   "qualityRules": [
     "Every content deliverable must include source links or screenshots.",
     "No public posting without CJ approval.",
-    "AI drafts are not final until Reagan does a human pass.",
-    "Every week ends with Drive backup and closeout."
+    "AI drafts are not final until You do a human pass.",
+    "Every week ends with Drive backup and closeout.",
+    "Cloud first: browser tools and cloud storage before any installs. Check with CJ before installing anything new."
   ]
 }
